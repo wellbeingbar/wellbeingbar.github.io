@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mindful-awareness",
+    "name_key": "cat.mindful_awareness",
+    "desc_key": "cat.mindful_awareness.desc",
+    "link_key": "cat.mindful_awareness.link",
+    "icon": "\ud83e\uddd8",
+    "color": "#1565C0",
+    "page": "mindful-awareness.html"
+  },
+  {
+    "id": "body-mind-harmony",
+    "name_key": "cat.body_mind_harmony",
+    "desc_key": "cat.body_mind_harmony.desc",
+    "link_key": "cat.body_mind_harmony.link",
+    "icon": "\ud83c\udf0a",
+    "color": "#2E7D32",
+    "page": "body-mind-harmony.html"
+  },
+  {
+    "id": "nature-connection",
+    "name_key": "cat.nature_connection",
+    "desc_key": "cat.nature_connection.desc",
+    "link_key": "cat.nature_connection.link",
+    "icon": "\ud83c\udf3f",
+    "color": "#00695C",
+    "page": "nature-connection.html"
+  },
+  {
+    "id": "gratitude-joy",
+    "name_key": "cat.gratitude_joy",
+    "desc_key": "cat.gratitude_joy.desc",
+    "link_key": "cat.gratitude_joy.link",
+    "icon": "\u2600\ufe0f",
+    "color": "#E65100",
+    "page": "gratitude-joy.html"
+  },
+  {
+    "id": "meaningful-bonds",
+    "name_key": "cat.meaningful_bonds",
+    "desc_key": "cat.meaningful_bonds.desc",
+    "link_key": "cat.meaningful_bonds.link",
+    "icon": "\ud83d\udc9c",
+    "color": "#C62828",
+    "page": "meaningful-bonds.html"
+  },
+  {
+    "id": "purpose-growth",
+    "name_key": "cat.purpose_growth",
+    "desc_key": "cat.purpose_growth.desc",
+    "link_key": "cat.purpose_growth.link",
+    "icon": "\ud83c\udf31",
+    "color": "#6A1B9A",
+    "page": "purpose-growth.html"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "evidence_levels": [
+    { "id": 1, "name_key": "science.level_1", "label": "Anecdotal", "color": "#E0E0E0" },
+    { "id": 2, "name_key": "science.level_2", "label": "Preliminary Studies", "color": "#CE93D8" },
+    { "id": 3, "name_key": "science.level_3", "label": "Clinical Trials", "color": "#7E57C2" },
+    { "id": 4, "name_key": "science.level_4", "label": "Strong Evidence", "color": "#4A148C" },
+    { "id": 5, "name_key": "science.level_5", "label": "Extensive Meta-Analyses", "color": "#311B92" }
+  ],
+  "research_fields": [
+    { "id": "neuroscience", "name_key": "science.field_neuroscience", "icon": "\ud83e\udde0" },
+    { "id": "psychology", "name_key": "science.field_psychology", "icon": "\ud83d\udcad" },
+    { "id": "physiology", "name_key": "science.field_physiology", "icon": "\u2764\ufe0f" },
+    { "id": "sociology", "name_key": "science.field_sociology", "icon": "\ud83d\udc65" }
+  ]
+}

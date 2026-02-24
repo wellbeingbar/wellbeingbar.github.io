@@ -1,0 +1,42 @@
+{
+  "emotional": {
+    "id": "emotional",
+    "name_key": "benefit.emotional",
+    "icon": "\ud83d\udc9b",
+    "color": "#F9A825",
+    "description_key": "benefit.emotional.desc",
+    "metrics": ["stress_reduction", "anxiety_relief", "mood_improvement", "emotional_regulation", "resilience"]
+  },
+  "physical": {
+    "id": "physical",
+    "name_key": "benefit.physical",
+    "icon": "\ud83d\udcaa",
+    "color": "#2E7D32",
+    "description_key": "benefit.physical.desc",
+    "metrics": ["flexibility", "strength", "cardiovascular", "pain_relief", "immune_boost"]
+  },
+  "mental": {
+    "id": "mental",
+    "name_key": "benefit.mental",
+    "icon": "\ud83e\udde0",
+    "color": "#1565C0",
+    "description_key": "benefit.mental.desc",
+    "metrics": ["focus", "clarity", "creativity", "memory", "decision_making"]
+  },
+  "social": {
+    "id": "social",
+    "name_key": "benefit.social",
+    "icon": "\ud83e\udd1d",
+    "color": "#C62828",
+    "description_key": "benefit.social.desc",
+    "metrics": ["empathy", "communication", "trust", "belonging", "compassion"]
+  },
+  "spiritual": {
+    "id": "spiritual",
+    "name_key": "benefit.spiritual",
+    "icon": "\u2728",
+    "color": "#6A1B9A",
+    "description_key": "benefit.spiritual.desc",
+    "metrics": ["inner_peace", "purpose", "gratitude", "presence", "transcendence"]
+  }
+}

@@ -1,0 +1,515 @@
+[
+  {
+    "id": "alan_watts",
+    "name": "Alan Watts",
+    "years": "1915–1973",
+    "emoji": "🌊",
+    "category": "modern",
+    "origin": "England / USA",
+    "tradition": "Eastern Philosophy, Zen Buddhism",
+    "main_ideas": [
+      "Life is not a problem to be solved but an experience to be lived",
+      "The art of letting go and flowing with life",
+      "Eastern wisdom accessible to the Western mind",
+      "The ego as illusion — we are the universe experiencing itself",
+      "Embrace uncertainty as the source of all creativity"
+    ],
+    "key_works": ["The Way of Zen", "The Wisdom of Insecurity", "The Book: On the Taboo Against Knowing Who You Are"],
+    "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "relevance": "Bridged Eastern philosophy and Western thought, making concepts of mindfulness, acceptance, and non-attachment accessible to millions through his lectures and books."
+  },
+  {
+    "id": "florence_scovel_shinn",
+    "name": "Florence Scovel Shinn",
+    "years": "1871–1940",
+    "emoji": "✨",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "New Thought, Metaphysics",
+    "main_ideas": [
+      "The power of the spoken word shapes reality",
+      "Intuition as a guide to right action",
+      "Prosperity consciousness — abundance is a natural state",
+      "Affirmations and visualization as tools for transformation",
+      "Fear and worry are the greatest enemies of well-being"
+    ],
+    "key_works": ["The Game of Life and How to Play It", "The Secret Door to Success", "The Power of the Spoken Word"],
+    "quote": "Every great work, every big accomplishment, has been brought into manifestation through holding to the vision.",
+    "relevance": "Pioneered practical metaphysics for everyday life, teaching that thoughts and words shape our experience — ideas now echoed in positive psychology and cognitive behavioral approaches."
+  },
+  {
+    "id": "santos_bonacci",
+    "name": "Santos Bonacci",
+    "years": "1963–",
+    "emoji": "🌟",
+    "category": "modern",
+    "origin": "Australia",
+    "tradition": "Astrotheology, Syncretism",
+    "main_ideas": [
+      "Sacred patterns connect astrology, anatomy, and ancient texts",
+      "Universal symbols recur across all cultures and religions",
+      "The human body mirrors the cosmos — as above, so below",
+      "Reclaiming lost knowledge from ancient civilizations",
+      "Self-knowledge through understanding universal laws"
+    ],
+    "key_works": ["MR Astrotheology", "The Sacred Secret", "Reclaiming Dominion"],
+    "quote": "All religions and all sciences stem from one source — the ancient knowledge of the stars and the human body.",
+    "relevance": "Explores connections between ancient wisdom traditions, encouraging seekers to look beyond surface-level religion toward universal patterns that unite humanity's spiritual heritage."
+  },
+  {
+    "id": "bill_donahue",
+    "name": "Bill Donahue",
+    "years": "1942–",
+    "emoji": "🔍",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "Esoteric Interpretation, Meditation",
+    "main_ideas": [
+      "Religious texts contain hidden meanings about the human mind",
+      "Meditation is the key to unlocking scriptural wisdom",
+      "Symbols in all traditions point to inner transformation",
+      "The 'Kingdom of God' refers to higher consciousness within",
+      "Moving beyond literal interpretation to self-discovery"
+    ],
+    "key_works": ["Hidden Meanings (lecture series)", "The Inner Journey", "Biblical Meditation Teachings"],
+    "quote": "When you take the focus off of religion and put it on meditation, everything in the ancient texts suddenly makes sense.",
+    "relevance": "Reveals esoteric dimensions in religious texts, showing that ancient stories are maps of consciousness — encouraging personal meditation practice over dogmatic belief."
+  },
+  {
+    "id": "eckhart_tolle",
+    "name": "Eckhart Tolle",
+    "years": "1948–",
+    "emoji": "🧘",
+    "category": "modern",
+    "origin": "Germany / Canada",
+    "tradition": "Presence, Consciousness",
+    "main_ideas": [
+      "The present moment is all we ever truly have",
+      "The ego is a false self built from thought patterns",
+      "Suffering comes from identification with the mind",
+      "Stillness and awareness are the doorway to peace",
+      "Acceptance of what is opens the path to transformation"
+    ],
+    "key_works": ["The Power of Now", "A New Earth", "Stillness Speaks"],
+    "quote": "Realize deeply that the present moment is all you ever have. Make the Now the primary focus of your life.",
+    "relevance": "Made the concept of present-moment awareness mainstream, offering practical teachings on transcending the ego and finding peace without any religious framework."
+  },
+  {
+    "id": "thich_nhat_hanh",
+    "name": "Thich Nhat Hanh",
+    "years": "1926–2022",
+    "emoji": "🪷",
+    "category": "modern",
+    "origin": "Vietnam / France",
+    "tradition": "Mindfulness, Engaged Buddhism",
+    "main_ideas": [
+      "Mindfulness in every moment — walking, eating, breathing",
+      "Interbeing — everything is interconnected",
+      "Peace begins with each individual step",
+      "Compassionate listening heals relationships",
+      "Happiness is available here and now"
+    ],
+    "key_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "The Heart of the Buddha's Teaching"],
+    "quote": "Walk as if you are kissing the Earth with your feet.",
+    "relevance": "Global mindfulness teacher who showed that peace is a daily practice — his gentle, practical approach to mindful living has inspired millions to find calm in everyday activities."
+  },
+  {
+    "id": "ram_dass",
+    "name": "Ram Dass",
+    "years": "1931–2019",
+    "emoji": "💜",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "Spiritual Exploration, Service",
+    "main_ideas": [
+      "Be here now — presence is the ultimate practice",
+      "Service to others is the highest spiritual path",
+      "The journey from ego to soul",
+      "Suffering can be a doorway to awakening",
+      "Love is the only rational act"
+    ],
+    "key_works": ["Be Here Now", "Still Here", "Walking Each Other Home"],
+    "quote": "We're all just walking each other home.",
+    "relevance": "Pioneered the Western spiritual awakening movement, demonstrating that inner transformation and compassionate service are inseparable paths to fulfillment."
+  },
+  {
+    "id": "deepak_chopra",
+    "name": "Deepak Chopra",
+    "years": "1946–",
+    "emoji": "🧬",
+    "category": "modern",
+    "origin": "India / USA",
+    "tradition": "Mind-Body Medicine, Consciousness",
+    "main_ideas": [
+      "Consciousness is the foundation of all reality",
+      "The mind and body are inseparable — thoughts affect health",
+      "Meditation rewires the brain for well-being",
+      "Ayurvedic wisdom meets modern science",
+      "Seven spiritual laws govern the flow of life"
+    ],
+    "key_works": ["The Seven Spiritual Laws of Success", "Quantum Healing", "Perfect Health"],
+    "quote": "Every time you are tempted to react in the same old way, ask if you want to be a prisoner of the past or a pioneer of the future.",
+    "relevance": "Brought mind-body medicine into the mainstream, combining Ayurvedic traditions with modern science to show how consciousness, meditation, and intention shape our health and happiness."
+  },
+  {
+    "id": "wayne_dyer",
+    "name": "Wayne Dyer",
+    "years": "1940–2015",
+    "emoji": "🦋",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "Self-Development, Intention",
+    "main_ideas": [
+      "Change your thoughts, change your life",
+      "The power of intention shapes reality",
+      "You are not your body or your mind — you are infinite",
+      "From motivation and ambition to spiritual awakening",
+      "Self-reliance and inner authority over external validation"
+    ],
+    "key_works": ["Your Erroneous Zones", "The Power of Intention", "Change Your Thoughts, Change Your Life"],
+    "quote": "If you change the way you look at things, the things you look at change.",
+    "relevance": "One of the most influential self-development teachers, who evolved from practical psychology to spiritual wisdom, helping millions shift from fear-based to purpose-driven living."
+  },
+  {
+    "id": "viktor_frankl",
+    "name": "Viktor Frankl",
+    "years": "1905–1997",
+    "emoji": "🕯️",
+    "category": "modern",
+    "origin": "Austria",
+    "tradition": "Logotherapy, Existential Psychology",
+    "main_ideas": [
+      "Finding meaning is the primary drive of human existence",
+      "We can choose our attitude in any circumstance",
+      "Suffering ceases to be suffering when it finds meaning",
+      "Purpose and responsibility give life direction",
+      "Freedom lies in the space between stimulus and response"
+    ],
+    "key_works": ["Man's Search for Meaning", "The Will to Meaning", "The Doctor and the Soul"],
+    "quote": "Between stimulus and response there is a space. In that space is our freedom to choose our response.",
+    "relevance": "Surviving the Holocaust, Frankl proved that meaning can sustain the human spirit through the worst conditions — his logotherapy remains a cornerstone of resilience psychology."
+  },
+  {
+    "id": "joseph_campbell",
+    "name": "Joseph Campbell",
+    "years": "1904–1987",
+    "emoji": "🗺️",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "Mythology, Comparative Religion",
+    "main_ideas": [
+      "Follow your bliss and the universe will open doors",
+      "The hero's journey is the universal pattern of transformation",
+      "All myths point to the same inner truths",
+      "Life has no meaning — each of us has meaning and we bring it to life",
+      "The privilege of a lifetime is being who you are"
+    ],
+    "key_works": ["The Hero with a Thousand Faces", "The Power of Myth", "The Masks of God"],
+    "quote": "The cave you fear to enter holds the treasure you seek.",
+    "relevance": "Showed that all cultures share the same archetypal journey of transformation — his work empowers individuals to see their own life as a heroic quest for meaning."
+  },
+  {
+    "id": "jiddu_krishnamurti",
+    "name": "Jiddu Krishnamurti",
+    "years": "1895–1986",
+    "emoji": "🪶",
+    "category": "modern",
+    "origin": "India",
+    "tradition": "Freedom, Self-Knowledge",
+    "main_ideas": [
+      "Truth is a pathless land — no guru can take you there",
+      "Freedom from conditioning is the beginning of wisdom",
+      "The observer is the observed — self and world are one",
+      "Radical self-inquiry without any authority",
+      "Fear and comparison are the roots of psychological suffering"
+    ],
+    "key_works": ["Freedom from the Known", "The First and Last Freedom", "Think on These Things"],
+    "quote": "It is no measure of health to be well adjusted to a profoundly sick society.",
+    "relevance": "Challenged all organized belief systems, teaching that true liberation comes only through radical self-observation — his uncompromising approach influenced both spiritual seekers and psychologists."
+  },
+  {
+    "id": "paramahansa_yogananda",
+    "name": "Paramahansa Yogananda",
+    "years": "1893–1952",
+    "emoji": "🙏",
+    "category": "modern",
+    "origin": "India / USA",
+    "tradition": "Yoga, Kriya Meditation",
+    "main_ideas": [
+      "Meditation is the direct path to self-realization",
+      "Kriya Yoga accelerates spiritual evolution",
+      "East and West can unite through the universal science of yoga",
+      "The soul's journey through many lifetimes toward divine union",
+      "Joy is the natural state of the soul"
+    ],
+    "key_works": ["Autobiography of a Yogi", "The Science of Religion", "God Talks with Arjuna"],
+    "quote": "Live quietly in the moment and see the beauty of all before you. The future will take care of itself.",
+    "relevance": "Brought yoga and meditation to the West decades before the mindfulness revolution, demonstrating that Eastern practices could transform Western lives — his Autobiography remains one of the most influential spiritual books ever written."
+  },
+  {
+    "id": "carl_jung",
+    "name": "Carl Jung",
+    "years": "1875–1961",
+    "emoji": "🌓",
+    "category": "modern",
+    "origin": "Switzerland",
+    "tradition": "Depth Psychology, Analytical Psychology",
+    "main_ideas": [
+      "Shadow work — integrating the hidden parts of ourselves",
+      "Individuation — the lifelong journey toward wholeness",
+      "The collective unconscious connects all humans",
+      "Archetypes shape our dreams, myths, and behavior",
+      "What you resist persists — what you accept transforms"
+    ],
+    "key_works": ["Man and His Symbols", "The Red Book", "Memories, Dreams, Reflections"],
+    "quote": "Who looks outside, dreams; who looks inside, awakes.",
+    "relevance": "Revolutionized our understanding of the psyche, showing that self-knowledge comes from embracing our shadow — his concepts of individuation and archetypes remain essential tools for personal growth."
+  },
+  {
+    "id": "brene_brown",
+    "name": "Brené Brown",
+    "years": "1965–",
+    "emoji": "💪",
+    "category": "modern",
+    "origin": "USA",
+    "tradition": "Vulnerability Research, Courage",
+    "main_ideas": [
+      "Vulnerability is the birthplace of courage and connection",
+      "Shame resilience transforms how we live and love",
+      "Wholehearted living requires embracing imperfection",
+      "Daring greatly means showing up even when you can't control the outcome",
+      "Belonging starts with self-acceptance"
+    ],
+    "key_works": ["Daring Greatly", "The Gifts of Imperfection", "Braving the Wilderness"],
+    "quote": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
+    "relevance": "Brought research-backed understanding of vulnerability, shame, and courage into mainstream culture, showing that emotional openness is the foundation of meaningful connection and resilience."
+  },
+  {
+    "id": "buddha",
+    "name": "Buddha (Siddhartha Gautama)",
+    "years": "~563–483 BCE",
+    "emoji": "☸️",
+    "category": "ancient",
+    "origin": "India (Lumbini)",
+    "tradition": "Buddhism",
+    "main_ideas": [
+      "The Four Noble Truths — suffering exists, has a cause, can end, and there is a path",
+      "The Eightfold Path — right understanding, intention, speech, action, livelihood, effort, mindfulness, concentration",
+      "Mindfulness and meditation as the way to liberation",
+      "The Middle Way — balance between extremes",
+      "Impermanence — nothing lasts, and that is the source of both suffering and freedom"
+    ],
+    "key_works": ["Dhammapada", "Heart Sutra", "Sutta Pitaka"],
+    "quote": "Peace comes from within. Do not seek it without.",
+    "relevance": "The original mindfulness teacher — his insights on the nature of suffering, impermanence, and the trained mind remain the foundation of meditation practices used by hundreds of millions worldwide."
+  },
+  {
+    "id": "jesus",
+    "name": "Jesus of Nazareth",
+    "years": "~4 BCE–30 CE",
+    "emoji": "✝️",
+    "category": "ancient",
+    "origin": "Judea (Nazareth)",
+    "tradition": "Christianity",
+    "main_ideas": [
+      "Love your neighbor as yourself — compassion as the highest law",
+      "The kingdom of heaven is within you",
+      "Forgiveness liberates both giver and receiver",
+      "Do not worry about tomorrow — live in the present",
+      "Judge not, that you be not judged — acceptance and humility"
+    ],
+    "key_works": ["The Gospels (Matthew, Mark, Luke, John)", "Sermon on the Mount", "Parables"],
+    "quote": "The kingdom of God is within you.",
+    "relevance": "His teachings on unconditional love, forgiveness, inner peace, and non-judgment transcend religious boundaries — the Sermon on the Mount remains one of history's most profound guides to compassionate living."
+  },
+  {
+    "id": "muhammad",
+    "name": "Prophet Muhammad",
+    "years": "~570–632 CE",
+    "emoji": "☪️",
+    "category": "ancient",
+    "origin": "Arabia (Mecca)",
+    "tradition": "Islam",
+    "main_ideas": [
+      "Inner peace through surrender to a greater purpose",
+      "Self-discipline and self-mastery (the greater jihad)",
+      "Charity and care for the less fortunate",
+      "Community (ummah) — we are responsible for one another",
+      "Balance between worldly life and spiritual devotion"
+    ],
+    "key_works": ["The Quran", "Hadith Collections", "The Last Sermon"],
+    "quote": "The greatest jihad is the struggle against one's own soul.",
+    "relevance": "Taught that the truest struggle is the inner one — his emphasis on self-discipline, generosity, community bonds, and balance between material and spiritual life offers timeless wisdom for well-being."
+  },
+  {
+    "id": "lao_tzu",
+    "name": "Lao Tzu",
+    "years": "~6th century BCE",
+    "emoji": "☯️",
+    "category": "ancient",
+    "origin": "China",
+    "tradition": "Taoism",
+    "main_ideas": [
+      "The Tao (the Way) — the natural order that flows through all things",
+      "Wu wei — effortless action, going with the flow",
+      "Simplicity, patience, and compassion are the three greatest treasures",
+      "The soft overcomes the hard — water shapes stone",
+      "True wisdom is knowing how much you don't know"
+    ],
+    "key_works": ["Tao Te Ching"],
+    "quote": "Nature does not hurry, yet everything is accomplished.",
+    "relevance": "His philosophy of flowing with life rather than forcing it is the antidote to modern stress — the Tao Te Ching remains one of the most translated and cherished guides to living in harmony."
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius",
+    "years": "~551–479 BCE",
+    "emoji": "📜",
+    "category": "ancient",
+    "origin": "China",
+    "tradition": "Confucianism",
+    "main_ideas": [
+      "Ren (benevolence) — treating others with humanity and kindness",
+      "Self-cultivation is a lifelong practice",
+      "The examined life leads to virtue and harmony",
+      "Respect for relationships — family, community, society",
+      "Education and learning are the path to becoming fully human"
+    ],
+    "key_works": ["The Analects", "The Doctrine of the Mean", "The Great Learning"],
+    "quote": "It does not matter how slowly you go as long as you do not stop.",
+    "relevance": "His emphasis on personal cultivation, ethical relationships, and continuous learning created a framework for human flourishing that shaped East Asian civilization and remains deeply relevant to personal growth."
+  },
+  {
+    "id": "krishna",
+    "name": "Krishna",
+    "years": "Ancient",
+    "emoji": "🙏",
+    "category": "ancient",
+    "origin": "India",
+    "tradition": "Hinduism (Bhagavad Gita)",
+    "main_ideas": [
+      "Dharma — fulfill your duty without attachment to results",
+      "Yoga of action (Karma Yoga) — act selflessly",
+      "The Self is eternal, beyond birth and death",
+      "Equanimity in success and failure",
+      "Devotion, knowledge, and action are all paths to liberation"
+    ],
+    "key_works": ["Bhagavad Gita", "Srimad Bhagavatam", "Vishnu Purana"],
+    "quote": "You have the right to work, but never to the fruit of work. You should never engage in action for the sake of reward.",
+    "relevance": "The Bhagavad Gita's teaching on detached action — doing your best without obsessing over outcomes — is perhaps the most practical ancient wisdom for managing modern anxiety and finding peace in daily work."
+  },
+  {
+    "id": "socrates",
+    "name": "Socrates",
+    "years": "~470–399 BCE",
+    "emoji": "🏛️",
+    "category": "ancient",
+    "origin": "Greece (Athens)",
+    "tradition": "Philosophy",
+    "main_ideas": [
+      "Know thyself — self-knowledge is the beginning of wisdom",
+      "The unexamined life is not worth living",
+      "True wisdom is knowing that you know nothing",
+      "Virtue is knowledge — understanding leads to right action",
+      "Question everything — Socratic dialogue as a path to truth"
+    ],
+    "key_works": ["Plato's Dialogues (Apology, Symposium, Republic)", "Xenophon's Memorabilia"],
+    "quote": "The unexamined life is not worth living.",
+    "relevance": "The father of Western philosophy established self-examination as the foundation of the good life — his method of questioning assumptions remains the most powerful tool for clarity and personal growth."
+  },
+  {
+    "id": "rumi",
+    "name": "Rumi (Jalal ad-Din Muhammad)",
+    "years": "1207–1273",
+    "emoji": "🌹",
+    "category": "ancient",
+    "origin": "Persia (modern Afghanistan/Turkey)",
+    "tradition": "Sufism, Poetry",
+    "main_ideas": [
+      "Love is the fundamental force of the universe",
+      "The wound is the place where the light enters you",
+      "Seek within — the treasure is inside, not outside",
+      "Dance, music, and poetry as pathways to ecstasy",
+      "Beyond right and wrong, there is a field — meet me there"
+    ],
+    "key_works": ["Masnavi (Mathnawi)", "Divan-e-Shams-e-Tabrizi", "Fihi Ma Fihi"],
+    "quote": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
+    "relevance": "The best-selling poet in America 800 years after his death — Rumi's ecstatic poetry about love, longing, and inner transformation speaks to the universal human desire for connection and transcendence."
+  },
+  {
+    "id": "marcus_aurelius",
+    "name": "Marcus Aurelius",
+    "years": "121–180 CE",
+    "emoji": "⚔️",
+    "category": "ancient",
+    "origin": "Rome",
+    "tradition": "Stoicism",
+    "main_ideas": [
+      "You have power over your mind, not outside events",
+      "The obstacle is the way — adversity builds character",
+      "Focus only on what is within your control",
+      "Memento mori — remember you will die, so live fully now",
+      "Serve the common good — duty and virtue above personal comfort"
+    ],
+    "key_works": ["Meditations"],
+    "quote": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "relevance": "A Roman emperor who kept a private journal of Stoic reflections — his Meditations is the ultimate guide to mental resilience, emotional regulation, and finding inner peace amid chaos."
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca",
+    "years": "~4 BCE–65 CE",
+    "emoji": "📝",
+    "category": "ancient",
+    "origin": "Rome (born in Córdoba, Spain)",
+    "tradition": "Stoicism",
+    "main_ideas": [
+      "Life is long enough if you know how to use it",
+      "We suffer more in imagination than in reality",
+      "Prepare for adversity — negative visualization builds resilience",
+      "Anger is temporary madness — mastering emotions is freedom",
+      "True wealth is wanting less, not having more"
+    ],
+    "key_works": ["Letters to Lucilius", "On the Shortness of Life", "On Anger"],
+    "quote": "We suffer more often in imagination than in reality.",
+    "relevance": "The most practical Stoic philosopher — his letters read like a life coach's advice for the modern age, covering anxiety, time management, grief, anger, and the art of living well."
+  },
+  {
+    "id": "patanjali",
+    "name": "Patanjali",
+    "years": "~2nd century BCE",
+    "emoji": "🧘‍♂️",
+    "category": "ancient",
+    "origin": "India",
+    "tradition": "Yoga",
+    "main_ideas": [
+      "Yoga is the stilling of the fluctuations of the mind",
+      "The eight limbs of yoga — ethics, discipline, postures, breath, withdrawal, concentration, meditation, absorption",
+      "Mastery of the mind leads to liberation",
+      "Non-attachment (vairagya) and practice (abhyasa) are the twin pillars",
+      "Suffering ends when we stop identifying with our thoughts"
+    ],
+    "key_works": ["Yoga Sutras of Patanjali"],
+    "quote": "Yoga is the cessation of the movements of the mind. Then there is abiding in the Seer's own form.",
+    "relevance": "Codified the science of yoga 2,000+ years ago — his Yoga Sutras remain the authoritative guide to meditation, mind mastery, and the systematic path from restlessness to inner peace."
+  },
+  {
+    "id": "hermes_trismegistus",
+    "name": "Hermes Trismegistus",
+    "years": "Ancient (mythical/historical)",
+    "emoji": "⚗️",
+    "category": "ancient",
+    "origin": "Egypt / Greece",
+    "tradition": "Hermeticism",
+    "main_ideas": [
+      "As above, so below — the microcosm mirrors the macrocosm",
+      "The seven Hermetic principles govern the universe",
+      "The All is Mind — the universe is mental",
+      "Polarity — opposites are identical in nature, different in degree",
+      "Alchemy of the soul — transforming base consciousness into gold"
+    ],
+    "key_works": ["The Emerald Tablet", "The Kybalion", "Corpus Hermeticum"],
+    "quote": "As above, so below; as within, so without; as the universe, so the soul.",
+    "relevance": "The foundational teachings of Hermeticism influenced Western philosophy, science, and spirituality for millennia — the principle that inner transformation mirrors outer change remains a cornerstone of personal development."
+  }
+]

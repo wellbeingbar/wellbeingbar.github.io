@@ -1,0 +1,50 @@
+[
+  {
+    "id": "mindfulness_secular",
+    "name_key": "tradition.mindfulness_secular",
+    "icon": "\ud83e\udde0",
+    "color": "#1565C0",
+    "description_key": "tradition.mindfulness_secular.desc",
+    "origin_region": "global"
+  },
+  {
+    "id": "stoicism",
+    "name_key": "tradition.stoicism",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "color": "#78909C",
+    "description_key": "tradition.stoicism.desc",
+    "origin_region": "europe"
+  },
+  {
+    "id": "positive_psychology",
+    "name_key": "tradition.positive_psychology",
+    "icon": "\ud83c\udf1f",
+    "color": "#F9A825",
+    "description_key": "tradition.positive_psychology.desc",
+    "origin_region": "global"
+  },
+  {
+    "id": "eastern_movement",
+    "name_key": "tradition.eastern_movement",
+    "icon": "\u2623\ufe0f",
+    "color": "#2E7D32",
+    "description_key": "tradition.eastern_movement.desc",
+    "origin_region": "asia"
+  },
+  {
+    "id": "nature_wisdom",
+    "name_key": "tradition.nature_wisdom",
+    "icon": "\ud83c\udf0d",
+    "color": "#00695C",
+    "description_key": "tradition.nature_wisdom.desc",
+    "origin_region": "global"
+  },
+  {
+    "id": "modern_science",
+    "name_key": "tradition.modern_science",
+    "icon": "\ud83d\udd2c",
+    "color": "#4A148C",
+    "description_key": "tradition.modern_science.desc",
+    "origin_region": "global"
+  }
+]
