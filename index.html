@@ -169,5 +169,17 @@
     <script src="js/app.js"></script>
     <script data-goatcounter="https://wellbeingbar.goatcounter.com/count"
             async src="//gc.zgo.at/count.js"></script>
+    <script>
+    (function() {
+      var el = document.getElementById('visitor-counter');
+      if (!el) return;
+      setTimeout(function() {
+        fetch('https://wellbeingbar.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function(data) { el.textContent = data.count + ' visitors'; })
+          .catch(function() {});
+      }, 1500);
+    })();
+    </script>
 </body>
 </html>

@@ -2043,6 +2043,7 @@ function renderTeachers() {
   }
 
   container.innerHTML = `
+    ${_backLink()}
     <h1>${_t('teachers.title')}</h1>
     <p class="page-subtitle">${_t('teachers.subtitle')}</p>
 
@@ -2084,6 +2085,7 @@ function renderPrinciples() {
   ];
 
   container.innerHTML =
+    _backLink() +
     '<h1>' + _t('principles.title') + '</h1>' +
     '<p class="page-subtitle">' + _t('principles.subtitle') + '</p>' +
     '<div class="principles-intro">' +
@@ -2127,6 +2129,7 @@ function renderParables() {
   };
 
   container.innerHTML =
+    _backLink() +
     '<h1>' + _t('parables.title') + '</h1>' +
     '<p class="page-subtitle">' + _t('parables.subtitle') + '</p>' +
     '<div class="parables-grid">' +
