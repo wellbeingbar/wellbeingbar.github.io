@@ -173,12 +173,17 @@
     (function() {
       var el = document.getElementById('visitor-counter');
       if (!el) return;
-      setTimeout(function() {
-        fetch('https://wellbeingbar.goatcounter.com/counter/' + encodeURIComponent(location.pathname || '/') + '.json')
-          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
-          .then(function(data) { el.textContent = data.count + ' visitors'; })
-          .catch(function() {});
-      }, 1500);
+      var r = new XMLHttpRequest();
+      r.open('GET', 'https://wellbeingbar.goatcounter.com/counter/' + encodeURIComponent('/') + '.json');
+      r.onload = function() {
+        if (r.status === 200) {
+          try {
+            var data = JSON.parse(r.responseText);
+            el.textContent = data.count_unique + ' visitors';
+          } catch(e) {}
+        }
+      };
+      r.send();
     })();
     </script>
 </body>
