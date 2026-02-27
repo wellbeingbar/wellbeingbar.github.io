@@ -2859,6 +2859,27 @@ a.card {
     font-weight: 600;
 }
 
+@media (max-width: 768px) {
+    .featured-card {
+        width: calc((100% - 1.25rem) / 2);
+        min-height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .featured-card {
+        width: 85%;
+        min-height: auto;
+        padding: 1rem;
+    }
+    .featured-card .card-icon {
+        font-size: 1.6rem;
+    }
+    .featured-card .card-title {
+        font-size: 0.95rem;
+    }
+}
+
 /* ==========================================================================
    33. PRACTICE DETAIL PAGE
    ========================================================================== */
