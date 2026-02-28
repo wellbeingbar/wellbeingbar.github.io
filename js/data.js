@@ -12,6 +12,7 @@ const Data = (() => {
   let _challenges = null;
   let _teachers = null;
   let _parables = null;
+  let _medicinal_plants = null;
 
   async function _load(url) {
     const resp = await fetch(url);
@@ -25,7 +26,7 @@ const Data = (() => {
 
   async function init() {
     if (!_practices || !_categories) {
-      const [practices, categories, benefits, science, traditions, routines, challenges, teachers, parables] = await Promise.all([
+      const [practices, categories, benefits, science, traditions, routines, challenges, teachers, parables, medicinalPlants] = await Promise.all([
         _load('data/practices.json'),
         _load('data/categories.json'),
         _loadSafe('data/benefits.json'),
@@ -34,7 +35,8 @@ const Data = (() => {
         _loadSafe('data/routines.json'),
         _loadSafe('data/challenges.json'),
         _loadSafe('data/teachers.json'),
-        _loadSafe('data/parables.json')
+        _loadSafe('data/parables.json'),
+        _loadSafe('data/medicinal-plants.json')
       ]);
       _practices = practices;
       _categories = categories;
@@ -45,6 +47,7 @@ const Data = (() => {
       _challenges = challenges;
       _teachers = teachers;
       _parables = parables;
+      _medicinal_plants = medicinalPlants;
     }
   }
 
@@ -123,6 +126,15 @@ const Data = (() => {
   function getParables() { return _parables || []; }
   function getParable(id) { return (_parables || []).find(p => p.id === id) || null; }
 
+  // Medicinal Plants
+  function getMedicinalPlants() { return _medicinal_plants || []; }
+  function getMedicinalPlant(id) { return (_medicinal_plants || []).find(p => p.id === id) || null; }
+  function getMedicinalPlantsByCategory(cat) { return (_medicinal_plants || []).filter(p => p.category === cat); }
+  function getMedicinalPlantCategories() {
+    const plants = getMedicinalPlants();
+    return [...new Set(plants.map(p => p.category))];
+  }
+
   // Top practices
   function getTopByScience(limit) {
     return getAllPractices().filter(p => p.science_rating > 0)
@@ -151,6 +163,7 @@ const Data = (() => {
     getChallenges, getChallenge,
     getTeachers, getTeacher, getTeachersByCategory,
     getParables, getParable,
+    getMedicinalPlants, getMedicinalPlant, getMedicinalPlantsByCategory, getMedicinalPlantCategories,
     getTopByScience, getTopByBenefit, getMostAccessible
   };
 })();

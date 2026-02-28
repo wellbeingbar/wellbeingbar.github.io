@@ -1,0 +1,3076 @@
+[
+  {
+    "id": "ginger",
+    "emoji": "🫚",
+    "name": {
+      "en": "Ginger"
+    },
+    "scientific_name": "Zingiber officinale",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Koeh-146.jpg/400px-Koeh-146.jpg",
+    "category": "digestive",
+    "plant_family": "Zingiberaceae",
+    "origin_regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "active_compounds": [
+      "gingerol",
+      "shogaol",
+      "zingerone"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 2,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Extensive research supports ginger's efficacy for nausea, inflammation, and digestive issues. Multiple meta-analyses confirm its benefits."
+    },
+    "key_studies": [
+      "Ernst & Pittler (2000) - Efficacy of ginger for nausea and vomiting: a systematic review",
+      "Bartels et al. (2015) - Efficacy and safety of ginger in osteoarthritis patients"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Nausea and motion sickness relief",
+        "Anti-inflammatory support",
+        "Digestive aid and bloating relief"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Fresh root tea (slice and steep 10 min)",
+        "Powder capsules (500mg–1g)",
+        "Tincture (30 drops in water)",
+        "Fresh in cooking and smoothies"
+      ]
+    },
+    "dosage": {
+      "en": "1–3g dried ginger powder per day, or 2–4 cups fresh ginger tea"
+    },
+    "contraindications": {
+      "en": [
+        "Blood-thinning medications (may increase bleeding risk)",
+        "Gallstones (may stimulate bile flow)",
+        "High doses during pregnancy"
+      ]
+    },
+    "fun_facts": [
+      "Ginger has been used medicinally for over 5,000 years in Asian traditions",
+      "Ancient Roman traders paid premium prices for ginger imported from India"
+    ],
+    "tags": [
+      "anti-nausea",
+      "anti-inflammatory",
+      "ancient-remedy",
+      "well-researched"
+    ],
+    "related_plants": [
+      "turmeric",
+      "galangal"
+    ]
+  },
+  {
+    "id": "peppermint",
+    "emoji": "🌿",
+    "name": {
+      "en": "Peppermint"
+    },
+    "scientific_name": "Mentha x piperita",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mentha_x_piperita_004.JPG/400px-Mentha_x_piperita_004.JPG",
+    "category": "digestive",
+    "plant_family": "Lamiaceae",
+    "origin_regions": [
+      "Europe",
+      "Middle East"
+    ],
+    "active_compounds": [
+      "menthol",
+      "menthone",
+      "rosmarinic acid"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Traditional Chinese Medicine",
+      "Ayurveda"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 4,
+      "mental": 3,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Peppermint oil is one of the best-studied herbal remedies for IBS. Multiple randomized controlled trials and meta-analyses confirm its efficacy for digestive complaints and tension headaches."
+    },
+    "key_studies": [
+      "Alammar et al. (2019) - Meta-analysis of peppermint oil efficacy in IBS",
+      "Kligler & Chaudhary (2007) - Peppermint oil: a comprehensive clinical review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Irritable bowel syndrome (IBS) symptom relief",
+        "Tension headache reduction when applied topically",
+        "Nausea and indigestion relief",
+        "Respiratory congestion support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Enteric-coated capsules for IBS (0.2–0.4ml oil)",
+        "Herbal tea (steep fresh or dried leaves 5–10 min)",
+        "Diluted essential oil for topical application",
+        "Steam inhalation for congestion"
+      ]
+    },
+    "dosage": {
+      "en": "1–2 enteric-coated capsules (0.2ml each) 2–3 times daily, or 2–3 cups tea per day"
+    },
+    "contraindications": {
+      "en": [
+        "Gastroesophageal reflux disease (GERD) — may worsen symptoms",
+        "Hiatal hernia",
+        "Children under 8 (menthol risk)",
+        "Gallbladder disorders"
+      ]
+    },
+    "fun_facts": [
+      "Peppermint is a natural hybrid between watermint and spearmint that cannot reproduce from seed",
+      "Ancient Egyptians, Greeks, and Romans all used mint for digestive ailments"
+    ],
+    "tags": [
+      "digestive",
+      "IBS",
+      "headache",
+      "cooling",
+      "well-researched"
+    ],
+    "related_plants": [
+      "lemon-balm",
+      "lavender"
+    ]
+  },
+  {
+    "id": "fennel",
+    "emoji": "🌱",
+    "name": {
+      "en": "Fennel"
+    },
+    "scientific_name": "Foeniculum vulgare",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Foeniculum_vulgare_006.JPG/400px-Foeniculum_vulgare_006.JPG",
+    "category": "digestive",
+    "plant_family": "Apiaceae",
+    "origin_regions": [
+      "Mediterranean"
+    ],
+    "active_compounds": [
+      "anethole",
+      "fenchone",
+      "estragole"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "European Herbalism",
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 3,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Promising clinical evidence supports fennel for colic in infants and general digestive complaints. Several randomized trials show benefit, though larger confirmatory studies are needed."
+    },
+    "key_studies": [
+      "Alexandrovich et al. (2003) - Fennel seed oil emulsion in infantile colic: a randomized, placebo-controlled trial",
+      "Portincasa et al. (2016) - Fennel and its role in digestive disorders"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Bloating and gas relief (carminative)",
+        "Infant colic support",
+        "Mild antispasmodic for digestive cramps",
+        "Lactation support in traditional use"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Seed tea (crush 1 tsp seeds, steep 10 min)",
+        "Chew seeds after meals",
+        "Tincture (1–2ml, 3 times daily)",
+        "Fennel water for infants (under practitioner guidance)"
+      ]
+    },
+    "dosage": {
+      "en": "1–2 tsp crushed seeds as tea, 2–3 times daily"
+    },
+    "contraindications": {
+      "en": [
+        "Estrogen-sensitive conditions (contains phytoestrogens)",
+        "Allergy to Apiaceae family (carrots, celery, dill)",
+        "Not recommended in large medicinal doses during pregnancy"
+      ]
+    },
+    "fun_facts": [
+      "Roman gladiators mixed fennel into their food believing it gave them strength",
+      "In medieval Europe, fennel was hung over doorways on Midsummer's Eve to ward off evil spirits"
+    ],
+    "tags": [
+      "carminative",
+      "colic",
+      "bloating",
+      "traditional-spice"
+    ],
+    "related_plants": [
+      "chamomile",
+      "ginger"
+    ]
+  },
+  {
+    "id": "chamomile",
+    "emoji": "🌼",
+    "name": {
+      "en": "Chamomile"
+    },
+    "scientific_name": "Matricaria chamomilla",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Matricaria_February_2008-1.jpg/400px-Matricaria_February_2008-1.jpg",
+    "category": "digestive",
+    "plant_family": "Asteraceae",
+    "origin_regions": [
+      "Europe",
+      "Western Asia"
+    ],
+    "active_compounds": [
+      "apigenin",
+      "bisabolol",
+      "chamazulene",
+      "matricin"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Egyptian Medicine",
+      "Ayurveda"
+    ],
+    "benefits": {
+      "emotional": 3,
+      "physical": 3,
+      "mental": 3,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Chamomile is one of the most extensively studied herbs. Strong clinical evidence supports its use for anxiety, sleep, and digestive complaints. Multiple RCTs confirm mild sedative and anxiolytic effects."
+    },
+    "key_studies": [
+      "Amsterdam et al. (2009) - Chamomile (Matricaria recutita) for generalized anxiety disorder: a randomized, double-blind, placebo-controlled trial",
+      "Srivastava et al. (2010) - Chamomile: a herbal medicine of the past with bright future"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Mild anxiety and stress relief",
+        "Sleep promotion",
+        "Digestive cramping and bloating",
+        "Topical wound healing and skin inflammation"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Herbal tea (steep 2–3g dried flowers 5–10 min)",
+        "Standardized extract capsules (220–1100mg daily)",
+        "Topical cream or compress for skin",
+        "Essential oil in diffuser or bath"
+      ]
+    },
+    "dosage": {
+      "en": "2–4 cups tea daily, or 220–1100mg standardized extract"
+    },
+    "contraindications": {
+      "en": [
+        "Allergy to Asteraceae/Compositae family (ragweed, daisies, chrysanthemums)",
+        "May interact with blood-thinning medications",
+        "Use caution with sedative medications (additive effects)"
+      ]
+    },
+    "fun_facts": [
+      "The name chamomile comes from the Greek 'khamaimelon' meaning 'earth apple' due to its apple-like scent",
+      "Ancient Egyptians dedicated chamomile to their sun god Ra and used it to treat fevers"
+    ],
+    "tags": [
+      "calming",
+      "digestive",
+      "sleep",
+      "gentle",
+      "well-researched",
+      "dual-use"
+    ],
+    "related_plants": [
+      "lavender",
+      "lemon-balm",
+      "passionflower"
+    ]
+  },
+  {
+    "id": "licorice-root",
+    "emoji": "🪵",
+    "name": {
+      "en": "Licorice Root"
+    },
+    "scientific_name": "Glycyrrhiza glabra",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Glycyrrhiza_glabra_%28Fabaceae%29.jpg/400px-Glycyrrhiza_glabra_%28Fabaceae%29.jpg",
+    "category": "digestive",
+    "plant_family": "Fabaceae",
+    "origin_regions": [
+      "Mediterranean",
+      "Central Asia",
+      "China"
+    ],
+    "active_compounds": [
+      "glycyrrhizin",
+      "glabridin",
+      "liquiritigenin",
+      "isoliquiritigenin"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine",
+      "Ayurveda",
+      "European Herbalism"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 3,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Good evidence supports licorice for peptic ulcers and functional dyspepsia. The deglycyrrhizinated form (DGL) is well-studied for GI protection. Glycyrrhizin has documented antiviral and anti-inflammatory activity, but also notable side effects."
+    },
+    "key_studies": [
+      "Larkworthy & Holgate (1975) - Deglycyrrhizinised liquorice in the treatment of chronic duodenal ulcer",
+      "Wang et al. (2015) - Biological activities of glycyrrhizin and its mechanisms of action"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Peptic ulcer and gastritis support (DGL form)",
+        "Sore throat and cough relief",
+        "Adrenal fatigue support in traditional use",
+        "Mild laxative effect"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "DGL chewable tablets (380–760mg before meals)",
+        "Root decoction (simmer 1–2g root 10–15 min)",
+        "Tincture (2–4ml, 3 times daily)",
+        "Throat lozenges for cough"
+      ]
+    },
+    "dosage": {
+      "en": "DGL: 380–760mg before meals. Whole root: no more than 1–2g daily for max 4–6 weeks"
+    },
+    "contraindications": {
+      "en": [
+        "Hypertension (glycyrrhizin raises blood pressure)",
+        "Kidney disease",
+        "Heart conditions or those on cardiac medications",
+        "Potassium-depleting diuretics",
+        "Pregnancy",
+        "Do not use whole root long-term (over 6 weeks)"
+      ]
+    },
+    "fun_facts": [
+      "Licorice root is 50 times sweeter than sugar, making it one of the sweetest natural substances",
+      "Supplies of licorice root were found in Tutankhamun's tomb, dating back over 3,000 years"
+    ],
+    "tags": [
+      "ulcer",
+      "throat",
+      "sweet",
+      "adrenal",
+      "caution-needed"
+    ],
+    "related_plants": [
+      "chamomile",
+      "aloe-vera"
+    ]
+  },
+  {
+    "id": "aloe-vera",
+    "emoji": "🌵",
+    "name": {
+      "en": "Aloe Vera"
+    },
+    "scientific_name": "Aloe barbadensis miller",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inridge.jpg/400px-Aloe_vera_flower_inridge.jpg",
+    "category": "digestive",
+    "plant_family": "Asphodelaceae",
+    "origin_regions": [
+      "Arabian Peninsula",
+      "North Africa"
+    ],
+    "active_compounds": [
+      "acemannan",
+      "aloin",
+      "barbaloin",
+      "aloe-emodin"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Egyptian Medicine",
+      "European Herbalism"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Good evidence for topical wound healing and burns. Promising but mixed evidence for internal use in IBS, constipation, and blood sugar regulation. Oral aloe latex has strong laxative effects but safety concerns."
+    },
+    "key_studies": [
+      "Maenthaisong et al. (2007) - The efficacy of aloe vera for burn wound healing: a systematic review",
+      "Langmead et al. (2004) - Randomized, double-blind, placebo-controlled trial of oral aloe vera gel for active ulcerative colitis"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Burn and wound healing (topical gel)",
+        "Constipation relief (aloe latex — short-term only)",
+        "Skin hydration and minor skin irritation",
+        "Possible blood sugar support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Fresh gel applied directly to skin",
+        "Inner gel fillet blended into juice or smoothies",
+        "Commercial gel capsules (50–200mg daily)",
+        "Topical creams and lotions"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: apply gel as needed. Internal gel: 50–200mg daily. Aloe latex: 50–200mg short-term only"
+    },
+    "contraindications": {
+      "en": [
+        "Oral aloe latex is a strong laxative — avoid long-term use",
+        "Pregnancy and breastfeeding (oral use)",
+        "May lower blood sugar (monitor with diabetes medications)",
+        "Kidney disorders",
+        "Intestinal obstruction or inflammatory bowel disease (latex form)"
+      ]
+    },
+    "fun_facts": [
+      "Cleopatra reportedly used aloe vera gel as part of her daily beauty regimen",
+      "Alexander the Great allegedly conquered the island of Socotra to secure aloe supplies for his wounded soldiers"
+    ],
+    "tags": [
+      "topical",
+      "burns",
+      "skin",
+      "laxative",
+      "versatile"
+    ],
+    "related_plants": [
+      "licorice-root",
+      "chamomile"
+    ]
+  },
+  {
+    "id": "turmeric",
+    "emoji": "🟡",
+    "name": {
+      "en": "Turmeric"
+    },
+    "scientific_name": "Curcuma longa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Curcuma_longa_roots.jpg/400px-Curcuma_longa_roots.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Zingiberaceae",
+    "origin_regions": [
+      "South Asia",
+      "Southeast Asia"
+    ],
+    "active_compounds": [
+      "curcumin",
+      "demethoxycurcumin",
+      "bisdemethoxycurcumin",
+      "turmerone"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Traditional Chinese Medicine",
+      "Unani Medicine"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 4,
+      "mental": 2,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Curcumin is one of the most extensively studied natural anti-inflammatory compounds. Strong evidence from multiple meta-analyses supports its efficacy for osteoarthritis, inflammatory markers, and metabolic syndrome. Bioavailability is a key limitation addressed by piperine co-administration."
+    },
+    "key_studies": [
+      "Daily et al. (2016) - Efficacy of turmeric extracts and curcumin for alleviating the symptoms of joint arthritis: a systematic review and meta-analysis",
+      "Hewlings & Kalman (2017) - Curcumin: a review of its effects on human health"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Joint inflammation and osteoarthritis pain",
+        "General anti-inflammatory support",
+        "Antioxidant protection",
+        "Digestive support and liver health"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Golden milk (turmeric paste with warm milk and black pepper)",
+        "Standardized curcumin capsules with piperine (500–1500mg)",
+        "Fresh root grated into cooking",
+        "Tincture (1–2ml, 2–3 times daily)"
+      ]
+    },
+    "dosage": {
+      "en": "500–1500mg curcumin extract daily (with piperine for absorption), or 1–3g turmeric powder in food"
+    },
+    "contraindications": {
+      "en": [
+        "Blood-thinning medications (may increase bleeding risk)",
+        "Gallbladder disease or gallstones",
+        "Iron deficiency (may reduce iron absorption)",
+        "High doses before surgery"
+      ]
+    },
+    "fun_facts": [
+      "Turmeric has been used in India for over 4,000 years as both a spice and medicine",
+      "Buddhist monks traditionally used turmeric to dye their robes the distinctive saffron-yellow color"
+    ],
+    "tags": [
+      "anti-inflammatory",
+      "antioxidant",
+      "joint-health",
+      "well-researched",
+      "ayurvedic"
+    ],
+    "related_plants": [
+      "ginger",
+      "boswellia"
+    ]
+  },
+  {
+    "id": "boswellia",
+    "emoji": "🌲",
+    "name": {
+      "en": "Boswellia (Indian Frankincense)"
+    },
+    "scientific_name": "Boswellia serrata",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Boswellia_sacra.jpg/400px-Boswellia_sacra.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Burseraceae",
+    "origin_regions": [
+      "India",
+      "Middle East",
+      "North Africa"
+    ],
+    "active_compounds": [
+      "boswellic acids",
+      "AKBA (acetyl-11-keto-beta-boswellic acid)",
+      "incensole"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Unani Medicine",
+      "Traditional African Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 2
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Promising clinical evidence for osteoarthritis and inflammatory bowel disease. AKBA has been shown to inhibit 5-lipoxygenase, a key inflammatory enzyme. Several RCTs show benefit, with larger confirmatory trials underway."
+    },
+    "key_studies": [
+      "Sengupta et al. (2008) - A double-blind, randomized, placebo-controlled study of Boswellia serrata in osteoarthritis of the knee",
+      "Gupta et al. (2001) - Boswellia serrata extract in treatment of bronchial asthma"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Osteoarthritis pain and stiffness",
+        "Inflammatory bowel disease support",
+        "Asthma symptom reduction",
+        "General anti-inflammatory support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized extract capsules (300–500mg, 2–3 times daily)",
+        "Resin granules chewed directly",
+        "Topical cream for joint pain",
+        "Traditional resin burned as incense (aromatic use)"
+      ]
+    },
+    "dosage": {
+      "en": "300–500mg standardized extract (containing 30–65% boswellic acids), 2–3 times daily"
+    },
+    "contraindications": {
+      "en": [
+        "May interact with anti-inflammatory and blood-thinning medications",
+        "Possible GI discomfort in some individuals",
+        "Pregnancy and breastfeeding (insufficient data)",
+        "May affect the efficacy of certain cancer treatments"
+      ]
+    },
+    "fun_facts": [
+      "Frankincense was one of the three gifts brought by the Magi in the Biblical nativity story",
+      "The Boswellia tree produces resin as a defense mechanism when its bark is cut, and this 'tears of the tree' have been traded for over 5,000 years"
+    ],
+    "tags": [
+      "anti-inflammatory",
+      "joint-health",
+      "frankincense",
+      "ayurvedic",
+      "resin"
+    ],
+    "related_plants": [
+      "turmeric",
+      "devils-claw"
+    ]
+  },
+  {
+    "id": "willow-bark",
+    "emoji": "🌳",
+    "name": {
+      "en": "Willow Bark"
+    },
+    "scientific_name": "Salix alba",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Salix_alba_010.jpg/400px-Salix_alba_010.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Salicaceae",
+    "origin_regions": [
+      "Europe",
+      "Central Asia",
+      "North America"
+    ],
+    "active_compounds": [
+      "salicin",
+      "salicortin",
+      "tremulacin",
+      "flavonoids"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Native American Medicine",
+      "Ancient Greek Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Clinical trials support willow bark for lower back pain and osteoarthritis. Salicin is converted to salicylic acid in the body, the precursor to aspirin. Evidence is moderate, with some RCTs showing equivalence to conventional NSAIDs."
+    },
+    "key_studies": [
+      "Chrubasik et al. (2000) - Treatment of low back pain exacerbations with willow bark extract: a randomized double-blind study",
+      "Schmid et al. (2001) - Efficacy and tolerability of a standardized willow bark extract in patients with osteoarthritis"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Lower back pain relief",
+        "Osteoarthritis pain management",
+        "Headache relief",
+        "Fever reduction"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized extract capsules (120–240mg salicin daily)",
+        "Bark decoction (simmer 1–2g dried bark 10–15 min)",
+        "Tincture (2–3ml, 3 times daily)",
+        "Topical bark wash for skin inflammation"
+      ]
+    },
+    "dosage": {
+      "en": "Standardized extract providing 120–240mg salicin daily, or 2–3g dried bark as decoction"
+    },
+    "contraindications": {
+      "en": [
+        "Aspirin allergy or sensitivity",
+        "Blood-thinning medications",
+        "Children and teenagers (Reye's syndrome risk, same as aspirin)",
+        "Peptic ulcers or GI bleeding",
+        "Kidney disease",
+        "Pregnancy and breastfeeding"
+      ]
+    },
+    "fun_facts": [
+      "Hippocrates prescribed chewing willow bark for pain and fever around 400 BCE, making it one of the oldest recorded painkillers",
+      "In 1897, Felix Hoffmann at Bayer synthesized acetylsalicylic acid (aspirin) based on the active compound in willow bark"
+    ],
+    "tags": [
+      "pain-relief",
+      "aspirin-precursor",
+      "back-pain",
+      "historical",
+      "NSAID-alternative"
+    ],
+    "related_plants": [
+      "devils-claw",
+      "boswellia"
+    ]
+  },
+  {
+    "id": "cats-claw",
+    "emoji": "🐾",
+    "name": {
+      "en": "Cat's Claw"
+    },
+    "scientific_name": "Uncaria tomentosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Uncaria_tomentosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-272.jpg/400px-Uncaria_tomentosa_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-272.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Rubiaceae",
+    "origin_regions": [
+      "Central America",
+      "South America"
+    ],
+    "active_compounds": [
+      "pentacyclic oxindole alkaloids",
+      "quinovic acid glycosides",
+      "polyphenols",
+      "sterols"
+    ],
+    "traditional_systems": [
+      "Traditional Amazonian Medicine",
+      "Peruvian Folk Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 3,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 2,
+    "science_summary": {
+      "en": "Preliminary evidence suggests anti-inflammatory and immune-modulating properties. A small number of clinical trials show potential benefit for rheumatoid arthritis and osteoarthritis, but large confirmatory trials are lacking."
+    },
+    "key_studies": [
+      "Mur et al. (2002) - Randomized double-blind trial of Uncaria tomentosa for the treatment of rheumatoid arthritis",
+      "Piscoya et al. (2001) - Efficacy and safety of freeze-dried cat's claw in osteoarthritis of the knee"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Anti-inflammatory support for arthritis",
+        "Immune system modulation",
+        "Digestive support in traditional use",
+        "Antioxidant protection"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized extract capsules (250–350mg daily)",
+        "Bark decoction (simmer 1g dried bark 15–20 min)",
+        "Tincture (1–2ml, 2–3 times daily)",
+        "Tea from inner bark"
+      ]
+    },
+    "dosage": {
+      "en": "250–350mg standardized extract daily, or 1g dried bark as decoction"
+    },
+    "contraindications": {
+      "en": [
+        "Immunosuppressant medications (may interfere)",
+        "Autoimmune conditions (immune-stimulating effects)",
+        "Blood-thinning medications",
+        "Pregnancy and breastfeeding",
+        "Pre- and post-surgery (immune and bleeding concerns)"
+      ]
+    },
+    "fun_facts": [
+      "Cat's claw gets its name from the small curved thorns on the vine that resemble a cat's claws",
+      "The Ashaninka people of Peru have used cat's claw for at least 2,000 years to treat inflammatory conditions and infections"
+    ],
+    "tags": [
+      "immune-modulating",
+      "anti-inflammatory",
+      "amazonian",
+      "preliminary-research"
+    ],
+    "related_plants": [
+      "devils-claw",
+      "green-tea"
+    ]
+  },
+  {
+    "id": "devils-claw",
+    "emoji": "🪴",
+    "name": {
+      "en": "Devil's Claw"
+    },
+    "scientific_name": "Harpagophytum procumbens",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Harpagophytum_procumbens_001.jpg/400px-Harpagophytum_procumbens_001.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Pedaliaceae",
+    "origin_regions": [
+      "Southern Africa"
+    ],
+    "active_compounds": [
+      "harpagoside",
+      "harpagide",
+      "procumbide"
+    ],
+    "traditional_systems": [
+      "Traditional Southern African Medicine",
+      "European Herbalism"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Moderate clinical evidence supports devil's claw for lower back pain and osteoarthritis. Several RCTs demonstrate pain reduction comparable to some conventional treatments. European regulatory bodies have approved it as a traditional medicine for musculoskeletal pain."
+    },
+    "key_studies": [
+      "Chrubasik et al. (2003) - A systematic review of the effectiveness of Harpagophytum for osteoarthritis",
+      "Gagnier et al. (2004) - Harpagophytum procumbens for osteoarthritis and low back pain: a systematic review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Lower back pain relief",
+        "Osteoarthritis pain and stiffness",
+        "General musculoskeletal pain",
+        "Appetite stimulation and digestive bitter"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized extract capsules (600–1200mg, containing 50–100mg harpagoside daily)",
+        "Root decoction (simmer 1–2g dried root 15 min)",
+        "Tincture (1–2ml, 3 times daily)",
+        "Topical preparations for joint pain"
+      ]
+    },
+    "dosage": {
+      "en": "Standardized extract providing 50–100mg harpagoside daily, typically in divided doses"
+    },
+    "contraindications": {
+      "en": [
+        "Peptic ulcers or gastritis (increases stomach acid)",
+        "Gallstones",
+        "Blood-thinning and blood-pressure medications",
+        "Pregnancy (may stimulate uterine contractions)",
+        "Diabetes medications (may lower blood sugar)"
+      ]
+    },
+    "fun_facts": [
+      "Devil's claw gets its ominous name from the tiny hook-covered fruit that animals step on, which then clings to their hooves",
+      "The San and Khoi peoples of southern Africa have used devil's claw for centuries for pain, fever, and digestive complaints"
+    ],
+    "tags": [
+      "pain-relief",
+      "back-pain",
+      "joint-health",
+      "african-medicine",
+      "musculoskeletal"
+    ],
+    "related_plants": [
+      "willow-bark",
+      "boswellia"
+    ]
+  },
+  {
+    "id": "green-tea",
+    "emoji": "🍵",
+    "name": {
+      "en": "Green Tea"
+    },
+    "scientific_name": "Camellia sinensis",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg/400px-Camellia_sinensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg",
+    "category": "anti-inflammatory",
+    "plant_family": "Theaceae",
+    "origin_regions": [
+      "China",
+      "East Asia"
+    ],
+    "active_compounds": [
+      "epigallocatechin gallate (EGCG)",
+      "L-theanine",
+      "catechins",
+      "caffeine"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine",
+      "Japanese Medicine",
+      "Ayurveda"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 3,
+      "mental": 3,
+      "social": 2,
+      "spiritual": 1
+    },
+    "science_rating": 5,
+    "science_summary": {
+      "en": "Green tea is among the most extensively researched plant-based substances. Numerous meta-analyses confirm antioxidant, anti-inflammatory, cardioprotective, and neuroprotective effects. EGCG has demonstrated broad biological activity across hundreds of studies."
+    },
+    "key_studies": [
+      "Kuriyama et al. (2006) - Green tea consumption and mortality due to cardiovascular disease, cancer, and all causes in Japan: the Ohsaki study",
+      "Mancini et al. (2017) - Green tea effects on cognition, mood and human brain function: a systematic review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Antioxidant and anti-inflammatory support",
+        "Cardiovascular health promotion",
+        "Cognitive function and alertness enhancement",
+        "Metabolic support and weight management aid"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Loose leaf tea (steep 1–2 tsp at 70–80°C for 2–3 min)",
+        "Matcha powder (whisked in water)",
+        "Standardized EGCG extract capsules (250–500mg)",
+        "Cold brew (steep overnight in cold water)"
+      ]
+    },
+    "dosage": {
+      "en": "3–5 cups daily, or 250–500mg standardized EGCG extract"
+    },
+    "contraindications": {
+      "en": [
+        "Caffeine sensitivity (contains 25–50mg caffeine per cup)",
+        "Iron absorption may be reduced (drink between meals)",
+        "High-dose extracts linked to rare liver injury",
+        "May interact with blood thinners and stimulant medications",
+        "Pregnancy: limit to 2–3 cups daily"
+      ]
+    },
+    "fun_facts": [
+      "According to legend, Chinese Emperor Shen Nung discovered tea in 2737 BCE when leaves blew into his pot of boiling water",
+      "Japan's elaborate tea ceremony (chanoyu) elevates green tea preparation into a meditative spiritual practice"
+    ],
+    "tags": [
+      "antioxidant",
+      "anti-inflammatory",
+      "cognition",
+      "heart-health",
+      "extensively-researched",
+      "daily-beverage"
+    ],
+    "related_plants": [
+      "turmeric",
+      "ashwagandha"
+    ]
+  },
+  {
+    "id": "valerian",
+    "emoji": "🌺",
+    "name": {
+      "en": "Valerian"
+    },
+    "scientific_name": "Valeriana officinalis",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Valeriana_officinalis_002.JPG/400px-Valeriana_officinalis_002.JPG",
+    "category": "calming",
+    "plant_family": "Caprifoliaceae",
+    "origin_regions": [
+      "Europe",
+      "Northern Asia"
+    ],
+    "active_compounds": [
+      "valerenic acid",
+      "isovaleric acid",
+      "iridoids",
+      "lignans",
+      "GABA"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Ancient Greek Medicine"
+    ],
+    "benefits": {
+      "emotional": 3,
+      "physical": 2,
+      "mental": 3,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Moderate evidence supports valerian for sleep quality improvement, though results across studies are mixed. Several RCTs show subjective sleep improvement, but objective measures are less consistent. Better evidence for improving sleep quality than reducing sleep latency."
+    },
+    "key_studies": [
+      "Bent et al. (2006) - Valerian for sleep: a systematic review and meta-analysis",
+      "Fernandez-San-Martin et al. (2010) - Effectiveness of valerian on insomnia: a meta-analysis of randomized placebo-controlled trials"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Sleep quality improvement",
+        "Mild anxiety and nervousness relief",
+        "Stress-related restlessness",
+        "Muscle tension and cramp support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Root extract capsules (300–600mg, 30–60 min before bed)",
+        "Root tea (steep 2–3g dried root 10–15 min)",
+        "Tincture (2–3ml before bed)",
+        "Often combined with hops or lemon balm for enhanced effect"
+      ]
+    },
+    "dosage": {
+      "en": "300–600mg root extract 30–60 minutes before bedtime, or 2–3g dried root as tea"
+    },
+    "contraindications": {
+      "en": [
+        "Sedative and sleep medications (additive drowsiness)",
+        "Alcohol (enhances sedation)",
+        "Do not drive or operate machinery after taking",
+        "Pregnancy and breastfeeding (insufficient safety data)",
+        "May take 2–4 weeks for full effect"
+      ]
+    },
+    "fun_facts": [
+      "The name 'valerian' may derive from the Latin 'valere' meaning 'to be strong' or 'to be healthy'",
+      "Valerian's strong earthy odor, which many find unpleasant, is actually attractive to cats — similar to catnip"
+    ],
+    "tags": [
+      "sleep",
+      "insomnia",
+      "calming",
+      "GABA",
+      "nighttime"
+    ],
+    "related_plants": [
+      "passionflower",
+      "lemon-balm",
+      "lavender"
+    ]
+  },
+  {
+    "id": "lavender",
+    "emoji": "💜",
+    "name": {
+      "en": "Lavender"
+    },
+    "scientific_name": "Lavandula angustifolia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Single_laridge_702702lavender.jpg/400px-Single_laridge_702702lavender.jpg",
+    "category": "calming",
+    "plant_family": "Lamiaceae",
+    "origin_regions": [
+      "Mediterranean",
+      "Middle East"
+    ],
+    "active_compounds": [
+      "linalool",
+      "linalyl acetate",
+      "lavandulol",
+      "camphor"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Aromatherapy",
+      "Persian Medicine"
+    ],
+    "benefits": {
+      "emotional": 4,
+      "physical": 2,
+      "mental": 3,
+      "social": 0,
+      "spiritual": 2
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Strong clinical evidence supports lavender for anxiety reduction. Silexan (oral lavender oil preparation) has been shown in multiple RCTs to be as effective as low-dose benzodiazepines for generalized anxiety. Aromatherapy studies also show consistent anxiolytic effects."
+    },
+    "key_studies": [
+      "Kasper et al. (2010) - Silexan, an orally administered Lavandula oil preparation, is effective in the treatment of subsyndromal anxiety disorder",
+      "Woelk & Schläfke (2010) - A multi-center, double-blind, randomised study of the lavender oil preparation Silexan compared to lorazepam"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Anxiety and restlessness reduction",
+        "Sleep quality improvement",
+        "Mild pain relief (topical)",
+        "Stress and tension headache support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Silexan oral capsules (80mg daily)",
+        "Essential oil aromatherapy (2–3 drops in diffuser)",
+        "Herbal tea (steep 1–2g dried flowers 5–10 min)",
+        "Diluted essential oil for topical massage",
+        "Lavender pillow sachet for sleep"
+      ]
+    },
+    "dosage": {
+      "en": "Silexan: 80mg oral capsule daily. Tea: 1–2 cups daily. Aromatherapy: 2–3 drops in diffuser"
+    },
+    "contraindications": {
+      "en": [
+        "Sedative medications (may enhance drowsiness)",
+        "Topical: may cause skin irritation in sensitive individuals (always dilute)",
+        "Oral essential oil may cause GI upset in some people",
+        "Prepubertal boys: possible estrogenic effects with topical use (limited evidence)"
+      ]
+    },
+    "fun_facts": [
+      "The word lavender comes from the Latin 'lavare' meaning 'to wash' — Romans added it to their baths",
+      "During the Great Plague of London in 1665, lavender was tied in bundles and fastened to each wrist to ward off the disease"
+    ],
+    "tags": [
+      "anxiety",
+      "sleep",
+      "aromatherapy",
+      "well-researched",
+      "versatile",
+      "gentle"
+    ],
+    "related_plants": [
+      "chamomile",
+      "lemon-balm",
+      "valerian"
+    ]
+  },
+  {
+    "id": "passionflower",
+    "emoji": "🌺",
+    "name": {
+      "en": "Passionflower"
+    },
+    "scientific_name": "Passiflora incarnata",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Passiflora_incarnata_%281%29.jpg/400px-Passiflora_incarnata_%281%29.jpg",
+    "category": "calming",
+    "plant_family": "Passifloraceae",
+    "origin_regions": [
+      "North America",
+      "Central America",
+      "South America"
+    ],
+    "active_compounds": [
+      "chrysin",
+      "vitexin",
+      "isovitexin",
+      "harman alkaloids",
+      "GABA-related flavonoids"
+    ],
+    "traditional_systems": [
+      "Native American Medicine",
+      "European Herbalism",
+      "South American Folk Medicine"
+    ],
+    "benefits": {
+      "emotional": 3,
+      "physical": 2,
+      "mental": 3,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Promising clinical evidence for anxiety and insomnia. One notable RCT showed comparable efficacy to oxazepam for generalized anxiety with fewer side effects. More large-scale trials are needed to confirm findings."
+    },
+    "key_studies": [
+      "Akhondzadeh et al. (2001) - Passionflower in the treatment of generalized anxiety: a pilot double-blind randomized controlled trial with oxazepam",
+      "Ngan & Conduit (2011) - A double-blind, placebo-controlled investigation of the effects of Passiflora incarnata on subjective sleep quality"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Generalized anxiety relief",
+        "Sleep onset improvement",
+        "Nervous restlessness and agitation",
+        "Pre-surgical anxiety (studied in clinical settings)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Herbal tea (steep 1–2g dried herb 10 min)",
+        "Standardized extract capsules (250–500mg daily)",
+        "Tincture (1–2ml, 2–3 times daily)",
+        "Often combined with valerian or lemon balm"
+      ]
+    },
+    "dosage": {
+      "en": "250–500mg extract daily, or 1–2g dried herb as tea, 2–3 times daily"
+    },
+    "contraindications": {
+      "en": [
+        "Sedative and anti-anxiety medications (additive effects)",
+        "MAO inhibitor medications (harman alkaloid interaction)",
+        "Pregnancy (may stimulate uterine contractions)",
+        "Surgery (stop 2 weeks before due to sedation risk)"
+      ]
+    },
+    "fun_facts": [
+      "Spanish missionaries in South America named it passionflower because they saw the flower's structure as symbols of the Passion of Christ — the ten petals representing the apostles, the corona as the crown of thorns",
+      "The Algonquin people used passionflower root as a poultice for boils and skin inflammation"
+    ],
+    "tags": [
+      "anxiety",
+      "sleep",
+      "GABA",
+      "gentle",
+      "native-american"
+    ],
+    "related_plants": [
+      "valerian",
+      "lemon-balm",
+      "kava"
+    ]
+  },
+  {
+    "id": "lemon-balm",
+    "emoji": "🍋",
+    "name": {
+      "en": "Lemon Balm"
+    },
+    "scientific_name": "Melissa officinalis",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Melissa_officinalis_%282%29.jpg/400px-Melissa_officinalis_%282%29.jpg",
+    "category": "calming",
+    "plant_family": "Lamiaceae",
+    "origin_regions": [
+      "Mediterranean",
+      "Central Asia"
+    ],
+    "active_compounds": [
+      "rosmarinic acid",
+      "citral",
+      "citronellal",
+      "eugenol",
+      "flavonoids"
+    ],
+    "traditional_systems": [
+      "European Herbalism",
+      "Persian Medicine",
+      "Ayurveda"
+    ],
+    "benefits": {
+      "emotional": 3,
+      "physical": 2,
+      "mental": 3,
+      "social": 1,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Promising clinical evidence for anxiety, cognitive function, and sleep. Several RCTs demonstrate anxiolytic and cognitive-enhancing effects. Rosmarinic acid inhibits GABA transaminase, providing a plausible mechanism for calming effects."
+    },
+    "key_studies": [
+      "Cases et al. (2011) - Pilot trial of Melissa officinalis L. leaf extract in the treatment of volunteers suffering from mild-to-moderate anxiety disorders",
+      "Kennedy et al. (2003) - Modulation of mood and cognitive performance following acute administration of single doses of Melissa officinalis"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Mild anxiety and stress relief",
+        "Cognitive performance and mood enhancement",
+        "Sleep quality improvement",
+        "Cold sore treatment (topical — antiviral against HSV)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Herbal tea (steep 1.5–3g dried leaves 5–10 min)",
+        "Standardized extract capsules (300–600mg daily)",
+        "Tincture (2–3ml, 2–3 times daily)",
+        "Topical cream for cold sores",
+        "Fresh leaves in salads or as garnish"
+      ]
+    },
+    "dosage": {
+      "en": "300–600mg extract daily, or 1.5–4.5g dried leaves as tea per day"
+    },
+    "contraindications": {
+      "en": [
+        "Thyroid medications (may interfere with thyroid hormone levels)",
+        "Sedative medications (additive effects)",
+        "Glaucoma medications (potential interaction)",
+        "Pregnancy and breastfeeding (use tea-strength doses only)"
+      ]
+    },
+    "fun_facts": [
+      "The genus name 'Melissa' comes from the Greek word for honeybee — the plant has been used for centuries to attract bees to gardens",
+      "Paracelsus, the famous 16th-century physician, called lemon balm the 'elixir of life' and believed it could completely revivify the body"
+    ],
+    "tags": [
+      "calming",
+      "cognitive",
+      "mood",
+      "antiviral",
+      "gentle",
+      "bee-friendly"
+    ],
+    "related_plants": [
+      "lavender",
+      "chamomile",
+      "peppermint"
+    ]
+  },
+  {
+    "id": "ashwagandha",
+    "emoji": "🌿",
+    "name": {
+      "en": "Ashwagandha"
+    },
+    "scientific_name": "Withania somnifera",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Withania_somnifera00.jpg/400px-Withania_somnifera00.jpg",
+    "category": "calming",
+    "plant_family": "Solanaceae",
+    "origin_regions": [
+      "India",
+      "Middle East",
+      "North Africa"
+    ],
+    "active_compounds": [
+      "withanolides",
+      "withaferin A",
+      "withanone",
+      "sitoindosides"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Unani Medicine"
+    ],
+    "benefits": {
+      "emotional": 3,
+      "physical": 3,
+      "mental": 3,
+      "social": 1,
+      "spiritual": 2
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Strong and growing clinical evidence supports ashwagandha as an adaptogen for stress and anxiety. Multiple RCTs show significant reductions in cortisol levels and anxiety scores. Emerging evidence for cognitive function, physical performance, and sleep quality."
+    },
+    "key_studies": [
+      "Chandrasekhar et al. (2012) - A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of ashwagandha root",
+      "Langade et al. (2019) - Efficacy and safety of ashwagandha root extract in insomnia and anxiety: a double-blind, randomized, placebo-controlled study"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Stress and cortisol reduction",
+        "Anxiety relief",
+        "Sleep quality improvement",
+        "Physical endurance and recovery support",
+        "Cognitive function and memory enhancement"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Root extract capsules (300–600mg daily, standardized to withanolides)",
+        "Traditional churna powder mixed with warm milk and honey",
+        "Tincture (2–4ml daily)",
+        "KSM-66 or Sensoril standardized extracts"
+      ]
+    },
+    "dosage": {
+      "en": "300–600mg root extract daily (standardized to 5% withanolides), or 3–6g root powder"
+    },
+    "contraindications": {
+      "en": [
+        "Thyroid medications (may increase thyroid hormone levels)",
+        "Immunosuppressants (may stimulate immune activity)",
+        "Sedative medications (additive effects)",
+        "Pregnancy (traditionally contraindicated)",
+        "Autoimmune conditions (may overstimulate immune system)",
+        "Nightshade sensitivity (member of Solanaceae family)"
+      ]
+    },
+    "fun_facts": [
+      "Ashwagandha means 'smell of the horse' in Sanskrit, referring both to its distinct odor and the traditional belief that it imparts the vigor and strength of a stallion",
+      "In Ayurvedic classification, ashwagandha is one of the rare 'Rasayana' herbs — rejuvenative tonics considered capable of promoting longevity"
+    ],
+    "tags": [
+      "adaptogen",
+      "stress",
+      "cortisol",
+      "ayurvedic",
+      "well-researched",
+      "sleep"
+    ],
+    "related_plants": [
+      "green-tea",
+      "valerian",
+      "lemon-balm"
+    ]
+  },
+  {
+    "id": "kava",
+    "emoji": "🫘",
+    "name": {
+      "en": "Kava"
+    },
+    "scientific_name": "Piper methysticum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Starr_070515-7054_Piper_methysticum.jpg/400px-Starr_070515-7054_Piper_methysticum.jpg",
+    "category": "calming",
+    "plant_family": "Piperaceae",
+    "origin_regions": [
+      "Pacific Islands",
+      "Oceania"
+    ],
+    "active_compounds": [
+      "kavalactones (kavain, dihydrokavain, methysticin, desmethoxyyangonin, yangonin, dihydromethysticin)"
+    ],
+    "traditional_systems": [
+      "Pacific Island Medicine",
+      "Polynesian Ceremonial Use"
+    ],
+    "benefits": {
+      "emotional": 4,
+      "physical": 2,
+      "mental": 3,
+      "social": 3,
+      "spiritual": 3
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Strong clinical evidence for anxiety reduction. A Cochrane meta-analysis confirmed kava's superiority over placebo for generalized anxiety. However, concerns about rare but serious hepatotoxicity have led to regulatory restrictions in some countries."
+    },
+    "key_studies": [
+      "Pittler & Ernst (2003) - Kava extract for treating anxiety (Cochrane Review)",
+      "Sarris et al. (2013) - Kava in the treatment of generalized anxiety disorder: a double-blind, randomized, placebo-controlled study"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Generalized anxiety relief",
+        "Stress-related tension reduction",
+        "Sleep onset improvement",
+        "Muscle relaxation",
+        "Social anxiety support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Traditional water extraction (ground root kneaded in water)",
+        "Standardized extract capsules (100–250mg kavalactones daily)",
+        "Kava bars serve freshly prepared drinks",
+        "Tincture (not recommended — alcohol extraction may increase liver risk)"
+      ]
+    },
+    "dosage": {
+      "en": "100–250mg kavalactones daily from water-based extracts. Use noble kava cultivars only"
+    },
+    "contraindications": {
+      "en": [
+        "Liver disease or impaired liver function (rare hepatotoxicity reported)",
+        "Alcohol (significantly increases liver risk and sedation)",
+        "Sedative, anti-anxiety, and antipsychotic medications",
+        "Parkinson's disease medications (may worsen symptoms)",
+        "Pregnancy and breastfeeding",
+        "Do not drive after use (may impair reaction time)",
+        "Avoid non-noble (tudei) kava cultivars"
+      ]
+    },
+    "fun_facts": [
+      "In Fiji, Tonga, and Samoa, kava ceremonies are central to social and political life — no important gathering begins without sharing a bowl of kava",
+      "Captain James Cook documented kava use during his Pacific voyages in the 1770s, noting that Pacific Islanders used it for relaxation and diplomacy"
+    ],
+    "tags": [
+      "anxiety",
+      "social",
+      "ceremonial",
+      "strong-effect",
+      "liver-caution",
+      "well-researched"
+    ],
+    "related_plants": [
+      "passionflower",
+      "valerian",
+      "ashwagandha"
+    ]
+  },
+  {
+    "id": "echinacea",
+    "emoji": "🌼",
+    "name": {
+      "en": "Echinacea"
+    },
+    "scientific_name": "Echinacea purpurea",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Echinacea_purpurea_002.JPG/400px-Echinacea_purpurea_002.JPG",
+    "category": "immune",
+    "plant_family": "Asteraceae",
+    "origin_regions": [
+      "North America"
+    ],
+    "active_compounds": [
+      "alkamides",
+      "chicoric acid",
+      "polysaccharides",
+      "glycoproteins"
+    ],
+    "traditional_systems": [
+      "Native American Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Multiple clinical trials support echinacea's ability to reduce cold duration and severity. Evidence is strongest for E. purpurea preparations. A 2014 Cochrane review found modest benefit for prevention and treatment of the common cold."
+    },
+    "key_studies": [
+      "Shah et al. (2007) - Evaluation of echinacea for the prevention and treatment of the common cold",
+      "Karsch-Völk et al. (2014) - Cochrane review: Echinacea for preventing and treating the common cold",
+      "Barrett et al. (2010) - Echinacea for treating the common cold: A randomized trial"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Cold and flu prevention and treatment",
+        "Immune system stimulation",
+        "Upper respiratory infection support",
+        "Wound healing (topical)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Tincture (2-3ml three times daily)",
+        "Tea from dried herb (1-2g steeped 10 minutes)",
+        "Standardized extract capsules",
+        "Fresh pressed juice of aerial parts"
+      ]
+    },
+    "dosage": {
+      "en": "300-500mg standardized extract 3x daily, or 2.5ml tincture 3x daily at onset of symptoms. Limit use to 8-10 weeks."
+    },
+    "contraindications": {
+      "en": [
+        "Autoimmune disorders (may overstimulate immune system)",
+        "Allergies to Asteraceae/daisy family plants",
+        "Progressive systemic diseases (tuberculosis, multiple sclerosis)",
+        "Should not be used continuously for more than 8 weeks"
+      ]
+    },
+    "fun_facts": [
+      "Native Americans used echinacea for more conditions than any other plant, including snakebites and toothaches",
+      "The name comes from the Greek word 'echinos' meaning hedgehog, referring to the spiny seed head",
+      "Echinacea was the most popular herbal remedy in the US until antibiotics arrived in the 1940s"
+    ],
+    "tags": [
+      "immune-boost",
+      "cold-prevention",
+      "native-american"
+    ],
+    "related_plants": [
+      "elderberry",
+      "astragalus"
+    ]
+  },
+  {
+    "id": "elderberry",
+    "emoji": "🫐",
+    "name": {
+      "en": "Elderberry"
+    },
+    "scientific_name": "Sambucus nigra",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sambucus_nigra_004.jpg/400px-Sambucus_nigra_004.jpg",
+    "category": "immune",
+    "plant_family": "Adoxaceae",
+    "origin_regions": [
+      "Europe",
+      "North America",
+      "Western Asia"
+    ],
+    "active_compounds": [
+      "anthocyanins",
+      "flavonoids",
+      "vitamin C",
+      "phenolic acids"
+    ],
+    "traditional_systems": [
+      "European Folk Medicine",
+      "Native American Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "A 2019 meta-analysis found elderberry supplementation substantially reduced upper respiratory symptoms. Multiple RCTs show it can reduce cold and flu duration by an average of 2 days. Antiviral properties demonstrated in vitro."
+    },
+    "key_studies": [
+      "Hawkins et al. (2019) - Black elderberry supplementation and respiratory outcomes: A meta-analysis",
+      "Tiralongo et al. (2016) - Elderberry supplementation reduces cold duration in air travellers",
+      "Zakay-Rones et al. (2004) - Randomized study of elderberry extract for influenza treatment"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Flu and cold symptom reduction",
+        "Immune system support",
+        "Antioxidant protection",
+        "Sinus infection relief"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Syrup (15ml daily for adults)",
+        "Lozenge or gummy supplements",
+        "Tea from dried berries (3-5g steeped 15 minutes)",
+        "Standardized extract capsules"
+      ]
+    },
+    "dosage": {
+      "en": "15ml elderberry syrup daily for prevention, or 15ml 4x daily at onset of illness for 3-5 days. Standardized extract: 300-600mg daily."
+    },
+    "contraindications": {
+      "en": [
+        "Raw or unripe berries, leaves, bark, and roots are toxic (contain cyanogenic glycosides)",
+        "May interact with immunosuppressant drugs",
+        "May increase diuretic effects",
+        "Autoimmune conditions (theoretical immune overstimulation)"
+      ]
+    },
+    "fun_facts": [
+      "In European folklore, the elder tree was believed to be inhabited by a spirit called the Elder Mother, and permission had to be asked before cutting the tree",
+      "Hippocrates called the elder tree his 'medicine chest' around 400 BCE",
+      "During the 1995 Panama flu epidemic, elderberry was used by the government to fight the outbreak"
+    ],
+    "tags": [
+      "immune-boost",
+      "antiviral",
+      "flu-remedy",
+      "antioxidant"
+    ],
+    "related_plants": [
+      "echinacea",
+      "astragalus",
+      "rosehip"
+    ]
+  },
+  {
+    "id": "astragalus",
+    "emoji": "🌿",
+    "name": {
+      "en": "Astragalus"
+    },
+    "scientific_name": "Astragalus membranaceus",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Astragalus_membranaceus_03.jpg/400px-Astragalus_membranaceus_03.jpg",
+    "category": "immune",
+    "plant_family": "Fabaceae",
+    "origin_regions": [
+      "China",
+      "Mongolia",
+      "Korea"
+    ],
+    "active_compounds": [
+      "astragalosides",
+      "polysaccharides",
+      "flavonoids",
+      "saponins"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Astragalus shows promising immunomodulatory effects in clinical studies. Research indicates it may increase white blood cell counts and enhance immune response. Studies on cycloastragenol suggest potential telomerase activation, though more large-scale human trials are needed."
+    },
+    "key_studies": [
+      "Block & Mead (2003) - Immune system effects of echinacea, ginseng, and astragalus: A review",
+      "Liu et al. (2017) - Astragalus polysaccharides and immune regulation: A meta-analysis",
+      "Brush et al. (2006) - The effect of Echinacea purpurea, Astragalus membranaceus and Glycyrrhiza glabra on CD69 expression"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Immune system strengthening",
+        "Fatigue and weakness relief",
+        "Adjunct support during chemotherapy",
+        "Cardiovascular support",
+        "Kidney protection"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Decoction of dried root (9-30g simmered 30+ minutes)",
+        "Tincture (2-4ml three times daily)",
+        "Powdered root capsules",
+        "Added to soups and broths (traditional method)"
+      ]
+    },
+    "dosage": {
+      "en": "500-1000mg standardized extract 2-3x daily, or 9-30g dried root as decoction. Best used as long-term tonic rather than acute treatment."
+    },
+    "contraindications": {
+      "en": [
+        "Autoimmune disorders (may stimulate immune activity)",
+        "Immunosuppressant medications (may counteract their effects)",
+        "Anticoagulant medications (may increase bleeding risk)",
+        "Avoid during acute infections (traditionally used as preventive, not acute treatment)"
+      ]
+    },
+    "fun_facts": [
+      "Astragalus is one of the 50 fundamental herbs in Traditional Chinese Medicine, used for over 2,000 years",
+      "Its Chinese name 'Huang Qi' means 'yellow leader' referring to the yellow color of the root and its status as a top-tier herb",
+      "Research on astragaloside IV has generated interest in anti-aging science due to its effects on telomeres"
+    ],
+    "tags": [
+      "immune-tonic",
+      "adaptogen",
+      "tcm",
+      "longevity"
+    ],
+    "related_plants": [
+      "echinacea",
+      "elderberry",
+      "reishi"
+    ]
+  },
+  {
+    "id": "garlic",
+    "emoji": "🧄",
+    "name": {
+      "en": "Garlic"
+    },
+    "scientific_name": "Allium sativum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Allium_sativum_003.JPG/400px-Allium_sativum_003.JPG",
+    "category": "immune",
+    "plant_family": "Amaryllidaceae",
+    "origin_regions": [
+      "Central Asia",
+      "Mediterranean"
+    ],
+    "active_compounds": [
+      "allicin",
+      "ajoene",
+      "diallyl disulfide",
+      "S-allyl cysteine"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Traditional Chinese Medicine",
+      "European Folk Medicine",
+      "Ancient Egyptian Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 5,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 5,
+    "science_summary": {
+      "en": "Garlic is among the most extensively studied medicinal plants. Strong evidence supports cardiovascular benefits including modest blood pressure and cholesterol reduction. Meta-analyses confirm antimicrobial and immune-stimulating properties. Epidemiological data links regular garlic consumption to reduced cancer risk."
+    },
+    "key_studies": [
+      "Ried et al. (2016) - Garlic lowers blood pressure: A meta-analysis of randomized controlled trials",
+      "Josling (2001) - Preventing the common cold with a garlic supplement: A double-blind, placebo-controlled survey",
+      "Nantz et al. (2012) - Supplementation with aged garlic extract improves NK cell function and reduces cold and flu severity"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Blood pressure reduction",
+        "Cholesterol lowering",
+        "Immune system enhancement",
+        "Antimicrobial and antifungal effects",
+        "Cardiovascular disease prevention"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Raw crushed cloves (let sit 10 min after crushing to form allicin)",
+        "Aged garlic extract capsules",
+        "Garlic oil capsules",
+        "Honey-fermented garlic"
+      ]
+    },
+    "dosage": {
+      "en": "2-5g fresh garlic (1-2 cloves) daily, or 600-1200mg aged garlic extract daily. Crush and wait 10 minutes before consuming or cooking to maximize allicin formation."
+    },
+    "contraindications": {
+      "en": [
+        "Blood-thinning medications (garlic enhances anticoagulant effects)",
+        "Discontinue 7-10 days before surgery due to bleeding risk",
+        "May reduce effectiveness of some HIV medications (saquinavir)",
+        "Can cause gastrointestinal upset in sensitive individuals"
+      ]
+    },
+    "fun_facts": [
+      "Ancient Egyptian builders of the pyramids were given garlic daily to maintain their health and stamina",
+      "During World War I and II, garlic was used as an antiseptic to prevent gangrene when antibiotics were scarce",
+      "Louis Pasteur first demonstrated garlic's antibacterial properties in 1858"
+    ],
+    "tags": [
+      "immune-boost",
+      "cardiovascular",
+      "antimicrobial",
+      "culinary-medicine"
+    ],
+    "related_plants": [
+      "echinacea",
+      "andrographis"
+    ]
+  },
+  {
+    "id": "andrographis",
+    "emoji": "🌱",
+    "name": {
+      "en": "Andrographis"
+    },
+    "scientific_name": "Andrographis paniculata",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Andrographis_paniculata_%28Kalmegh%29_in_Hyderabad%2C_AP_W_IMG_0497.jpg/400px-Andrographis_paniculata_%28Kalmegh%29_in_Hyderabad%2C_AP_W_IMG_0497.jpg",
+    "category": "immune",
+    "plant_family": "Acanthaceae",
+    "origin_regions": [
+      "India",
+      "Sri Lanka",
+      "Southeast Asia"
+    ],
+    "active_compounds": [
+      "andrographolide",
+      "neoandrographolide",
+      "14-deoxyandrographolide",
+      "flavonoids"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Traditional Chinese Medicine",
+      "Thai Traditional Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Multiple clinical trials demonstrate andrographis effectively reduces symptoms of upper respiratory infections and may shorten illness duration. A 2017 Cochrane-style review found it superior to placebo for acute respiratory infections. Andrographolide shows anti-inflammatory effects comparable to some NSAIDs in lab studies."
+    },
+    "key_studies": [
+      "Hu et al. (2017) - Andrographis paniculata for upper respiratory tract infections: Systematic review and meta-analysis",
+      "Saxena et al. (2010) - Efficacy of an extract of Andrographis paniculata in pharyngotonsillitis",
+      "Coon & Ernst (2004) - Andrographis paniculata in the treatment of upper respiratory tract infections: A systematic review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Upper respiratory tract infections",
+        "Sore throat and pharyngitis",
+        "Fever reduction",
+        "Immune modulation",
+        "Anti-inflammatory support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized extract tablets (most studied form)",
+        "Tincture from fresh or dried herb",
+        "Traditional decoction of dried leaves",
+        "Powdered herb in capsules"
+      ]
+    },
+    "dosage": {
+      "en": "400mg standardized extract (containing 40-60mg andrographolides) 3x daily at first sign of cold, for up to 10 days."
+    },
+    "contraindications": {
+      "en": [
+        "Pregnancy (may have anti-fertility effects)",
+        "Anticoagulant and antiplatelet medications (may increase bleeding risk)",
+        "Blood pressure medications (may have additive hypotensive effect)",
+        "Autoimmune conditions (immune-stimulating effect)"
+      ]
+    },
+    "fun_facts": [
+      "Andrographis is called 'King of Bitters' due to its extremely bitter taste across all parts of the plant",
+      "In Scandinavian countries, andrographis-based cold remedies (Kan Jang) have been popular since the 1990s",
+      "During the 1919 influenza pandemic in India, andrographis was widely credited with stopping the flu's spread, though this claim remains debated"
+    ],
+    "tags": [
+      "immune-boost",
+      "anti-inflammatory",
+      "bitter-herb",
+      "cold-remedy"
+    ],
+    "related_plants": [
+      "echinacea",
+      "garlic",
+      "astragalus"
+    ]
+  },
+  {
+    "id": "reishi",
+    "emoji": "🍄",
+    "name": {
+      "en": "Reishi Mushroom"
+    },
+    "scientific_name": "Ganoderma lucidum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ganoderma_lucidum_01.jpg/400px-Ganoderma_lucidum_01.jpg",
+    "category": "immune",
+    "plant_family": "Ganodermataceae",
+    "origin_regions": [
+      "China",
+      "Japan",
+      "Korea",
+      "Southeast Asia"
+    ],
+    "active_compounds": [
+      "beta-glucans",
+      "triterpenes (ganoderic acids)",
+      "polysaccharides",
+      "peptidoglycans"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine",
+      "Japanese Kampo Medicine"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 3,
+      "mental": 2,
+      "social": 0,
+      "spiritual": 3
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Beta-glucans in reishi demonstrate clear immunomodulatory effects, enhancing natural killer cell activity and macrophage function in multiple studies. Some evidence supports use as adjunct cancer therapy. However, many studies are small or lack rigorous design, and more large-scale RCTs are needed."
+    },
+    "key_studies": [
+      "Jin et al. (2012) - Ganoderma lucidum (Reishi mushroom) for cancer treatment: Cochrane review",
+      "Wachtel-Galor et al. (2011) - Ganoderma lucidum: A potent pharmacological macrofungus",
+      "Batra et al. (2013) - Anti-cancer potential of Ganoderma lucidum: A review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Immune system modulation",
+        "Sleep quality improvement",
+        "Stress and anxiety reduction",
+        "Adjunct support in cancer therapy",
+        "Liver protection and support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Hot water extraction (decoction simmered 2+ hours)",
+        "Dual extraction tincture (water and alcohol)",
+        "Powdered fruiting body capsules",
+        "Reishi coffee or tea blends"
+      ]
+    },
+    "dosage": {
+      "en": "1.5-9g dried mushroom daily as decoction, or 1-1.5g standardized extract daily. For sleep: take in the evening. Best results with long-term use."
+    },
+    "contraindications": {
+      "en": [
+        "Blood-thinning medications (may increase bleeding risk)",
+        "Immunosuppressant drugs (may counteract their effects)",
+        "Low blood pressure (may have additive hypotensive effect)",
+        "Discontinue 2 weeks before surgery"
+      ]
+    },
+    "fun_facts": [
+      "Reishi was so rare in ancient China that it was reserved exclusively for royalty and called 'the mushroom of immortality'",
+      "In the Chinese classic 'Shen Nong Ben Cao Jing' (circa 200 CE), reishi was classified as a superior herb that could be taken indefinitely without side effects",
+      "A single reishi can release up to 5 billion spores, and the spores themselves are now used medicinally after cracking their tough shell"
+    ],
+    "tags": [
+      "immune-modulator",
+      "adaptogen",
+      "tcm",
+      "spiritual",
+      "longevity"
+    ],
+    "related_plants": [
+      "astragalus",
+      "echinacea"
+    ]
+  },
+  {
+    "id": "white-willow",
+    "emoji": "🌳",
+    "name": {
+      "en": "White Willow"
+    },
+    "scientific_name": "Salix alba",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Salix_alba_Morton.jpg/400px-Salix_alba_Morton.jpg",
+    "category": "pain-relief",
+    "plant_family": "Salicaceae",
+    "origin_regions": [
+      "Europe",
+      "Central Asia",
+      "North Africa"
+    ],
+    "active_compounds": [
+      "salicin",
+      "salicortin",
+      "tremulacin",
+      "flavonoids",
+      "tannins"
+    ],
+    "traditional_systems": [
+      "Ancient Greek Medicine",
+      "European Folk Medicine",
+      "Native American Medicine",
+      "Ancient Egyptian Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "White willow bark is the botanical precursor to aspirin. Clinical trials confirm its effectiveness for lower back pain, with one large RCT showing 240mg salicin daily was as effective as a COX-2 inhibitor. Evidence also supports use for osteoarthritis. Slower onset but longer duration and fewer GI side effects than aspirin."
+    },
+    "key_studies": [
+      "Chrubasik et al. (2000) - Treatment of low back pain with willow bark extract: A randomized double-blind study",
+      "Schmid et al. (2001) - Efficacy and tolerability of a standardized willow bark extract for osteoarthritis and low back pain",
+      "Vlachojannis et al. (2009) - A systematic review on the effectiveness of willow bark for musculoskeletal pain"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Lower back pain",
+        "Osteoarthritis pain",
+        "Headache and migraine relief",
+        "Fever reduction",
+        "Anti-inflammatory support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Standardized bark extract capsules (most studied)",
+        "Decoction of dried bark (1-3g simmered 10-15 minutes)",
+        "Tincture (1-3ml three times daily)",
+        "Powdered bark capsules"
+      ]
+    },
+    "dosage": {
+      "en": "Standardized extract providing 120-240mg salicin daily, divided into 2-3 doses. As decoction: 1-3g dried bark up to 3x daily."
+    },
+    "contraindications": {
+      "en": [
+        "Aspirin or salicylate allergy",
+        "Children under 16 (risk of Reye's syndrome, same as aspirin)",
+        "Anticoagulant medications (additive blood-thinning effect)",
+        "Kidney disorders (may affect renal function)",
+        "Pregnancy (especially third trimester)"
+      ]
+    },
+    "fun_facts": [
+      "Hippocrates prescribed chewing willow bark for pain relief around 400 BCE, making it one of the oldest recorded medicines",
+      "In 1897, Bayer chemist Felix Hoffmann synthesized acetylsalicylic acid (aspirin) from salicin in willow bark to help his father's arthritis",
+      "The word 'salicylate' derives from 'Salix,' the Latin name for willow trees"
+    ],
+    "tags": [
+      "pain-relief",
+      "anti-inflammatory",
+      "headache",
+      "aspirin-precursor"
+    ],
+    "related_plants": [
+      "capsaicin-cayenne",
+      "clove"
+    ]
+  },
+  {
+    "id": "capsaicin-cayenne",
+    "emoji": "🌶️",
+    "name": {
+      "en": "Capsaicin (Cayenne)"
+    },
+    "scientific_name": "Capsicum annuum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Capsicum_annuum_fruit_close-up.jpg/400px-Capsicum_annuum_fruit_close-up.jpg",
+    "category": "pain-relief",
+    "plant_family": "Solanaceae",
+    "origin_regions": [
+      "Central America",
+      "South America"
+    ],
+    "active_compounds": [
+      "capsaicin",
+      "dihydrocapsaicin",
+      "capsaicinoids",
+      "carotenoids",
+      "vitamin C"
+    ],
+    "traditional_systems": [
+      "Traditional Mesoamerican Medicine",
+      "Ayurveda",
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 5,
+    "science_summary": {
+      "en": "Capsaicin is an FDA-approved topical analgesic with extensive clinical evidence. It works by depleting substance P from nerve endings. High-concentration (8%) patches (Qutenza) are approved for neuropathic pain. Multiple meta-analyses confirm efficacy for osteoarthritis, neuropathic pain, and post-surgical pain."
+    },
+    "key_studies": [
+      "Derry et al. (2017) - Cochrane review: Topical capsaicin for chronic neuropathic pain in adults",
+      "Mason et al. (2004) - Systematic review of topical capsaicin for treatment of chronic pain",
+      "Laslett & Jones (2014) - Capsaicin for osteoarthritis pain: A meta-analysis of randomized trials"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Neuropathic pain (topical)",
+        "Osteoarthritis pain (topical)",
+        "Post-herpetic neuralgia (shingles pain)",
+        "Muscle and joint pain",
+        "Headache relief (intranasal for cluster headaches)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Topical cream (0.025-0.075% capsaicin)",
+        "High-dose patch (8% - clinical setting only)",
+        "Cayenne-infused oil for massage",
+        "Cayenne tea for circulatory support (pinch in warm water)"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Apply 0.025-0.075% cream to affected area 3-4 times daily. Allow 1-2 weeks for full pain-relieving effect. Wash hands thoroughly after application."
+    },
+    "contraindications": {
+      "en": [
+        "Broken or irritated skin (do not apply topically)",
+        "Eyes and mucous membranes (causes intense burning)",
+        "Children under 2 years",
+        "Allergy to peppers or Solanaceae family plants",
+        "May interact with blood-thinning medications if taken internally in large amounts"
+      ]
+    },
+    "fun_facts": [
+      "Capsaicin initially causes a burning sensation, then desensitizes pain receptors, which is exactly how it relieves chronic pain",
+      "The Scoville scale for measuring pepper heat was created in 1912 and is based on how many dilutions it takes before capsaicin is undetectable to human taste",
+      "Birds cannot feel capsaicin's burn, which is why peppers evolved the compound to deter mammals while letting birds spread their seeds"
+    ],
+    "tags": [
+      "pain-relief",
+      "topical",
+      "neuropathic-pain",
+      "circulation"
+    ],
+    "related_plants": [
+      "white-willow",
+      "arnica",
+      "clove"
+    ]
+  },
+  {
+    "id": "clove",
+    "emoji": "🫚",
+    "name": {
+      "en": "Clove"
+    },
+    "scientific_name": "Syzygium aromaticum",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Syzygium_aromaticum_on_tree.jpg/400px-Syzygium_aromaticum_on_tree.jpg",
+    "category": "pain-relief",
+    "plant_family": "Myrtaceae",
+    "origin_regions": [
+      "Maluku Islands (Indonesia)",
+      "Madagascar",
+      "Zanzibar"
+    ],
+    "active_compounds": [
+      "eugenol",
+      "eugenyl acetate",
+      "beta-caryophyllene",
+      "gallic acid"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine",
+      "Ayurveda",
+      "Unani Medicine",
+      "European Folk Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Eugenol, the primary compound in clove oil, is a well-established dental analgesic recognized by the American Dental Association. It demonstrates local anesthetic, anti-inflammatory, and antimicrobial properties. Clinical studies support its use for toothache and dental procedures, with evidence also for antioxidant and antimicrobial applications."
+    },
+    "key_studies": [
+      "Alqareer et al. (2006) - The effect of clove and benzocaine versus placebo as topical anesthetics",
+      "Chaieb et al. (2007) - The chemical composition and biological activity of clove essential oil",
+      "Cortés-Rojas et al. (2014) - Clove: Properties, medicinal uses, and pharmacological review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Toothache and dental pain relief",
+        "Oral antiseptic and gum health",
+        "Digestive aid for bloating and nausea",
+        "Antimicrobial and antifungal applications",
+        "Sore throat relief"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Clove oil applied directly to tooth (1-2 drops on cotton)",
+        "Whole cloves chewed for oral pain",
+        "Tea from crushed cloves (3-4 cloves steeped 10 minutes)",
+        "Clove-infused mouthwash or gargle"
+      ]
+    },
+    "dosage": {
+      "en": "Topical dental: 1-2 drops clove oil on cotton ball applied to affected tooth as needed. Tea: 1-3g crushed cloves in hot water, 2-3x daily. Do not exceed 2.5mg/kg body weight of eugenol."
+    },
+    "contraindications": {
+      "en": [
+        "Undiluted clove oil can damage gums and oral mucosa with prolonged use",
+        "Blood-thinning medications (eugenol may slow blood clotting)",
+        "Liver disease (high doses of eugenol can be hepatotoxic)",
+        "Children under 2 years (avoid essential oil)",
+        "Surgery within 2 weeks (discontinue due to bleeding risk)"
+      ]
+    },
+    "fun_facts": [
+      "In 200 BCE, Chinese courtiers were required to hold cloves in their mouths when addressing the emperor to ensure sweet breath",
+      "Cloves were once worth more than their weight in gold and fueled the spice trade wars between European colonial powers",
+      "A single clove tree can live for over 100 years and produce up to 34 kg of clove buds annually"
+    ],
+    "tags": [
+      "pain-relief",
+      "dental",
+      "antimicrobial",
+      "digestive"
+    ],
+    "related_plants": [
+      "white-willow",
+      "capsaicin-cayenne"
+    ]
+  },
+  {
+    "id": "arnica",
+    "emoji": "🌻",
+    "name": {
+      "en": "Arnica"
+    },
+    "scientific_name": "Arnica montana",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Arnica_montana_%28flower_head%29.jpg/400px-Arnica_montana_%28flower_head%29.jpg",
+    "category": "pain-relief",
+    "plant_family": "Asteraceae",
+    "origin_regions": [
+      "Central Europe",
+      "Siberia",
+      "North America"
+    ],
+    "active_compounds": [
+      "helenalin",
+      "sesquiterpene lactones",
+      "flavonoids",
+      "thymol derivatives",
+      "arnifolin"
+    ],
+    "traditional_systems": [
+      "European Folk Medicine",
+      "Homeopathy"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Topical arnica preparations show moderate evidence for reducing bruising, swelling, and pain after surgery and trauma. A 2016 systematic review found it effective for post-operative pain and bruising. However, evidence is mixed, with some studies finding no significant difference from placebo. Homeopathic dilutions lack convincing evidence."
+    },
+    "key_studies": [
+      "Iannitti et al. (2016) - Effectiveness and safety of Arnica montana in post-surgical settings: A systematic review",
+      "Brinkhaus et al. (2006) - Arnica montana for knee osteoarthritis: Results from a pilot study",
+      "Widrig et al. (2007) - Choosing between NSAID and arnica for topical treatment of hand osteoarthritis: A randomized, double-blind study"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Bruise and swelling reduction (topical)",
+        "Post-surgical pain and inflammation",
+        "Muscle soreness from exercise",
+        "Osteoarthritis pain (topical gel)",
+        "Sprains and minor injuries"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Topical gel or cream (applied 2-3 times daily)",
+        "Arnica-infused oil for massage",
+        "Compress soaked in diluted arnica tincture",
+        "Homeopathic pellets (widely used but evidence is lacking)"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Apply arnica gel or cream (containing 10-25% arnica tincture or equivalent) to affected area 2-3 times daily. External use only; do not apply to broken skin."
+    },
+    "contraindications": {
+      "en": [
+        "Never take internally (helenalin is toxic when ingested)",
+        "Do not apply to broken or damaged skin",
+        "Allergy to Asteraceae/daisy family",
+        "Pregnancy and breastfeeding (topical use also debated)",
+        "Do not use on deep wounds or infected areas"
+      ]
+    },
+    "fun_facts": [
+      "Arnica has been called 'mountain tobacco' because Swiss mountain guides historically smoked its leaves to prevent altitude sickness",
+      "Goethe reportedly drank arnica tea in his old age to relieve chest pain, though internal use is now considered unsafe",
+      "Arnica montana is a protected species in many European countries due to overharvesting from wild populations"
+    ],
+    "tags": [
+      "pain-relief",
+      "topical",
+      "bruises",
+      "sports-recovery",
+      "anti-inflammatory"
+    ],
+    "related_plants": [
+      "capsaicin-cayenne",
+      "white-willow",
+      "calendula"
+    ]
+  },
+  {
+    "id": "kratom",
+    "emoji": "🍃",
+    "name": {
+      "en": "Kratom"
+    },
+    "scientific_name": "Mitragyna speciosa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mitragyna_speciosa111.jpg/400px-Mitragyna_speciosa111.jpg",
+    "category": "pain-relief",
+    "plant_family": "Rubiaceae",
+    "origin_regions": [
+      "Thailand",
+      "Malaysia",
+      "Indonesia",
+      "Myanmar",
+      "Papua New Guinea"
+    ],
+    "active_compounds": [
+      "mitragynine",
+      "7-hydroxymitragynine",
+      "speciogynine",
+      "paynantheine"
+    ],
+    "traditional_systems": [
+      "Southeast Asian Folk Medicine"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 4,
+      "mental": 2,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 2,
+    "science_summary": {
+      "en": "Kratom acts on opioid receptors and has dose-dependent effects: stimulating at low doses, sedating and analgesic at high doses. While traditional use spans centuries, rigorous clinical trials are very limited. Case reports and surveys suggest pain-relieving potential, but significant safety concerns exist including dependence, withdrawal, and rare fatalities when combined with other substances."
+    },
+    "key_studies": [
+      "Kruegel & Bhatt (2020) - The pharmacology of kratom: A review",
+      "Swogger et al. (2015) - Experiences of kratom users: A qualitative analysis",
+      "Singh et al. (2016) - Traditional and non-traditional uses of Mitragyna speciosa: A survey"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Chronic pain management (traditional use)",
+        "Opioid withdrawal symptom relief (self-reported)",
+        "Mood elevation and energy (low doses)",
+        "Anxiety relief (moderate doses)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Dried leaf powder (mixed into water or juice)",
+        "Traditional leaf chewing (fresh leaves)",
+        "Kratom tea (steeped 15-20 minutes)",
+        "Capsules of powdered leaf"
+      ]
+    },
+    "dosage": {
+      "en": "Traditional use: 1-5g dried leaf for stimulant effect, 5-15g for pain relief. WARNING: Kratom has significant abuse potential and regulatory status varies. Consult a healthcare provider before use."
+    },
+    "contraindications": {
+      "en": [
+        "High potential for dependence and withdrawal symptoms",
+        "Do not combine with opioids, benzodiazepines, or alcohol (risk of fatal respiratory depression)",
+        "Liver toxicity reported in rare cases",
+        "Not recommended during pregnancy or breastfeeding",
+        "Legal status varies by country and US state; may be banned in your jurisdiction",
+        "Mental health disorders (may worsen anxiety or depression with chronic use)"
+      ]
+    },
+    "fun_facts": [
+      "Thai workers have chewed kratom leaves for centuries to combat fatigue during long workdays, similar to how South Americans chew coca leaves",
+      "Kratom is in the same plant family (Rubiaceae) as coffee, which helps explain its stimulant effects at low doses",
+      "Despite growing interest, kratom remains one of the most controversial herbal products, with the FDA and DEA debating its regulation since 2016"
+    ],
+    "tags": [
+      "pain-relief",
+      "controversial",
+      "opioid-receptor",
+      "stimulant"
+    ],
+    "related_plants": [
+      "white-willow",
+      "corydalis"
+    ]
+  },
+  {
+    "id": "corydalis",
+    "emoji": "💜",
+    "name": {
+      "en": "Corydalis"
+    },
+    "scientific_name": "Corydalis yanhusuo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Corydalis_yanhusuo_W.T.Wang_ex_Z.Y.Su_%26_C.Y.Wu.jpg/400px-Corydalis_yanhusuo_W.T.Wang_ex_Z.Y.Su_%26_C.Y.Wu.jpg",
+    "category": "pain-relief",
+    "plant_family": "Papaveraceae",
+    "origin_regions": [
+      "China",
+      "Japan",
+      "Siberia"
+    ],
+    "active_compounds": [
+      "dehydrocorybulbine (DHCB)",
+      "tetrahydropalmatine (THP)",
+      "protopine",
+      "corydaline",
+      "berberine"
+    ],
+    "traditional_systems": [
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 2,
+      "physical": 4,
+      "mental": 1,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 2,
+    "science_summary": {
+      "en": "TCM has used corydalis for pain for over 1,000 years. Animal studies confirm that dehydrocorybulbine (DHCB) has analgesic effects through dopamine receptor antagonism. Tetrahydropalmatine shows sedative and analgesic properties. However, human clinical trials are very limited, and most evidence comes from preclinical research and traditional use."
+    },
+    "key_studies": [
+      "Zhang et al. (2014) - Identification of DHCB as a dopamine receptor antagonist with analgesic properties (UC Irvine)",
+      "Wang et al. (2016) - Analgesic and anti-inflammatory effects of tetrahydropalmatine",
+      "Xiao et al. (2011) - Pharmacological studies on Corydalis yanhusuo alkaloids"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Chronic pain management",
+        "Menstrual pain relief",
+        "Abdominal pain and cramping",
+        "Headache relief",
+        "Mild sedation and sleep support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Powdered tuber capsules",
+        "Traditional decoction (5-10g dried tuber)",
+        "Tincture from dried tuber",
+        "Often combined with other TCM herbs in formulas"
+      ]
+    },
+    "dosage": {
+      "en": "5-10g dried tuber as decoction, or 1-2g powdered tuber in capsules, 2-3x daily. Traditionally processed with vinegar to enhance alkaloid extraction and bioavailability."
+    },
+    "contraindications": {
+      "en": [
+        "Pregnancy (may stimulate uterine contractions)",
+        "Sedative medications (may enhance drowsiness)",
+        "MAO inhibitor medications (potential interaction with alkaloids)",
+        "Long-term high-dose use may cause tolerance",
+        "Not recommended for children"
+      ]
+    },
+    "fun_facts": [
+      "Corydalis is a member of the poppy family and produces similar alkaloids, but is considered much safer and non-addictive compared to opium poppies",
+      "In 2014, UC Irvine researchers discovered that DHCB from corydalis blocks pain through an entirely different mechanism than opioids, exciting researchers looking for non-addictive painkillers",
+      "In Chinese medicine, corydalis is called 'Yan Hu Suo' and is one of the most commonly prescribed herbs for all types of pain"
+    ],
+    "tags": [
+      "pain-relief",
+      "tcm",
+      "menstrual-pain",
+      "non-opioid-analgesic"
+    ],
+    "related_plants": [
+      "white-willow",
+      "kratom"
+    ]
+  },
+  {
+    "id": "tea-tree",
+    "emoji": "🌿",
+    "name": {
+      "en": "Tea Tree"
+    },
+    "scientific_name": "Melaleuca alternifolia",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Melaleuca_alternifolia_%28Maiden_%26_Betche%29_Cheel_%283%29.jpg/400px-Melaleuca_alternifolia_%28Maiden_%26_Betche%29_Cheel_%283%29.jpg",
+    "category": "skin",
+    "plant_family": "Myrtaceae",
+    "origin_regions": [
+      "Australia"
+    ],
+    "active_compounds": [
+      "terpinen-4-ol",
+      "gamma-terpinene",
+      "alpha-terpineol",
+      "1,8-cineole"
+    ],
+    "traditional_systems": [
+      "Aboriginal Australian Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 4,
+    "science_summary": {
+      "en": "Tea tree oil has strong evidence for antimicrobial, antifungal, and anti-inflammatory properties. Clinical trials demonstrate effectiveness for mild-to-moderate acne comparable to benzoyl peroxide, athlete's foot, and nail fungus. A 2015 systematic review confirmed broad-spectrum antimicrobial activity against bacteria, fungi, and viruses."
+    },
+    "key_studies": [
+      "Bassett et al. (1990) - A comparative study of tea-tree oil versus benzoyl peroxide for acne",
+      "Satchell et al. (2002) - Treatment of interdigital tinea pedis with 25% and 50% tea tree oil solution",
+      "Carson et al. (2006) - Melaleuca alternifolia (tea tree) oil: A review of antimicrobial and other medicinal properties"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Acne treatment",
+        "Fungal infection treatment (athlete's foot, nail fungus)",
+        "Wound disinfection",
+        "Dandruff and scalp conditions",
+        "Insect bite relief"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Diluted essential oil (5% for acne, 25-50% for fungal)",
+        "Tea tree oil-based creams and washes",
+        "Shampoo with 5% tea tree oil for dandruff",
+        "Steam inhalation for respiratory congestion (2-3 drops in hot water)"
+      ]
+    },
+    "dosage": {
+      "en": "Topical only. For acne: 5% tea tree oil gel. For fungal infections: 25-50% tea tree oil solution. Always dilute before application; never ingest. Patch test first for sensitivity."
+    },
+    "contraindications": {
+      "en": [
+        "Toxic if ingested (can cause confusion, ataxia, and coma)",
+        "Can cause contact dermatitis in sensitive individuals",
+        "Not safe for cats and dogs (toxic to pets)",
+        "May cause hormonal effects — prepubertal gynecomastia reported in boys with regular topical use",
+        "Oxidized tea tree oil is more likely to cause skin reactions; store away from heat and light"
+      ]
+    },
+    "fun_facts": [
+      "Australian Aboriginal Bundjalung people have used crushed tea tree leaves for wounds and infections for thousands of years",
+      "Captain Cook's crew brewed the leaves as tea in the 1770s, which is how the tree got its English name despite being unrelated to the tea plant",
+      "During World War II, tea tree oil was included in Australian soldiers' first aid kits as a standard antiseptic"
+    ],
+    "tags": [
+      "skin-care",
+      "antimicrobial",
+      "antifungal",
+      "acne",
+      "topical"
+    ],
+    "related_plants": [
+      "neem",
+      "calendula",
+      "witch-hazel"
+    ]
+  },
+  {
+    "id": "calendula",
+    "emoji": "🌼",
+    "name": {
+      "en": "Calendula"
+    },
+    "scientific_name": "Calendula officinalis",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Calendula_officinalis_10.jpg/400px-Calendula_officinalis_10.jpg",
+    "category": "skin",
+    "plant_family": "Asteraceae",
+    "origin_regions": [
+      "Mediterranean",
+      "Southern Europe"
+    ],
+    "active_compounds": [
+      "triterpenoids (faradiol)",
+      "flavonoids",
+      "carotenoids",
+      "essential oils",
+      "polysaccharides"
+    ],
+    "traditional_systems": [
+      "European Folk Medicine",
+      "Ayurveda",
+      "Unani Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 1
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Clinical evidence supports calendula for wound healing, mild burns, and skin inflammation. A landmark 2004 RCT showed calendula cream significantly reduced radiation dermatitis in breast cancer patients. In vitro studies confirm anti-inflammatory and antimicrobial properties. More large-scale trials are needed for dermatological conditions."
+    },
+    "key_studies": [
+      "Pommier et al. (2004) - Phase III RCT of calendula versus trolamine for radiation dermatitis prevention during breast cancer treatment",
+      "Preethi et al. (2009) - Anti-inflammatory activity of flower extract of Calendula officinalis",
+      "Leach (2008) - Calendula officinalis and wound healing: A systematic review"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Wound and minor burn healing",
+        "Radiation dermatitis prevention",
+        "Diaper rash and skin irritation",
+        "Eczema and dry skin conditions",
+        "Oral health (mouth rinse for gingivitis)"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Calendula cream or ointment (topical)",
+        "Infused oil (dried flowers in carrier oil for 4-6 weeks)",
+        "Tea from dried petals (1-2 teaspoons per cup)",
+        "Tincture for internal or external use",
+        "Compress soaked in calendula tea"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Apply calendula cream or ointment 2-3 times daily. Tea: 1-2g dried flowers in hot water, 2-3 cups daily. Tincture: 1-2ml three times daily."
+    },
+    "contraindications": {
+      "en": [
+        "Allergy to Asteraceae/daisy family plants",
+        "Pregnancy (may have emmenagogue effects when taken internally)",
+        "May enhance the effect of sedative medications",
+        "Avoid applying to deep or severely infected wounds without medical guidance"
+      ]
+    },
+    "fun_facts": [
+      "Calendula was called 'poor man's saffron' in medieval times because its petals were used to color and flavor food as a cheap saffron substitute",
+      "During the American Civil War and World War I, calendula petals were used on battlefields to treat wounds and prevent infection",
+      "The name 'calendula' comes from the Latin 'kalendae' meaning 'first day of the month' because it was observed blooming on the first of nearly every month in the Mediterranean climate"
+    ],
+    "tags": [
+      "skin-healing",
+      "wound-care",
+      "anti-inflammatory",
+      "gentle",
+      "radiation-dermatitis"
+    ],
+    "related_plants": [
+      "arnica",
+      "tea-tree",
+      "rosehip"
+    ]
+  },
+  {
+    "id": "rosehip",
+    "emoji": "🌹",
+    "name": {
+      "en": "Rosehip"
+    },
+    "scientific_name": "Rosa canina",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Rosa_canina_fruit.jpg/400px-Rosa_canina_fruit.jpg",
+    "category": "skin",
+    "plant_family": "Rosaceae",
+    "origin_regions": [
+      "Europe",
+      "Northwest Africa",
+      "Western Asia"
+    ],
+    "active_compounds": [
+      "vitamin C",
+      "galactolipids (GOPO)",
+      "carotenoids (lycopene, beta-carotene)",
+      "essential fatty acids",
+      "polyphenols"
+    ],
+    "traditional_systems": [
+      "European Folk Medicine",
+      "Traditional Chinese Medicine"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 3,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Rosehip powder has shown consistent anti-inflammatory effects in osteoarthritis trials, with a 2008 meta-analysis confirming pain reduction. Rosehip oil demonstrates skin regeneration properties in clinical studies, improving scars, stretch marks, and photo-aging. The galactolipid GOPO is considered the primary anti-inflammatory compound."
+    },
+    "key_studies": [
+      "Christensen et al. (2008) - Meta-analysis of rosehip for osteoarthritis pain reduction",
+      "Phetcharat et al. (2015) - The effectiveness of a standardized rosehip powder on cell longevity, skin wrinkles, and moisture",
+      "Winther et al. (2005) - A randomized double-blind study of rosehip in hip and knee osteoarthritis"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Skin anti-aging and wrinkle reduction (oil)",
+        "Scar and stretch mark improvement",
+        "Osteoarthritis pain reduction (powder)",
+        "Vitamin C supplementation",
+        "Skin hydration and regeneration"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Cold-pressed rosehip seed oil (topical, 2-3 drops)",
+        "Rosehip powder capsules (for joint pain)",
+        "Tea from dried rosehips (crushed, steeped 10-15 minutes)",
+        "Rosehip jam or syrup (traditional preparation)"
+      ]
+    },
+    "dosage": {
+      "en": "Topical oil: Apply 2-3 drops to face morning and night. Powder for joints: 5g (approx. 1 teaspoon) daily. Tea: 2-3g dried rosehips per cup, 2-3 times daily."
+    },
+    "contraindications": {
+      "en": [
+        "High vitamin C content may worsen kidney stone formation in susceptible individuals",
+        "May interact with blood-thinning medications (vitamin K content)",
+        "May increase iron absorption (caution with hemochromatosis)",
+        "Rosehip seed hairs can irritate the digestive tract if not properly processed"
+      ]
+    },
+    "fun_facts": [
+      "During World War II, the British government organized mass collection of wild rosehips to make vitamin C syrup for children because citrus imports were blocked",
+      "Rosehips contain 20 times more vitamin C than oranges by weight, though much is lost in drying and processing",
+      "The tiny hairs inside rosehips have been used as itching powder by children for centuries, a prank that dates back to medieval Europe"
+    ],
+    "tags": [
+      "skin-care",
+      "anti-aging",
+      "vitamin-c",
+      "joint-health",
+      "oil"
+    ],
+    "related_plants": [
+      "elderberry",
+      "calendula",
+      "sea-buckthorn"
+    ]
+  },
+  {
+    "id": "witch-hazel",
+    "emoji": "🍂",
+    "name": {
+      "en": "Witch Hazel"
+    },
+    "scientific_name": "Hamamelis virginiana",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Hamamelis_virginiana_002.jpg/400px-Hamamelis_virginiana_002.jpg",
+    "category": "skin",
+    "plant_family": "Hamamelidaceae",
+    "origin_regions": [
+      "Eastern North America"
+    ],
+    "active_compounds": [
+      "hamamelitannin",
+      "catechins",
+      "gallic acid",
+      "proanthocyanidins",
+      "essential oils"
+    ],
+    "traditional_systems": [
+      "Native American Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 3,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Witch hazel's astringent and anti-inflammatory properties are well-documented. Clinical studies support its use for hemorrhoids, skin inflammation, and eczema (atopic dermatitis). A formulation containing witch hazel was shown comparable to hydrocortisone 0.5% for atopic eczema. FDA-approved as an over-the-counter skin protectant."
+    },
+    "key_studies": [
+      "Wolff & Kieser (2007) - Hamamelis in children with skin disorders: A systematic review",
+      "Korting et al. (1995) - Comparative efficacy of hamamelis distillate and hydrocortisone cream in atopic eczema",
+      "MacKay (2001) - Hemorrhoids and varicose veins: A review of treatment options with emphasis on botanicals"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Hemorrhoid symptom relief",
+        "Skin astringent and toner",
+        "Eczema and dermatitis soothing",
+        "Minor wound and insect bite care",
+        "Post-shave skin irritation relief"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Commercial distillate (applied with cotton pad)",
+        "Bark decoction (5-10g simmered 15 minutes) as compress",
+        "Witch hazel cream or ointment",
+        "Suppositories for hemorrhoid relief"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Apply witch hazel distillate or extract to affected area 2-4 times daily with cotton pad. For hemorrhoids: apply pads soaked in witch hazel or use commercial preparations. External use only."
+    },
+    "contraindications": {
+      "en": [
+        "Commercial witch hazel with high alcohol content may dry sensitive skin",
+        "Internal use of large amounts may cause nausea and liver damage due to tannin content",
+        "May cause contact dermatitis in rare cases",
+        "Not recommended for deep wounds or severe burns"
+      ]
+    },
+    "fun_facts": [
+      "The name 'witch' has nothing to do with witchcraft — it comes from the Old English 'wych' meaning flexible or bendable, referring to the branches",
+      "Witch hazel is one of the few plants that blooms in late autumn and winter, with flowers appearing after the leaves fall",
+      "Native Americans introduced witch hazel to Puritan settlers, who adopted it as one of the earliest American herbal remedies"
+    ],
+    "tags": [
+      "skin-care",
+      "astringent",
+      "hemorrhoids",
+      "native-american",
+      "toner"
+    ],
+    "related_plants": [
+      "tea-tree",
+      "calendula"
+    ]
+  },
+  {
+    "id": "neem",
+    "emoji": "🌿",
+    "name": {
+      "en": "Neem"
+    },
+    "scientific_name": "Azadirachta indica",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Azadirachta_indica_-_Neem_Tree_-_Krishnagar%2C_West_Bengal%2C_India_-_20120910164314.jpg/400px-Azadirachta_indica_-_Neem_Tree_-_Krishnagar%2C_West_Bengal%2C_India_-_20120910164314.jpg",
+    "category": "skin",
+    "plant_family": "Meliaceae",
+    "origin_regions": [
+      "Indian subcontinent",
+      "Southeast Asia",
+      "Sub-Saharan Africa"
+    ],
+    "active_compounds": [
+      "azadirachtin",
+      "nimbin",
+      "nimbidin",
+      "gedunin",
+      "quercetin"
+    ],
+    "traditional_systems": [
+      "Ayurveda",
+      "Siddha Medicine",
+      "Unani Medicine"
+    ],
+    "benefits": {
+      "emotional": 0,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 2
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Neem demonstrates broad-spectrum antimicrobial, anti-inflammatory, and insecticidal properties in laboratory and clinical studies. Evidence supports its use for skin conditions including acne, eczema, and psoriasis. Neem-based toothpaste and mouthwash show efficacy for dental plaque and gingivitis comparable to chlorhexidine in several trials."
+    },
+    "key_studies": [
+      "Subapriya & Nagini (2005) - Medicinal properties of neem: A review",
+      "Chatterjee & Pakrashi (1994) - The Treatise on Indian Medicinal Plants — neem chapter",
+      "Balappanavar et al. (2013) - Comparison of neem mouthwash with chlorhexidine on plaque and gingivitis"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Acne and skin infection treatment",
+        "Dental hygiene and gum health",
+        "Antifungal treatment",
+        "Insect repellent (natural pesticide)",
+        "Scalp conditions and dandruff"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Neem oil diluted in carrier oil (topical)",
+        "Neem leaf paste for skin conditions",
+        "Neem bark or leaf decoction for mouthwash",
+        "Neem powder in toothpaste or dental care",
+        "Neem leaf tea (limited internal use)"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Neem oil diluted 2-5% in carrier oil, applied 1-2 times daily. Mouthwash: Decoction of neem bark (50g in 1L water, simmered and strained). Internal use should be limited and supervised."
+    },
+    "contraindications": {
+      "en": [
+        "Pregnancy and attempts to conceive (neem has documented anti-fertility effects)",
+        "Children (neem oil ingestion has caused serious adverse effects including Reye-like syndrome in infants)",
+        "Autoimmune conditions (immune-stimulating properties)",
+        "Organ transplant recipients on immunosuppressants",
+        "Neem oil should never be ingested in large quantities"
+      ]
+    },
+    "fun_facts": [
+      "Neem is called 'the village pharmacy' in India because virtually every part of the tree — leaves, bark, seeds, flowers, and fruit — has medicinal uses",
+      "A mature neem tree can produce up to 50 kg of fruit per year, yielding about 5 kg of neem oil",
+      "In Hindu tradition, the goddess Durga is believed to reside in the neem tree, and neem leaves are used in many religious ceremonies"
+    ],
+    "tags": [
+      "skin-care",
+      "antimicrobial",
+      "dental",
+      "insect-repellent",
+      "ayurveda"
+    ],
+    "related_plants": [
+      "tea-tree",
+      "calendula"
+    ]
+  },
+  {
+    "id": "sea-buckthorn",
+    "emoji": "🍊",
+    "name": {
+      "en": "Sea Buckthorn"
+    },
+    "scientific_name": "Hippophae rhamnoides",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Hippophae_rhamnoides_-_Sea_Buckthorn.jpg/400px-Hippophae_rhamnoides_-_Sea_Buckthorn.jpg",
+    "category": "skin",
+    "plant_family": "Elaeagnaceae",
+    "origin_regions": [
+      "Central Asia",
+      "Himalayas",
+      "Northern Europe",
+      "China"
+    ],
+    "active_compounds": [
+      "palmitoleic acid (omega-7)",
+      "omega-3 and omega-6 fatty acids",
+      "carotenoids",
+      "vitamin C",
+      "vitamin E",
+      "flavonoids"
+    ],
+    "traditional_systems": [
+      "Tibetan Medicine",
+      "Traditional Chinese Medicine",
+      "Mongolian Folk Medicine",
+      "Ayurveda"
+    ],
+    "benefits": {
+      "emotional": 1,
+      "physical": 4,
+      "mental": 0,
+      "social": 0,
+      "spiritual": 0
+    },
+    "science_rating": 3,
+    "science_summary": {
+      "en": "Sea buckthorn oil is rich in palmitoleic acid (omega-7), rare among plants, which supports skin and mucous membrane regeneration. Clinical studies show benefits for atopic dermatitis, dry eye syndrome, and vaginal atrophy. Its oil has been studied for burn and wound healing with positive results. Large-scale clinical trials remain limited."
+    },
+    "key_studies": [
+      "Larmo et al. (2010) - Effects of sea buckthorn oil on dry eye in post-menopausal women",
+      "Järvinen et al. (2011) - Sea buckthorn oil and atopic dermatitis in children: A randomized, double-blind trial",
+      "Gupta et al. (2011) - A review of the therapeutic potential of Hippophae rhamnoides"
+    ],
+    "medicinal_uses": {
+      "en": [
+        "Skin regeneration and wound healing",
+        "Dry skin and eczema management",
+        "Mucous membrane health (dry eyes, vaginal dryness)",
+        "UV protection and sun damage repair",
+        "Cardiovascular health support"
+      ]
+    },
+    "preparation_methods": {
+      "en": [
+        "Sea buckthorn seed oil (topical or oral capsules)",
+        "Sea buckthorn berry oil (richer in carotenoids)",
+        "Fresh or frozen berries (juice or smoothies)",
+        "Sea buckthorn cream or serum for skin"
+      ]
+    },
+    "dosage": {
+      "en": "Topical: Apply sea buckthorn oil directly or in cream form 1-2 times daily. Oral: 500mg-2g sea buckthorn oil capsules daily. Berry juice: 20-30ml daily."
+    },
+    "contraindications": {
+      "en": [
+        "Blood-thinning medications (may have additive anticoagulant effects)",
+        "Scheduled surgery (discontinue 2 weeks before due to bleeding risk)",
+        "May lower blood pressure (caution with hypotension medications)",
+        "Berry juice is highly acidic and may cause digestive discomfort in some individuals"
+      ]
+    },
+    "fun_facts": [
+      "Sea buckthorn berries were fed to racehorses in ancient Greece to give them shiny coats — the Latin name Hippophae literally means 'shining horse'",
+      "The berries survive harsh winters above 3,500m elevation in the Himalayas, making sea buckthorn one of the hardiest fruit-bearing plants on Earth",
+      "Sea buckthorn was reportedly used by Soviet cosmonauts and was applied to the skin of radiation burn victims after the 1986 Chernobyl nuclear disaster"
+    ],
+    "tags": [
+      "skin-care",
+      "omega-7",
+      "wound-healing",
+      "anti-aging",
+      "mucous-membrane"
+    ],
+    "related_plants": [
+      "rosehip",
+      "calendula"
+    ]
+  }
+]

@@ -87,6 +87,8 @@ function detectPage() {
   if (path.includes('principles')) return 'principles';
   if (path.includes('parables')) return 'parables';
   if (path.includes('tradition')) return 'tradition';
+  if (path.includes('plant-detail')) return 'plant-detail';
+  if (path.includes('medicinal-plants')) return 'medicinal-plants';
   return 'index';
 }
 
@@ -107,7 +109,9 @@ function renderPage(page) {
     'teachers': renderTeachers,
     'principles': renderPrinciples,
     'parables': renderParables,
-    'tradition': renderTradition
+    'tradition': renderTradition,
+    'medicinal-plants': renderMedicinalPlants,
+    'plant-detail': renderPlantDetail
   };
   if (renderers[page]) renderers[page]();
 }
@@ -390,7 +394,8 @@ function _renderHeroStats() {
   if (!el) return;
   const practices = Data.getAllPractices();
   const categories = Data.getCategories();
-  el.textContent = practices.length + ' ' + _t('hero.stats_practices') + ' \u00B7 ' + categories.length + ' ' + _t('hero.stats_pillars');
+  var plants = Data.getMedicinalPlants();
+  el.textContent = practices.length + ' ' + _t('hero.stats_practices') + ' \u00B7 ' + categories.length + ' ' + _t('hero.stats_pillars') + (plants.length ? ' \u00B7 ' + plants.length + ' ' + (_t('plants.count_label') || 'medicinal plants') : '');
 }
 
 function _renderDailyQuote() {
@@ -455,6 +460,14 @@ function _renderWisdomLibrary() {
       link: 'parables.html',
       linkKey: 'wisdom_library.read_more',
       color: '#00695C'
+    },
+    {
+      emoji: '\uD83C\uDF3F',
+      titleKey: 'wisdom_library.plants_title',
+      descKey: 'wisdom_library.plants_desc',
+      link: 'medicinal-plants.html',
+      linkKey: 'wisdom_library.read_more',
+      color: '#2E7D32'
     }
   ];
 
@@ -2155,4 +2168,367 @@ function renderParables() {
         '</div>';
       }).join('') +
     '</div>';
+}
+
+
+/* ==========================================================================
+   MEDICINAL PLANTS
+   ========================================================================== */
+
+function _plantCategoryIcon(catId) {
+  var icons = {
+    'digestive': '\uD83E\uDEDA',
+    'anti-inflammatory': '\uD83D\uDD25',
+    'calming': '\uD83C\uDF19',
+    'immune': '\uD83D\uDEE1\uFE0F',
+    'pain-relief': '\uD83D\uDC8A',
+    'skin': '\uD83C\uDF38'
+  };
+  return icons[catId] || '\uD83C\uDF3F';
+}
+
+function _plantCategoryColor(catId) {
+  var colors = {
+    'digestive': '#2E7D32',
+    'anti-inflammatory': '#E65100',
+    'calming': '#1565C0',
+    'immune': '#00695C',
+    'pain-relief': '#C62828',
+    'skin': '#6A1B9A'
+  };
+  return colors[catId] || '#4A148C';
+}
+
+function _plantCategoryName(catId) {
+  var key = 'plants.cat.' + catId.replace(/-/g, '_');
+  return _t(key) || catId.replace(/-/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+}
+
+function _plantName(plant) {
+  if (plant.name) {
+    var lang = I18n.getLang();
+    return plant.name[lang] || plant.name['en'] || plant.id;
+  }
+  return plant.id;
+}
+
+function _plantCardHtml(plant) {
+  var name = _plantName(plant);
+  var emoji = plant.emoji || '\uD83C\uDF3F';
+  var catColor = _plantCategoryColor(plant.category);
+  var benefits = plant.benefits || {};
+  var dims = ['emotional', 'physical', 'mental', 'social', 'spiritual'];
+  var benefitPreview = dims.map(function(d) {
+    var val = benefits[d] || 0;
+    var pct = (val / 5) * 100;
+    var bInfo = Data.getBenefits()[d] || {};
+    return '<div class="mini-bar" title="' + (_t(bInfo.name_key || ('benefit.' + d))) + ': ' + val + '/5">' +
+      '<div class="mini-bar-fill" style="width:' + pct + '%;background:' + (bInfo.color || '#7E57C2') + '"></div>' +
+    '</div>';
+  }).join('');
+
+  var lang = I18n.getLang();
+  var uses = plant.medicinal_uses ? (plant.medicinal_uses[lang] || plant.medicinal_uses['en'] || []) : [];
+  var usesHtml = uses.slice(0, 3).map(function(u) {
+    return '<span class="plant-use-chip">' + u + '</span>';
+  }).join('');
+
+  var imageHtml = plant.image_url
+    ? '<div class="plant-card-img"><img src="' + plant.image_url + '" alt="' + name + '" loading="lazy"></div>'
+    : '';
+
+  return '<a href="plant-detail.html?id=' + plant.id + '" class="card plant-card" style="border-left-color:' + catColor + '">' +
+    imageHtml +
+    '<div class="plant-card-body">' +
+      '<div class="practice-card-header">' +
+        '<span class="card-icon">' + emoji + '</span>' +
+        '<span class="card-title">' + name + '</span>' +
+      '</div>' +
+      '<p class="plant-scientific-name">' + (plant.scientific_name || '') + '</p>' +
+      '<div class="practice-card-badges">' +
+        '<span class="category-badge" style="background:' + catColor + ';color:#fff">' + _plantCategoryIcon(plant.category) + ' ' + _plantCategoryName(plant.category) + '</span>' +
+        _scienceBadge(plant.science_rating) +
+      '</div>' +
+      (usesHtml ? '<div class="plant-uses-row">' + usesHtml + '</div>' : '') +
+      '<div class="practice-card-benefits">' + benefitPreview + '</div>' +
+      '<span class="card-link" style="color:' + catColor + '">' + (_t('detail.view') || 'View details') + ' &rarr;</span>' +
+    '</div>' +
+  '</a>';
+}
+
+function renderMedicinalPlants() {
+  var el = document.getElementById('plants-content');
+  if (!el) return;
+
+  var plants = Data.getMedicinalPlants();
+  var categories = Data.getMedicinalPlantCategories();
+  var activeCat = '';
+
+  function render() {
+    var filtered = activeCat
+      ? plants.filter(function(p) { return p.category === activeCat; })
+      : plants;
+
+    el.innerHTML =
+      _backLink() +
+      '<h1 class="page-title">\uD83C\uDF3F ' + (_t('plants.title') || 'Medicinal Plants') + '</h1>' +
+      '<p class="page-intro">' + (_t('plants.subtitle') || 'Healing herbs and plants from traditional medicine around the world.') + '</p>' +
+      '<div class="pillar-tabs">' +
+        '<button class="pillar-tab ' + (!activeCat ? 'active' : '') + '" data-cat="" style="' + (!activeCat ? 'background:var(--wb-primary);border-color:var(--wb-primary)' : '') + '">' + (_t('plants.filter.all') || 'All Plants') + '</button>' +
+        categories.map(function(cat) {
+          var color = _plantCategoryColor(cat);
+          return '<button class="pillar-tab ' + (activeCat === cat ? 'active' : '') + '" data-cat="' + cat + '" style="' + (activeCat === cat ? 'background:' + color + ';border-color:' + color : '') + '">' + _plantCategoryIcon(cat) + ' ' + _plantCategoryName(cat) + '</button>';
+        }).join('') +
+      '</div>' +
+      '<p style="color:var(--text-gray);margin-bottom:1rem"><strong>' + filtered.length + '</strong> ' + (_t('plants.count_label') || 'medicinal plants') + '</p>' +
+      '<div class="cards-grid grid-3x2">' +
+        filtered.map(function(p) { return _plantCardHtml(p); }).join('') +
+      '</div>' +
+      _shareBarHtml('share-bar-plants');
+
+    _shareBar('share-bar-plants');
+
+    el.querySelectorAll('.pillar-tab').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        activeCat = btn.dataset.cat;
+        render();
+      });
+    });
+  }
+  render();
+}
+
+function renderPlantDetail() {
+  var el = document.getElementById('plant-detail-content');
+  if (!el) return;
+
+  var params = new URLSearchParams(window.location.search);
+  var id = params.get('id');
+
+  if (!id) {
+    var allPlants = Data.getMedicinalPlants();
+    var lang = I18n.getLang();
+    var sorted = allPlants.map(function(p) { return { plant: p, name: _plantName(p) }; })
+      .sort(function(a, b) { return a.name.localeCompare(b.name, lang); });
+    el.innerHTML =
+      _backLink() +
+      '<h1 class="page-title">' + (_t('plants.title') || 'Medicinal Plants') + '</h1>' +
+      '<div class="food-browse-grid">' +
+        sorted.map(function(item) {
+          var p = item.plant;
+          return '<a href="plant-detail.html?id=' + p.id + '" class="card food-browse-card">' +
+            '<span class="food-browse-icon">' + (p.emoji || '\uD83C\uDF3F') + '</span>' +
+            '<span class="food-browse-name">' + item.name + '</span>' +
+            '<div style="margin-top:0.25rem">' + _scienceBadge(p.science_rating) + '</div>' +
+          '</a>';
+        }).join('') +
+      '</div>';
+    return;
+  }
+
+  var plant = Data.getMedicinalPlant(id);
+  if (!plant) {
+    el.innerHTML = _backLink() + '<div class="not-found">' + (_t('error.plant_not_found') || 'Plant not found.') + '</div>';
+    return;
+  }
+
+  var name = _plantName(plant);
+  var emoji = plant.emoji || '\uD83C\uDF3F';
+  var catColor = _plantCategoryColor(plant.category);
+  var benefits = plant.benefits || {};
+  var dims = ['emotional', 'physical', 'mental', 'social', 'spiritual'];
+  var lang = I18n.getLang();
+
+  var sciSummary = plant.science_summary ? (plant.science_summary[lang] || plant.science_summary['en'] || '') : '';
+  var uses = plant.medicinal_uses ? (plant.medicinal_uses[lang] || plant.medicinal_uses['en'] || []) : [];
+  var prep = plant.preparation_methods ? (plant.preparation_methods[lang] || plant.preparation_methods['en'] || []) : [];
+  var dosage = plant.dosage ? (plant.dosage[lang] || plant.dosage['en'] || '') : '';
+  var contras = plant.contraindications ? (plant.contraindications[lang] || plant.contraindications['en'] || []) : [];
+
+  // Image section
+  var imageHtml = plant.image_url
+    ? '<div class="plant-detail-image"><img src="' + plant.image_url + '" alt="' + name + '"></div>'
+    : '';
+
+  // Origin map - simple SVG world map with highlighted regions
+  var originHtml = '';
+  if (plant.origin_regions && plant.origin_regions.length) {
+    originHtml = '<div class="content-section">' +
+      '<h2>\uD83C\uDF0D ' + (_t('plants.detail.origin') || 'Origin Regions') + '</h2>' +
+      '<div class="plant-origin-map" id="plant-origin-map"></div>' +
+      '<div class="plant-origin-tags">' +
+        plant.origin_regions.map(function(r) {
+          return '<span class="food-chip" style="background:' + catColor + ';color:#fff">' + r + '</span>';
+        }).join('') +
+      '</div>' +
+    '</div>';
+  }
+
+  // Related plants
+  var relatedHtml = '';
+  if (plant.related_plants && plant.related_plants.length) {
+    var relatedPlants = plant.related_plants.map(function(rid) { return Data.getMedicinalPlant(rid); }).filter(Boolean);
+    if (relatedPlants.length) {
+      relatedHtml = '<div class="content-section">' +
+        '<h2>\uD83C\uDF3F ' + (_t('plants.detail.related') || 'Related Plants') + '</h2>' +
+        '<div class="cards-grid grid-3x2">' +
+          relatedPlants.map(function(rp) { return _plantCardHtml(rp); }).join('') +
+        '</div>' +
+      '</div>';
+    }
+  }
+
+  el.innerHTML =
+    '<div class="back-link-row"><a href="medicinal-plants.html" class="back-link">&larr; ' + (_t('plants.detail.back') || 'Back to all plants') + '</a></div>' +
+
+    '<div class="plant-detail-top">' +
+      imageHtml +
+      '<div class="plant-detail-info">' +
+        '<h1 class="page-title">' + emoji + ' ' + name + '</h1>' +
+        '<p class="plant-scientific-name-lg"><em>' + (plant.scientific_name || '') + '</em></p>' +
+        '<div class="practice-tags-row">' +
+          '<span class="category-badge" style="background:' + catColor + ';color:#fff">' + _plantCategoryIcon(plant.category) + ' ' + _plantCategoryName(plant.category) + '</span>' +
+          _scienceBadge(plant.science_rating) +
+        '</div>' +
+        (plant.plant_family ? '<p style="margin-top:0.5rem;color:var(--text-gray)"><strong>' + (_t('plants.detail.family') || 'Family') + ':</strong> ' + plant.plant_family + '</p>' : '') +
+      '</div>' +
+    '</div>' +
+
+    '<div class="content-section">' +
+      '<h2>\uD83C\uDF3F ' + (_t('plants.detail.compounds') || 'Active Compounds') + '</h2>' +
+      '<div class="age-benefit-chips">' +
+        (plant.active_compounds || []).map(function(c) {
+          return '<span class="food-chip">' + c + '</span>';
+        }).join('') +
+      '</div>' +
+    '</div>' +
+
+    (plant.traditional_systems && plant.traditional_systems.length ? '<div class="content-section">' +
+      '<h2>\uD83D\uDCDC ' + (_t('plants.detail.traditions') || 'Traditional Systems') + '</h2>' +
+      '<div class="age-benefit-chips">' +
+        plant.traditional_systems.map(function(t) {
+          return '<span class="food-chip" style="background:var(--wb-light);color:#fff">' + t + '</span>';
+        }).join('') +
+      '</div>' +
+    '</div>' : '') +
+
+    '<div class="content-section">' +
+      '<h2>\uD83D\uDC8A ' + (_t('plants.detail.uses') || 'Medicinal Uses') + '</h2>' +
+      '<ul class="plant-uses-list">' +
+        uses.map(function(u) { return '<li>' + u + '</li>'; }).join('') +
+      '</ul>' +
+    '</div>' +
+
+    '<div class="content-section">' +
+      '<h2>\uD83C\uDF75 ' + (_t('plants.detail.preparation') || 'Preparation Methods') + '</h2>' +
+      '<ul class="plant-uses-list">' +
+        prep.map(function(p) { return '<li>' + p + '</li>'; }).join('') +
+      '</ul>' +
+    '</div>' +
+
+    (dosage ? '<div class="content-section">' +
+      '<h2>\uD83D\uDCCF ' + (_t('plants.detail.dosage') || 'Recommended Dosage') + '</h2>' +
+      '<p class="plant-dosage-box">' + dosage + '</p>' +
+    '</div>' : '') +
+
+    '<div class="content-section">' +
+      '<h2>' + (_t('detail.benefits') || 'Benefits') + '</h2>' +
+      '<div class="benefits-bars">' +
+        dims.map(function(d) { return _benefitBarHtml(d, benefits[d] || 0); }).join('') +
+      '</div>' +
+    '</div>' +
+
+    '<div class="content-section">' +
+      '<h2>\uD83D\uDD2C ' + (_t('plants.detail.science') || 'Scientific Evidence') + '</h2>' +
+      _statBar(_t('detail.evidence_level') || 'Evidence Level', plant.science_rating || 0, 5, '/5', Data.getScienceColor(plant.science_rating)) +
+      (sciSummary ? '<p style="margin-top:1rem">' + sciSummary + '</p>' : '') +
+      (plant.key_studies && plant.key_studies.length ? '<div style="margin-top:1rem">' +
+        '<h3>' + (_t('plants.detail.studies') || 'Key Studies') + '</h3>' +
+        '<ul class="studies-list">' +
+          plant.key_studies.map(function(s) { return '<li>' + s + '</li>'; }).join('') +
+        '</ul>' +
+      '</div>' : '') +
+    '</div>' +
+
+    (contras.length ? '<div class="content-section plant-warning-box">' +
+      '<h2>\u26A0\uFE0F ' + (_t('plants.detail.contraindications') || 'Contraindications') + '</h2>' +
+      '<ul>' +
+        contras.map(function(c) { return '<li>' + c + '</li>'; }).join('') +
+      '</ul>' +
+    '</div>' : '') +
+
+    originHtml +
+
+    (plant.fun_facts && plant.fun_facts.length ? '<div class="content-section">' +
+      '<h2>\uD83D\uDCA1 ' + (_t('plants.detail.fun_facts') || 'Did You Know?') + '</h2>' +
+      '<ul class="fun-facts-list">' +
+        plant.fun_facts.map(function(f) { return '<li>' + f + '</li>'; }).join('') +
+      '</ul>' +
+    '</div>' : '') +
+
+    relatedHtml +
+
+    _shareBarHtml('share-bar-plant-detail');
+
+  _shareBar('share-bar-plant-detail');
+
+  // Render simple origin map
+  _renderPlantOriginMap(plant);
+}
+
+function _renderPlantOriginMap(plant) {
+  var mapEl = document.getElementById('plant-origin-map');
+  if (!mapEl || !plant.origin_regions) return;
+
+  var regions = plant.origin_regions;
+  var regionCoords = {
+    'South Asia': { cx: 68, cy: 40 },
+    'Southeast Asia': { cx: 75, cy: 45 },
+    'East Asia': { cx: 78, cy: 35 },
+    'Central Asia': { cx: 65, cy: 32 },
+    'West Asia': { cx: 58, cy: 36 },
+    'Middle East': { cx: 57, cy: 38 },
+    'North Africa': { cx: 50, cy: 40 },
+    'East Africa': { cx: 55, cy: 52 },
+    'West Africa': { cx: 45, cy: 48 },
+    'South Africa': { cx: 53, cy: 62 },
+    'Sub-Saharan Africa': { cx: 52, cy: 55 },
+    'Africa': { cx: 52, cy: 50 },
+    'Europe': { cx: 50, cy: 30 },
+    'Mediterranean': { cx: 52, cy: 34 },
+    'North America': { cx: 22, cy: 33 },
+    'Central America': { cx: 22, cy: 43 },
+    'South America': { cx: 28, cy: 58 },
+    'Amazon': { cx: 28, cy: 52 },
+    'Australia': { cx: 82, cy: 62 },
+    'Oceania': { cx: 85, cy: 58 },
+    'India': { cx: 68, cy: 40 },
+    'China': { cx: 76, cy: 35 },
+    'Japan': { cx: 82, cy: 33 },
+    'Korea': { cx: 80, cy: 33 },
+    'Indonesia': { cx: 78, cy: 50 },
+    'Worldwide': { cx: 50, cy: 45 },
+    'Global': { cx: 50, cy: 45 },
+    'Tropical regions': { cx: 50, cy: 48 },
+    'Temperate regions': { cx: 50, cy: 35 }
+  };
+
+  var catColor = _plantCategoryColor(plant.category);
+  var dots = regions.map(function(r) {
+    var coord = regionCoords[r];
+    if (!coord) return '';
+    return '<circle cx="' + coord.cx + '%" cy="' + coord.cy + '%" r="8" fill="' + catColor + '" opacity="0.7" stroke="#fff" stroke-width="1.5"/>' +
+           '<circle cx="' + coord.cx + '%" cy="' + coord.cy + '%" r="14" fill="' + catColor + '" opacity="0.2"/>';
+  }).join('');
+
+  mapEl.innerHTML = '<svg viewBox="0 0 100 70" class="origin-map-svg">' +
+    '<rect width="100" height="70" fill="#E8F5E9" rx="4"/>' +
+    '<ellipse cx="50" cy="35" rx="3" ry="20" fill="#C8E6C9" opacity="0.5"/>' +
+    '<ellipse cx="22" cy="40" rx="12" ry="18" fill="#A5D6A7" opacity="0.4"/>' +
+    '<ellipse cx="52" cy="48" rx="10" ry="16" fill="#A5D6A7" opacity="0.4"/>' +
+    '<ellipse cx="68" cy="38" rx="15" ry="15" fill="#A5D6A7" opacity="0.4"/>' +
+    '<ellipse cx="82" cy="60" rx="8" ry="6" fill="#A5D6A7" opacity="0.4"/>' +
+    '<ellipse cx="50" cy="30" rx="10" ry="7" fill="#A5D6A7" opacity="0.4"/>' +
+    dots +
+  '</svg>';
 }
