@@ -4888,34 +4888,175 @@ a.card {
     border: 1px solid var(--border-gray);
 }
 
-/* Plant detail page */
-.plant-detail-top {
+/* Plant detail — modern layout */
+.pd-hero {
     display: flex;
     gap: 2rem;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-.plant-detail-visual {
-    flex-shrink: 0;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    align-items: stretch;
+    margin-bottom: 1.5rem;
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
 }
 .plant-detail-image {
-    width: 100%;
-    height: 280px;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+    width: 340px;
+    min-height: 300px;
 }
 .plant-detail-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
-.plant-detail-info {
+.pd-hero-info {
     flex: 1;
+    padding: 1.5rem 2rem 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.pd-title {
+    font-size: 1.8rem;
+    margin: 0;
+    color: var(--text-dark);
+}
+.pd-scientific {
+    font-size: 1.05rem;
+    color: var(--text-gray);
+    margin: 0;
+}
+.pd-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+.pd-family-badge {
+    background: var(--wb-bg);
+    color: var(--wb-primary);
+    padding: 0.2rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #D1C4E9;
+}
+.pd-chips-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.2rem;
+}
+.pd-chips-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-gray);
+    margin-right: 0.2rem;
+}
+.plant-compound-chip {
+    background: #E8F5E9;
+    color: #2E7D32;
+    padding: 0.15rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.plant-tradition-chip {
+    background: #EDE7F6;
+    color: var(--wb-primary);
+    padding: 0.15rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Origin section — horizontal cards */
+.plant-origin-section {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.plant-origin-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+}
+.plant-origin-cards {
+    display: flex;
+    gap: 0.75rem;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    scroll-snap-type: x mandatory;
+}
+.origin-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem;
+    background: var(--wb-bg);
+    border-radius: 10px;
+    min-width: 130px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.origin-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74,20,140,0.12);
+}
+.origin-card-visuals {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.origin-mini-map {
+    width: 80px;
+    height: 56px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.origin-region-shape {
+    width: 40px;
+    height: 40px;
+}
+.origin-card-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Content grid — 2 columns */
+.pd-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.pd-card {
+    background: var(--white);
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.pd-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+}
+.pd-card-full {
+    margin-bottom: 1rem;
+}
+.pd-card-full h4 {
+    margin-top: 0.5rem;
+    color: var(--text-gray);
 }
 .plant-uses-list {
     list-style: none;
@@ -4943,9 +5084,8 @@ a.card {
 .plant-warning-box {
     background: #FFF3E0;
     border: 1px solid #FFB74D;
-    border-radius: 8px;
 }
-.plant-warning-box h2 {
+.plant-warning-box h3 {
     color: #E65100;
 }
 .plant-warning-box ul {
@@ -4956,77 +5096,25 @@ a.card {
     color: #BF360C;
 }
 
-/* Origin section - below plant image */
-.plant-origin-section {
-    background: var(--white);
-    border-radius: 10px;
-    padding: 0.75rem;
-    border: 1px solid var(--border-gray);
-}
-.plant-origin-section h3 {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-dark);
-}
-.plant-origin-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-.origin-card {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 0.5rem;
-    background: var(--wb-bg);
-    border-radius: 8px;
-    transition: background 0.2s;
-}
-.origin-card:hover {
-    background: #ede7f6;
-}
-.origin-card-visuals {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
-    flex-shrink: 0;
-}
-.origin-mini-map {
-    width: 70px;
-    height: 49px;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-.origin-region-shape {
-    width: 36px;
-    height: 36px;
-}
-.origin-card-label {
-    font-size: 0.82rem;
-    font-weight: 500;
-    color: var(--text-dark);
-    line-height: 1.2;
-}
-
 @media (max-width: 768px) {
-    .plant-detail-top {
+    .pd-hero {
         flex-direction: column;
     }
-    .plant-detail-visual {
-        width: 100%;
-    }
     .plant-detail-image {
-        height: 200px;
+        width: 100%;
+        min-height: 220px;
+        max-height: 260px;
+    }
+    .pd-hero-info {
+        padding: 1.25rem;
+    }
+    .pd-title {
+        font-size: 1.4rem;
+    }
+    .pd-grid {
+        grid-template-columns: 1fr;
     }
     .plant-card-img {
         height: 120px;
-    }
-    .plant-origin-cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .origin-card {
-        flex: 1 1 calc(50% - 0.25rem);
-        min-width: 140px;
     }
 }

@@ -2377,90 +2377,92 @@ function renderPlantDetail() {
     }
   }
 
+  // Compounds + traditions as inline chips for the header area
+  var compoundsInline = (plant.active_compounds || []).map(function(c) {
+    return '<span class="plant-compound-chip">' + c + '</span>';
+  }).join('');
+
+  var traditionsInline = (plant.traditional_systems || []).map(function(t) {
+    return '<span class="plant-tradition-chip">' + t + '</span>';
+  }).join('');
+
   el.innerHTML =
     '<div class="back-link-row"><a href="medicinal-plants.html" class="back-link">&larr; ' + (_t('plants.detail.back') || 'Back to all plants') + '</a></div>' +
 
-    '<div class="plant-detail-top">' +
-      '<div class="plant-detail-visual">' +
-        imageHtml +
-        originCardsHtml +
-      '</div>' +
-      '<div class="plant-detail-info">' +
-        '<h1 class="page-title">' + emoji + ' ' + name + '</h1>' +
-        '<p class="plant-scientific-name-lg"><em>' + (plant.scientific_name || '') + '</em></p>' +
-        '<div class="practice-tags-row">' +
+    // Hero section: image left, info right
+    '<div class="pd-hero">' +
+      imageHtml +
+      '<div class="pd-hero-info">' +
+        '<h1 class="pd-title">' + emoji + ' ' + name + '</h1>' +
+        '<p class="pd-scientific"><em>' + (plant.scientific_name || '') + '</em></p>' +
+        '<div class="pd-badges">' +
           '<span class="category-badge" style="background:' + catColor + ';color:#fff">' + _plantCategoryIcon(plant.category) + ' ' + _plantCategoryName(plant.category) + '</span>' +
           _scienceBadge(plant.science_rating) +
+          (plant.plant_family ? '<span class="pd-family-badge">' + plant.plant_family + '</span>' : '') +
         '</div>' +
-        (plant.plant_family ? '<p style="margin-top:0.5rem;color:var(--text-gray)"><strong>' + (_t('plants.detail.family') || 'Family') + ':</strong> ' + plant.plant_family + '</p>' : '') +
+        (compoundsInline ? '<div class="pd-chips-row"><span class="pd-chips-label">' + (_t('plants.detail.compounds') || 'Compounds') + ':</span>' + compoundsInline + '</div>' : '') +
+        (traditionsInline ? '<div class="pd-chips-row"><span class="pd-chips-label">' + (_t('plants.detail.traditions') || 'Traditions') + ':</span>' + traditionsInline + '</div>' : '') +
       '</div>' +
     '</div>' +
 
-    '<div class="content-section">' +
-      '<h2>\uD83C\uDF3F ' + (_t('plants.detail.compounds') || 'Active Compounds') + '</h2>' +
-      '<div class="age-benefit-chips">' +
-        (plant.active_compounds || []).map(function(c) {
-          return '<span class="food-chip">' + c + '</span>';
-        }).join('') +
+    // Origin region cards - full width horizontal row
+    originCardsHtml +
+
+    // Two-column grid for main content
+    '<div class="pd-grid">' +
+
+      '<div class="pd-card">' +
+        '<h3>' + (_t('plants.detail.uses') || 'Medicinal Uses') + '</h3>' +
+        '<ul class="plant-uses-list">' +
+          uses.map(function(u) { return '<li>' + u + '</li>'; }).join('') +
+        '</ul>' +
       '</div>' +
-    '</div>' +
 
-    (plant.traditional_systems && plant.traditional_systems.length ? '<div class="content-section">' +
-      '<h2>\uD83D\uDCDC ' + (_t('plants.detail.traditions') || 'Traditional Systems') + '</h2>' +
-      '<div class="age-benefit-chips">' +
-        plant.traditional_systems.map(function(t) {
-          return '<span class="food-chip" style="background:var(--wb-light);color:#fff">' + t + '</span>';
-        }).join('') +
+      '<div class="pd-card">' +
+        '<h3>' + (_t('plants.detail.preparation') || 'Preparation Methods') + '</h3>' +
+        '<ul class="plant-uses-list">' +
+          prep.map(function(p) { return '<li>' + p + '</li>'; }).join('') +
+        '</ul>' +
       '</div>' +
-    '</div>' : '') +
 
-    '<div class="content-section">' +
-      '<h2>\uD83D\uDC8A ' + (_t('plants.detail.uses') || 'Medicinal Uses') + '</h2>' +
-      '<ul class="plant-uses-list">' +
-        uses.map(function(u) { return '<li>' + u + '</li>'; }).join('') +
-      '</ul>' +
-    '</div>' +
+      (dosage ? '<div class="pd-card">' +
+        '<h3>' + (_t('plants.detail.dosage') || 'Recommended Dosage') + '</h3>' +
+        '<p class="plant-dosage-box">' + dosage + '</p>' +
+      '</div>' : '') +
 
-    '<div class="content-section">' +
-      '<h2>\uD83C\uDF75 ' + (_t('plants.detail.preparation') || 'Preparation Methods') + '</h2>' +
-      '<ul class="plant-uses-list">' +
-        prep.map(function(p) { return '<li>' + p + '</li>'; }).join('') +
-      '</ul>' +
-    '</div>' +
-
-    (dosage ? '<div class="content-section">' +
-      '<h2>\uD83D\uDCCF ' + (_t('plants.detail.dosage') || 'Recommended Dosage') + '</h2>' +
-      '<p class="plant-dosage-box">' + dosage + '</p>' +
-    '</div>' : '') +
-
-    '<div class="content-section">' +
-      '<h2>' + (_t('detail.benefits') || 'Benefits') + '</h2>' +
-      '<div class="benefits-bars">' +
-        dims.map(function(d) { return _benefitBarHtml(d, benefits[d] || 0); }).join('') +
+      '<div class="pd-card">' +
+        '<h3>' + (_t('detail.benefits') || 'Benefits') + '</h3>' +
+        '<div class="benefits-bars">' +
+          dims.map(function(d) { return _benefitBarHtml(d, benefits[d] || 0); }).join('') +
+        '</div>' +
       '</div>' +
+
     '</div>' +
 
-    '<div class="content-section">' +
-      '<h2>\uD83D\uDD2C ' + (_t('plants.detail.science') || 'Scientific Evidence') + '</h2>' +
+    // Science section - full width
+    '<div class="pd-card pd-card-full">' +
+      '<h3>' + (_t('plants.detail.science') || 'Scientific Evidence') + '</h3>' +
       _statBar(_t('detail.evidence_level') || 'Evidence Level', plant.science_rating || 0, 5, '/5', Data.getScienceColor(plant.science_rating)) +
       (sciSummary ? '<p style="margin-top:1rem">' + sciSummary + '</p>' : '') +
       (plant.key_studies && plant.key_studies.length ? '<div style="margin-top:1rem">' +
-        '<h3>' + (_t('plants.detail.studies') || 'Key Studies') + '</h3>' +
+        '<h4>' + (_t('plants.detail.studies') || 'Key Studies') + '</h4>' +
         '<ul class="studies-list">' +
           plant.key_studies.map(function(s) { return '<li>' + s + '</li>'; }).join('') +
         '</ul>' +
       '</div>' : '') +
     '</div>' +
 
-    (contras.length ? '<div class="content-section plant-warning-box">' +
-      '<h2>\u26A0\uFE0F ' + (_t('plants.detail.contraindications') || 'Contraindications') + '</h2>' +
+    // Warning box
+    (contras.length ? '<div class="pd-card pd-card-full plant-warning-box">' +
+      '<h3>' + (_t('plants.detail.contraindications') || 'Contraindications') + '</h3>' +
       '<ul>' +
         contras.map(function(c) { return '<li>' + c + '</li>'; }).join('') +
       '</ul>' +
     '</div>' : '') +
 
-    (plant.fun_facts && plant.fun_facts.length ? '<div class="content-section">' +
-      '<h2>\uD83D\uDCA1 ' + (_t('plants.detail.fun_facts') || 'Did You Know?') + '</h2>' +
+    // Fun facts
+    (plant.fun_facts && plant.fun_facts.length ? '<div class="pd-card pd-card-full">' +
+      '<h3>' + (_t('plants.detail.fun_facts') || 'Did You Know?') + '</h3>' +
       '<ul class="fun-facts-list">' +
         plant.fun_facts.map(function(f) { return '<li>' + f + '</li>'; }).join('') +
       '</ul>' +
