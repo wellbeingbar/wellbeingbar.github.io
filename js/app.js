@@ -2517,18 +2517,27 @@ function _renderPlantOriginMap(plant) {
   var dots = regions.map(function(r) {
     var coord = regionCoords[r];
     if (!coord) return '';
-    return '<circle cx="' + coord.cx + '%" cy="' + coord.cy + '%" r="8" fill="' + catColor + '" opacity="0.7" stroke="#fff" stroke-width="1.5"/>' +
-           '<circle cx="' + coord.cx + '%" cy="' + coord.cy + '%" r="14" fill="' + catColor + '" opacity="0.2"/>';
+    return '<circle cx="' + coord.cx + '" cy="' + coord.cy + '" r="2" fill="' + catColor + '" opacity="0.85" stroke="#fff" stroke-width="0.5"/>' +
+           '<circle cx="' + coord.cx + '" cy="' + coord.cy + '" r="4" fill="' + catColor + '" opacity="0.2"/>';
   }).join('');
 
   mapEl.innerHTML = '<svg viewBox="0 0 100 70" class="origin-map-svg">' +
     '<rect width="100" height="70" fill="#E8F5E9" rx="4"/>' +
-    '<ellipse cx="50" cy="35" rx="3" ry="20" fill="#C8E6C9" opacity="0.5"/>' +
-    '<ellipse cx="22" cy="40" rx="12" ry="18" fill="#A5D6A7" opacity="0.4"/>' +
-    '<ellipse cx="52" cy="48" rx="10" ry="16" fill="#A5D6A7" opacity="0.4"/>' +
-    '<ellipse cx="68" cy="38" rx="15" ry="15" fill="#A5D6A7" opacity="0.4"/>' +
-    '<ellipse cx="82" cy="60" rx="8" ry="6" fill="#A5D6A7" opacity="0.4"/>' +
-    '<ellipse cx="50" cy="30" rx="10" ry="7" fill="#A5D6A7" opacity="0.4"/>' +
+    // Simplified continent shapes
+    // North America
+    '<path d="M10,18 L14,15 L20,14 L26,16 L28,20 L30,26 L28,32 L24,36 L20,38 L18,42 L16,40 L14,34 L10,28 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // South America
+    '<path d="M24,44 L28,42 L32,44 L34,48 L33,54 L30,60 L26,64 L24,60 L22,54 L22,48 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // Europe
+    '<path d="M44,16 L48,14 L52,15 L56,18 L54,22 L52,26 L48,28 L44,26 L42,22 L42,18 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // Africa
+    '<path d="M44,32 L48,30 L54,32 L58,36 L60,42 L58,50 L54,56 L50,60 L46,58 L44,52 L42,46 L42,38 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // Asia
+    '<path d="M56,14 L62,12 L70,14 L78,16 L82,20 L84,26 L82,32 L78,36 L72,38 L66,40 L60,38 L58,34 L56,28 L54,22 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // South/Southeast Asia
+    '<path d="M64,38 L68,36 L74,38 L80,42 L78,48 L74,50 L70,48 L66,44 Z" fill="#A5D6A7" opacity="0.6"/>' +
+    // Australia
+    '<path d="M76,54 L82,52 L88,54 L90,58 L88,62 L84,64 L78,62 L76,58 Z" fill="#A5D6A7" opacity="0.6"/>' +
     dots +
   '</svg>';
 }
