@@ -2345,20 +2345,19 @@ function renderPlantDetail() {
   var dosage = plant.dosage ? (plant.dosage[lang] || plant.dosage['en'] || '') : '';
   var contras = plant.contraindications ? (plant.contraindications[lang] || plant.contraindications['en'] || []) : [];
 
-  // Image section
+  // Image + origin side by side
   var imageHtml = plant.image_url
     ? '<div class="plant-detail-image"><img src="' + plant.image_url + '" alt="' + name + '"></div>'
     : '';
 
-  // Origin map - simple SVG world map with highlighted regions
-  var originHtml = '';
+  // Origin cards - each region gets a mini world map + shape outline
+  var originCardsHtml = '';
   if (plant.origin_regions && plant.origin_regions.length) {
-    originHtml = '<div class="content-section">' +
-      '<h2>\uD83C\uDF0D ' + (_t('plants.detail.origin') || 'Origin Regions') + '</h2>' +
-      '<div class="plant-origin-map" id="plant-origin-map"></div>' +
-      '<div class="plant-origin-tags">' +
+    originCardsHtml = '<div class="plant-origin-section">' +
+      '<h3>\uD83C\uDF0D ' + (_t('plants.detail.origin') || 'Origin Regions') + '</h3>' +
+      '<div class="plant-origin-cards">' +
         plant.origin_regions.map(function(r) {
-          return '<span class="food-chip" style="background:' + catColor + ';color:#fff">' + r + '</span>';
+          return _renderOriginCard(r, catColor);
         }).join('') +
       '</div>' +
     '</div>';
@@ -2382,7 +2381,10 @@ function renderPlantDetail() {
     '<div class="back-link-row"><a href="medicinal-plants.html" class="back-link">&larr; ' + (_t('plants.detail.back') || 'Back to all plants') + '</a></div>' +
 
     '<div class="plant-detail-top">' +
-      imageHtml +
+      '<div class="plant-detail-visual">' +
+        imageHtml +
+        originCardsHtml +
+      '</div>' +
       '<div class="plant-detail-info">' +
         '<h1 class="page-title">' + emoji + ' ' + name + '</h1>' +
         '<p class="plant-scientific-name-lg"><em>' + (plant.scientific_name || '') + '</em></p>' +
@@ -2457,8 +2459,6 @@ function renderPlantDetail() {
       '</ul>' +
     '</div>' : '') +
 
-    originHtml +
-
     (plant.fun_facts && plant.fun_facts.length ? '<div class="content-section">' +
       '<h2>\uD83D\uDCA1 ' + (_t('plants.detail.fun_facts') || 'Did You Know?') + '</h2>' +
       '<ul class="fun-facts-list">' +
@@ -2472,72 +2472,99 @@ function renderPlantDetail() {
 
   _shareBar('share-bar-plant-detail');
 
-  // Render simple origin map
-  _renderPlantOriginMap(plant);
 }
 
-function _renderPlantOriginMap(plant) {
-  var mapEl = document.getElementById('plant-origin-map');
-  if (!mapEl || !plant.origin_regions) return;
+// World map base paths for mini maps
+var _worldMapBase =
+  '<rect width="100" height="70" fill="#E8F5E9" rx="3"/>' +
+  '<path d="M10,18 L14,15 L20,14 L26,16 L28,20 L30,26 L28,32 L24,36 L20,38 L18,42 L16,40 L14,34 L10,28 Z" fill="#C8E6C9"/>' +
+  '<path d="M24,44 L28,42 L32,44 L34,48 L33,54 L30,60 L26,64 L24,60 L22,54 L22,48 Z" fill="#C8E6C9"/>' +
+  '<path d="M44,16 L48,14 L52,15 L56,18 L54,22 L52,26 L48,28 L44,26 L42,22 L42,18 Z" fill="#C8E6C9"/>' +
+  '<path d="M44,32 L48,30 L54,32 L58,36 L60,42 L58,50 L54,56 L50,60 L46,58 L44,52 L42,46 L42,38 Z" fill="#C8E6C9"/>' +
+  '<path d="M56,14 L62,12 L70,14 L78,16 L82,20 L84,26 L82,32 L78,36 L72,38 L66,40 L60,38 L58,34 L56,28 L54,22 Z" fill="#C8E6C9"/>' +
+  '<path d="M64,38 L68,36 L74,38 L80,42 L78,48 L74,50 L70,48 L66,44 Z" fill="#C8E6C9"/>' +
+  '<path d="M76,54 L82,52 L88,54 L90,58 L88,62 L84,64 L78,62 L76,58 Z" fill="#C8E6C9"/>';
 
-  var regions = plant.origin_regions;
-  var regionCoords = {
-    'South Asia': { cx: 68, cy: 40 },
-    'Southeast Asia': { cx: 75, cy: 45 },
-    'East Asia': { cx: 78, cy: 35 },
-    'Central Asia': { cx: 65, cy: 32 },
-    'West Asia': { cx: 58, cy: 36 },
-    'Middle East': { cx: 57, cy: 38 },
-    'North Africa': { cx: 50, cy: 40 },
-    'East Africa': { cx: 55, cy: 52 },
-    'West Africa': { cx: 45, cy: 48 },
-    'South Africa': { cx: 53, cy: 62 },
-    'Sub-Saharan Africa': { cx: 52, cy: 55 },
-    'Africa': { cx: 52, cy: 50 },
-    'Europe': { cx: 50, cy: 30 },
-    'Mediterranean': { cx: 52, cy: 34 },
-    'North America': { cx: 22, cy: 33 },
-    'Central America': { cx: 22, cy: 43 },
-    'South America': { cx: 28, cy: 58 },
-    'Amazon': { cx: 28, cy: 52 },
-    'Australia': { cx: 82, cy: 62 },
-    'Oceania': { cx: 85, cy: 58 },
-    'India': { cx: 68, cy: 40 },
-    'China': { cx: 76, cy: 35 },
-    'Japan': { cx: 82, cy: 33 },
-    'Korea': { cx: 80, cy: 33 },
-    'Indonesia': { cx: 78, cy: 50 },
-    'Worldwide': { cx: 50, cy: 45 },
-    'Global': { cx: 50, cy: 45 },
-    'Tropical regions': { cx: 50, cy: 48 },
-    'Temperate regions': { cx: 50, cy: 35 }
-  };
+var _regionCoords = {
+  'South Asia': { cx: 68, cy: 40 },
+  'Southeast Asia': { cx: 75, cy: 45 },
+  'East Asia': { cx: 78, cy: 35 },
+  'Central Asia': { cx: 65, cy: 32 },
+  'West Asia': { cx: 58, cy: 36 },
+  'Western Asia': { cx: 58, cy: 36 },
+  'Middle East': { cx: 57, cy: 38 },
+  'North Africa': { cx: 50, cy: 40 },
+  'Northwest Africa': { cx: 44, cy: 38 },
+  'East Africa': { cx: 55, cy: 52 },
+  'West Africa': { cx: 45, cy: 48 },
+  'South Africa': { cx: 53, cy: 62 },
+  'Southern Africa': { cx: 53, cy: 60 },
+  'Sub-Saharan Africa': { cx: 52, cy: 55 },
+  'Africa': { cx: 52, cy: 50 },
+  'Europe': { cx: 50, cy: 26 },
+  'Northern Europe': { cx: 50, cy: 20 },
+  'Central Europe': { cx: 50, cy: 26 },
+  'Southern Europe': { cx: 50, cy: 30 },
+  'Mediterranean': { cx: 50, cy: 32 },
+  'North America': { cx: 22, cy: 28 },
+  'Eastern North America': { cx: 26, cy: 30 },
+  'Central America': { cx: 20, cy: 42 },
+  'South America': { cx: 28, cy: 55 },
+  'Amazon': { cx: 28, cy: 50 },
+  'Australia': { cx: 82, cy: 60 },
+  'Oceania': { cx: 85, cy: 56 },
+  'Pacific Islands': { cx: 88, cy: 48 },
+  'India': { cx: 68, cy: 40 },
+  'Indian subcontinent': { cx: 67, cy: 40 },
+  'China': { cx: 76, cy: 32 },
+  'Japan': { cx: 82, cy: 30 },
+  'Korea': { cx: 80, cy: 32 },
+  'Indonesia': { cx: 78, cy: 50 },
+  'Malaysia': { cx: 76, cy: 46 },
+  'Thailand': { cx: 73, cy: 42 },
+  'Myanmar': { cx: 71, cy: 40 },
+  'Sri Lanka': { cx: 70, cy: 46 },
+  'Mongolia': { cx: 74, cy: 28 },
+  'Himalayas': { cx: 70, cy: 36 },
+  'Siberia': { cx: 72, cy: 18 },
+  'Northern Asia': { cx: 70, cy: 20 },
+  'Arabian Peninsula': { cx: 58, cy: 42 },
+  'Madagascar': { cx: 58, cy: 58 },
+  'Papua New Guinea': { cx: 84, cy: 50 },
+  'Maluku Islands (Indonesia)': { cx: 80, cy: 48 },
+  'Zanzibar': { cx: 56, cy: 52 },
+  'Worldwide': { cx: 50, cy: 35 },
+  'Global': { cx: 50, cy: 35 },
+  'Tropical regions': { cx: 50, cy: 45 },
+  'Temperate regions': { cx: 50, cy: 30 }
+};
 
-  var catColor = _plantCategoryColor(plant.category);
-  var dots = regions.map(function(r) {
-    var coord = regionCoords[r];
-    if (!coord) return '';
-    return '<circle cx="' + coord.cx + '" cy="' + coord.cy + '" r="2" fill="' + catColor + '" opacity="0.85" stroke="#fff" stroke-width="0.5"/>' +
-           '<circle cx="' + coord.cx + '" cy="' + coord.cy + '" r="4" fill="' + catColor + '" opacity="0.2"/>';
-  }).join('');
+function _renderOriginCard(regionName, catColor) {
+  var coord = _regionCoords[regionName];
+  var cx = coord ? coord.cx : 50;
+  var cy = coord ? coord.cy : 35;
 
-  mapEl.innerHTML = '<svg viewBox="0 0 100 70" class="origin-map-svg">' +
-    '<rect width="100" height="70" fill="#E8F5E9" rx="4"/>' +
-    // Simplified continent shapes
-    // North America
-    '<path d="M10,18 L14,15 L20,14 L26,16 L28,20 L30,26 L28,32 L24,36 L20,38 L18,42 L16,40 L14,34 L10,28 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // South America
-    '<path d="M24,44 L28,42 L32,44 L34,48 L33,54 L30,60 L26,64 L24,60 L22,54 L22,48 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // Europe
-    '<path d="M44,16 L48,14 L52,15 L56,18 L54,22 L52,26 L48,28 L44,26 L42,22 L42,18 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // Africa
-    '<path d="M44,32 L48,30 L54,32 L58,36 L60,42 L58,50 L54,56 L50,60 L46,58 L44,52 L42,46 L42,38 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // Asia
-    '<path d="M56,14 L62,12 L70,14 L78,16 L82,20 L84,26 L82,32 L78,36 L72,38 L66,40 L60,38 L58,34 L56,28 L54,22 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // South/Southeast Asia
-    '<path d="M64,38 L68,36 L74,38 L80,42 L78,48 L74,50 L70,48 L66,44 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    // Australia
-    '<path d="M76,54 L82,52 L88,54 L90,58 L88,62 L84,64 L78,62 L76,58 Z" fill="#A5D6A7" opacity="0.6"/>' +
-    dots +
+  // Mini world map with pin
+  var miniMap = '<svg viewBox="0 0 100 70" class="origin-mini-map">' +
+    _worldMapBase +
+    '<circle cx="' + cx + '" cy="' + cy + '" r="5" fill="' + catColor + '" opacity="0.25"/>' +
+    '<circle cx="' + cx + '" cy="' + cy + '" r="2.5" fill="' + catColor + '" stroke="#fff" stroke-width="0.8"/>' +
   '</svg>';
+
+  // Region shape outline
+  var shapePath = (typeof _regionShapes !== 'undefined') ? _regionShapes[regionName] : null;
+  var shapeHtml = '';
+  if (shapePath) {
+    shapeHtml = '<svg viewBox="0 0 50 50" class="origin-region-shape">' +
+      '<path d="' + shapePath + '" fill="' + catColor + '" opacity="0.7" stroke="' + catColor + '" stroke-width="0.5"/>' +
+    '</svg>';
+  }
+
+  return '<div class="origin-card">' +
+    '<div class="origin-card-visuals">' +
+      miniMap +
+      shapeHtml +
+    '</div>' +
+    '<span class="origin-card-label">' + regionName + '</span>' +
+  '</div>';
 }
