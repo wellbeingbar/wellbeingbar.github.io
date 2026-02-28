@@ -2395,6 +2395,8 @@ function renderPlantDetail() {
       '<div class="pd-hero-info">' +
         '<h1 class="pd-title">' + emoji + ' ' + name + '</h1>' +
         '<p class="pd-scientific"><em>' + (plant.scientific_name || '') + '</em></p>' +
+        // Origin maps between name and badges
+        originCardsHtml +
         '<div class="pd-badges">' +
           '<span class="category-badge" style="background:' + catColor + ';color:#fff">' + _plantCategoryIcon(plant.category) + ' ' + _plantCategoryName(plant.category) + '</span>' +
           _scienceBadge(plant.science_rating) +
@@ -2404,9 +2406,6 @@ function renderPlantDetail() {
         (traditionsInline ? '<div class="pd-chips-row"><span class="pd-chips-label">' + (_t('plants.detail.traditions') || 'Traditions') + ':</span>' + traditionsInline + '</div>' : '') +
       '</div>' +
     '</div>' +
-
-    // Origin region cards - full width horizontal row
-    originCardsHtml +
 
     // Two-column grid for main content
     '<div class="pd-grid">' +
