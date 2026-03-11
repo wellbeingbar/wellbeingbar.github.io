@@ -634,5 +634,10 @@
   "plants.detail.fun_facts": "Did You Know?",
   "plants.detail.related": "Related Plants",
   "plants.detail.back": "Back to all plants",
-  "error.plant_not_found": "Plant not found."
+  "error.plant_not_found": "Plant not found.",
+
+  "updates.title": "What's New",
+  "updates.subtitle": "Latest additions and improvements",
+  "updates.mar2026.title": "Medicinal Plants Section Live",
+  "updates.mar2026.desc": "Explore healing plants from around the world — origins, medicinal uses, and traditional wisdom."
 }

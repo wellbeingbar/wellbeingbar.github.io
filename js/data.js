@@ -149,6 +149,17 @@ const Data = (() => {
       .sort((a, b) => a.time_commitment.minimum_minutes - b.time_commitment.minimum_minutes).slice(0, limit || 10);
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '\u{1F33F}', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getAllPractices, getPractice, getPracticesByCategory, getPracticesByTag,
@@ -164,6 +175,7 @@ const Data = (() => {
     getTeachers, getTeacher, getTeachersByCategory,
     getParables, getParable,
     getMedicinalPlants, getMedicinalPlant, getMedicinalPlantsByCategory, getMedicinalPlantCategories,
-    getTopByScience, getTopByBenefit, getMostAccessible
+    getTopByScience, getTopByBenefit, getMostAccessible,
+    getUpdates
   };
 })();
