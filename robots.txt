@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wellbeingbar.github.io/sitemap.xml
