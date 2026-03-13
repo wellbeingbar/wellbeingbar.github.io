@@ -14,9 +14,14 @@
       "The ego as illusion — we are the universe experiencing itself",
       "Embrace uncertainty as the source of all creativity"
     ],
-    "key_works": ["The Way of Zen", "The Wisdom of Insecurity", "The Book: On the Taboo Against Knowing Who You Are"],
+    "key_works": [
+      "The Way of Zen",
+      "The Wisdom of Insecurity",
+      "The Book: On the Taboo Against Knowing Who You Are"
+    ],
     "quote": "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
-    "relevance": "Bridged Eastern philosophy and Western thought, making concepts of mindfulness, acceptance, and non-attachment accessible to millions through his lectures and books."
+    "relevance": "Bridged Eastern philosophy and Western thought, making concepts of mindfulness, acceptance, and non-attachment accessible to millions through his lectures and books.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/9/97/Alan_Watts.png"
   },
   {
     "id": "florence_scovel_shinn",
@@ -33,9 +38,14 @@
       "Affirmations and visualization as tools for transformation",
       "Fear and worry are the greatest enemies of well-being"
     ],
-    "key_works": ["The Game of Life and How to Play It", "The Secret Door to Success", "The Power of the Spoken Word"],
+    "key_works": [
+      "The Game of Life and How to Play It",
+      "The Secret Door to Success",
+      "The Power of the Spoken Word"
+    ],
     "quote": "Every great work, every big accomplishment, has been brought into manifestation through holding to the vision.",
-    "relevance": "Pioneered practical metaphysics for everyday life, teaching that thoughts and words shape our experience — ideas now echoed in positive psychology and cognitive behavioral approaches."
+    "relevance": "Pioneered practical metaphysics for everyday life, teaching that thoughts and words shape our experience — ideas now echoed in positive psychology and cognitive behavioral approaches.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Photo_Florence_Scovel_Shinn.jpg/400px-Photo_Florence_Scovel_Shinn.jpg"
   },
   {
     "id": "santos_bonacci",
@@ -52,7 +62,11 @@
       "Reclaiming lost knowledge from ancient civilizations",
       "Self-knowledge through understanding universal laws"
     ],
-    "key_works": ["MR Astrotheology", "The Sacred Secret", "Reclaiming Dominion"],
+    "key_works": [
+      "MR Astrotheology",
+      "The Sacred Secret",
+      "Reclaiming Dominion"
+    ],
     "quote": "All religions and all sciences stem from one source — the ancient knowledge of the stars and the human body.",
     "relevance": "Explores connections between ancient wisdom traditions, encouraging seekers to look beyond surface-level religion toward universal patterns that unite humanity's spiritual heritage."
   },
@@ -71,7 +85,11 @@
       "The 'Kingdom of God' refers to higher consciousness within",
       "Moving beyond literal interpretation to self-discovery"
     ],
-    "key_works": ["Hidden Meanings (lecture series)", "The Inner Journey", "Biblical Meditation Teachings"],
+    "key_works": [
+      "Hidden Meanings (lecture series)",
+      "The Inner Journey",
+      "Biblical Meditation Teachings"
+    ],
     "quote": "When you take the focus off of religion and put it on meditation, everything in the ancient texts suddenly makes sense.",
     "relevance": "Reveals esoteric dimensions in religious texts, showing that ancient stories are maps of consciousness — encouraging personal meditation practice over dogmatic belief."
   },
@@ -90,9 +108,14 @@
       "Stillness and awareness are the doorway to peace",
       "Acceptance of what is opens the path to transformation"
     ],
-    "key_works": ["The Power of Now", "A New Earth", "Stillness Speaks"],
+    "key_works": [
+      "The Power of Now",
+      "A New Earth",
+      "Stillness Speaks"
+    ],
     "quote": "Realize deeply that the present moment is all you ever have. Make the Now the primary focus of your life.",
-    "relevance": "Made the concept of present-moment awareness mainstream, offering practical teachings on transcending the ego and finding peace without any religious framework."
+    "relevance": "Made the concept of present-moment awareness mainstream, offering practical teachings on transcending the ego and finding peace without any religious framework.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Eckhart_Tolle_front.jpg/400px-Eckhart_Tolle_front.jpg"
   },
   {
     "id": "thich_nhat_hanh",
@@ -109,9 +132,14 @@
       "Compassionate listening heals relationships",
       "Happiness is available here and now"
     ],
-    "key_works": ["The Miracle of Mindfulness", "Peace Is Every Step", "The Heart of the Buddha's Teaching"],
+    "key_works": [
+      "The Miracle of Mindfulness",
+      "Peace Is Every Step",
+      "The Heart of the Buddha's Teaching"
+    ],
     "quote": "Walk as if you are kissing the Earth with your feet.",
-    "relevance": "Global mindfulness teacher who showed that peace is a daily practice — his gentle, practical approach to mindful living has inspired millions to find calm in everyday activities."
+    "relevance": "Global mindfulness teacher who showed that peace is a daily practice — his gentle, practical approach to mindful living has inspired millions to find calm in everyday activities.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%E4%B8%80%E8%A1%8C%E7%A6%AA%E5%B8%AB_%E8%B6%8A%E5%8D%97%E4%BD%9B%E6%95%99%E8%87%A8%E6%BF%9F%E5%AE%97%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E4%BB%A3%E6%B3%95%E5%97%A3.jpg/400px-%E4%B8%80%E8%A1%8C%E7%A6%AA%E5%B8%AB_%E8%B6%8A%E5%8D%97%E4%BD%9B%E6%95%99%E8%87%A8%E6%BF%9F%E5%AE%97%E7%AC%AC%E5%9B%9B%E5%8D%81%E4%BA%8C%E4%BB%A3%E6%B3%95%E5%97%A3.jpg"
   },
   {
     "id": "ram_dass",
@@ -128,9 +156,14 @@
       "Suffering can be a doorway to awakening",
       "Love is the only rational act"
     ],
-    "key_works": ["Be Here Now", "Still Here", "Walking Each Other Home"],
+    "key_works": [
+      "Be Here Now",
+      "Still Here",
+      "Walking Each Other Home"
+    ],
     "quote": "We're all just walking each other home.",
-    "relevance": "Pioneered the Western spiritual awakening movement, demonstrating that inner transformation and compassionate service are inseparable paths to fulfillment."
+    "relevance": "Pioneered the Western spiritual awakening movement, demonstrating that inner transformation and compassionate service are inseparable paths to fulfillment.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ram_Dass.jpg/400px-Ram_Dass.jpg"
   },
   {
     "id": "deepak_chopra",
@@ -147,9 +180,14 @@
       "Ayurvedic wisdom meets modern science",
       "Seven spiritual laws govern the flow of life"
     ],
-    "key_works": ["The Seven Spiritual Laws of Success", "Quantum Healing", "Perfect Health"],
+    "key_works": [
+      "The Seven Spiritual Laws of Success",
+      "Quantum Healing",
+      "Perfect Health"
+    ],
     "quote": "Every time you are tempted to react in the same old way, ask if you want to be a prisoner of the past or a pioneer of the future.",
-    "relevance": "Brought mind-body medicine into the mainstream, combining Ayurvedic traditions with modern science to show how consciousness, meditation, and intention shape our health and happiness."
+    "relevance": "Brought mind-body medicine into the mainstream, combining Ayurvedic traditions with modern science to show how consciousness, meditation, and intention shape our health and happiness.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Deepak_Chopra_by_Gage_Skidmore.jpg/400px-Deepak_Chopra_by_Gage_Skidmore.jpg"
   },
   {
     "id": "wayne_dyer",
@@ -166,9 +204,14 @@
       "From motivation and ambition to spiritual awakening",
       "Self-reliance and inner authority over external validation"
     ],
-    "key_works": ["Your Erroneous Zones", "The Power of Intention", "Change Your Thoughts, Change Your Life"],
+    "key_works": [
+      "Your Erroneous Zones",
+      "The Power of Intention",
+      "Change Your Thoughts, Change Your Life"
+    ],
     "quote": "If you change the way you look at things, the things you look at change.",
-    "relevance": "One of the most influential self-development teachers, who evolved from practical psychology to spiritual wisdom, helping millions shift from fear-based to purpose-driven living."
+    "relevance": "One of the most influential self-development teachers, who evolved from practical psychology to spiritual wisdom, helping millions shift from fear-based to purpose-driven living.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/WayneDyerByPhilKonstantin.jpg/400px-WayneDyerByPhilKonstantin.jpg"
   },
   {
     "id": "viktor_frankl",
@@ -185,9 +228,14 @@
       "Purpose and responsibility give life direction",
       "Freedom lies in the space between stimulus and response"
     ],
-    "key_works": ["Man's Search for Meaning", "The Will to Meaning", "The Doctor and the Soul"],
+    "key_works": [
+      "Man's Search for Meaning",
+      "The Will to Meaning",
+      "The Doctor and the Soul"
+    ],
     "quote": "Between stimulus and response there is a space. In that space is our freedom to choose our response.",
-    "relevance": "Surviving the Holocaust, Frankl proved that meaning can sustain the human spirit through the worst conditions — his logotherapy remains a cornerstone of resilience psychology."
+    "relevance": "Surviving the Holocaust, Frankl proved that meaning can sustain the human spirit through the worst conditions — his logotherapy remains a cornerstone of resilience psychology.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Viktor_Frankl2.jpg/400px-Viktor_Frankl2.jpg"
   },
   {
     "id": "joseph_campbell",
@@ -204,9 +252,14 @@
       "Life has no meaning — each of us has meaning and we bring it to life",
       "The privilege of a lifetime is being who you are"
     ],
-    "key_works": ["The Hero with a Thousand Faces", "The Power of Myth", "The Masks of God"],
+    "key_works": [
+      "The Hero with a Thousand Faces",
+      "The Power of Myth",
+      "The Masks of God"
+    ],
     "quote": "The cave you fear to enter holds the treasure you seek.",
-    "relevance": "Showed that all cultures share the same archetypal journey of transformation — his work empowers individuals to see their own life as a heroic quest for meaning."
+    "relevance": "Showed that all cultures share the same archetypal journey of transformation — his work empowers individuals to see their own life as a heroic quest for meaning.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Joseph_Campbell_%28cropped%29.png/400px-Joseph_Campbell_%28cropped%29.png"
   },
   {
     "id": "jiddu_krishnamurti",
@@ -223,9 +276,14 @@
       "Radical self-inquiry without any authority",
       "Fear and comparison are the roots of psychological suffering"
     ],
-    "key_works": ["Freedom from the Known", "The First and Last Freedom", "Think on These Things"],
+    "key_works": [
+      "Freedom from the Known",
+      "The First and Last Freedom",
+      "Think on These Things"
+    ],
     "quote": "It is no measure of health to be well adjusted to a profoundly sick society.",
-    "relevance": "Challenged all organized belief systems, teaching that true liberation comes only through radical self-observation — his uncompromising approach influenced both spiritual seekers and psychologists."
+    "relevance": "Challenged all organized belief systems, teaching that true liberation comes only through radical self-observation — his uncompromising approach influenced both spiritual seekers and psychologists.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jiddu_Krishnamurti_01.jpg/400px-Jiddu_Krishnamurti_01.jpg"
   },
   {
     "id": "paramahansa_yogananda",
@@ -242,9 +300,14 @@
       "The soul's journey through many lifetimes toward divine union",
       "Joy is the natural state of the soul"
     ],
-    "key_works": ["Autobiography of a Yogi", "The Science of Religion", "God Talks with Arjuna"],
+    "key_works": [
+      "Autobiography of a Yogi",
+      "The Science of Religion",
+      "God Talks with Arjuna"
+    ],
     "quote": "Live quietly in the moment and see the beauty of all before you. The future will take care of itself.",
-    "relevance": "Brought yoga and meditation to the West decades before the mindfulness revolution, demonstrating that Eastern practices could transform Western lives — his Autobiography remains one of the most influential spiritual books ever written."
+    "relevance": "Brought yoga and meditation to the West decades before the mindfulness revolution, demonstrating that Eastern practices could transform Western lives — his Autobiography remains one of the most influential spiritual books ever written.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Paramahansa_Yogananda_Standard_Pose.jpg/400px-Paramahansa_Yogananda_Standard_Pose.jpg"
   },
   {
     "id": "carl_jung",
@@ -261,9 +324,14 @@
       "Archetypes shape our dreams, myths, and behavior",
       "What you resist persists — what you accept transforms"
     ],
-    "key_works": ["Man and His Symbols", "The Red Book", "Memories, Dreams, Reflections"],
+    "key_works": [
+      "Man and His Symbols",
+      "The Red Book",
+      "Memories, Dreams, Reflections"
+    ],
     "quote": "Who looks outside, dreams; who looks inside, awakes.",
-    "relevance": "Revolutionized our understanding of the psyche, showing that self-knowledge comes from embracing our shadow — his concepts of individuation and archetypes remain essential tools for personal growth."
+    "relevance": "Revolutionized our understanding of the psyche, showing that self-knowledge comes from embracing our shadow — his concepts of individuation and archetypes remain essential tools for personal growth.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif/lossy-page1-330px-ETH-BIB-Jung%2C_Carl_Gustav_%281875-1961%29-Portrait-Portr_14163_%28cropped%29.tif.jpg"
   },
   {
     "id": "brene_brown",
@@ -280,9 +348,14 @@
       "Daring greatly means showing up even when you can't control the outcome",
       "Belonging starts with self-acceptance"
     ],
-    "key_works": ["Daring Greatly", "The Gifts of Imperfection", "Braving the Wilderness"],
+    "key_works": [
+      "Daring Greatly",
+      "The Gifts of Imperfection",
+      "Braving the Wilderness"
+    ],
     "quote": "Vulnerability is not winning or losing; it's having the courage to show up and be seen when we have no control over the outcome.",
-    "relevance": "Brought research-backed understanding of vulnerability, shame, and courage into mainstream culture, showing that emotional openness is the foundation of meaningful connection and resilience."
+    "relevance": "Brought research-backed understanding of vulnerability, shame, and courage into mainstream culture, showing that emotional openness is the foundation of meaningful connection and resilience.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bren%C3%A9_Brown_and_Malcolm_Gladwell_at_SXSW_2025_06_%28cropped%29.jpg/400px-Bren%C3%A9_Brown_and_Malcolm_Gladwell_at_SXSW_2025_06_%28cropped%29.jpg"
   },
   {
     "id": "buddha",
@@ -299,9 +372,14 @@
       "The Middle Way — balance between extremes",
       "Impermanence — nothing lasts, and that is the source of both suffering and freedom"
     ],
-    "key_works": ["Dhammapada", "Heart Sutra", "Sutta Pitaka"],
+    "key_works": [
+      "Dhammapada",
+      "Heart Sutra",
+      "Sutta Pitaka"
+    ],
     "quote": "Peace comes from within. Do not seek it without.",
-    "relevance": "The original mindfulness teacher — his insights on the nature of suffering, impermanence, and the trained mind remain the foundation of meditation practices used by hundreds of millions worldwide."
+    "relevance": "The original mindfulness teacher — his insights on the nature of suffering, impermanence, and the trained mind remain the foundation of meditation practices used by hundreds of millions worldwide.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/400px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg"
   },
   {
     "id": "jesus",
@@ -318,9 +396,14 @@
       "Do not worry about tomorrow — live in the present",
       "Judge not, that you be not judged — acceptance and humility"
     ],
-    "key_works": ["The Gospels (Matthew, Mark, Luke, John)", "Sermon on the Mount", "Parables"],
+    "key_works": [
+      "The Gospels (Matthew, Mark, Luke, John)",
+      "Sermon on the Mount",
+      "Parables"
+    ],
     "quote": "The kingdom of God is within you.",
-    "relevance": "His teachings on unconditional love, forgiveness, inner peace, and non-judgment transcend religious boundaries — the Sermon on the Mount remains one of history's most profound guides to compassionate living."
+    "relevance": "His teachings on unconditional love, forgiveness, inner peace, and non-judgment transcend religious boundaries — the Sermon on the Mount remains one of history's most profound guides to compassionate living.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Spas_vsederzhitel_sinay_%28cropped1%29.jpg/400px-Spas_vsederzhitel_sinay_%28cropped1%29.jpg"
   },
   {
     "id": "muhammad",
@@ -337,9 +420,14 @@
       "Community (ummah) — we are responsible for one another",
       "Balance between worldly life and spiritual devotion"
     ],
-    "key_works": ["The Quran", "Hadith Collections", "The Last Sermon"],
+    "key_works": [
+      "The Quran",
+      "Hadith Collections",
+      "The Last Sermon"
+    ],
     "quote": "The greatest jihad is the struggle against one's own soul.",
-    "relevance": "Taught that the truest struggle is the inner one — his emphasis on self-discipline, generosity, community bonds, and balance between material and spiritual life offers timeless wisdom for well-being."
+    "relevance": "Taught that the truest struggle is the inner one — his emphasis on self-discipline, generosity, community bonds, and balance between material and spiritual life offers timeless wisdom for well-being.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Al-Masjid_AL-Nabawi_Door.jpg/400px-Al-Masjid_AL-Nabawi_Door.jpg"
   },
   {
     "id": "lao_tzu",
@@ -356,9 +444,12 @@
       "The soft overcomes the hard — water shapes stone",
       "True wisdom is knowing how much you don't know"
     ],
-    "key_works": ["Tao Te Ching"],
+    "key_works": [
+      "Tao Te Ching"
+    ],
     "quote": "Nature does not hurry, yet everything is accomplished.",
-    "relevance": "His philosophy of flowing with life rather than forcing it is the antidote to modern stress — the Tao Te Ching remains one of the most translated and cherished guides to living in harmony."
+    "relevance": "His philosophy of flowing with life rather than forcing it is the antidote to modern stress — the Tao Te Ching remains one of the most translated and cherished guides to living in harmony.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Laozi_%28Chinese_characters%29.svg/400px-Laozi_%28Chinese_characters%29.svg.png"
   },
   {
     "id": "confucius",
@@ -375,9 +466,14 @@
       "Respect for relationships — family, community, society",
       "Education and learning are the path to becoming fully human"
     ],
-    "key_works": ["The Analects", "The Doctrine of the Mean", "The Great Learning"],
+    "key_works": [
+      "The Analects",
+      "The Doctrine of the Mean",
+      "The Great Learning"
+    ],
     "quote": "It does not matter how slowly you go as long as you do not stop.",
-    "relevance": "His emphasis on personal cultivation, ethical relationships, and continuous learning created a framework for human flourishing that shaped East Asian civilization and remains deeply relevant to personal growth."
+    "relevance": "His emphasis on personal cultivation, ethical relationships, and continuous learning created a framework for human flourishing that shaped East Asian civilization and remains deeply relevant to personal growth.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Confucius_Tang_Dynasty.jpg/400px-Confucius_Tang_Dynasty.jpg"
   },
   {
     "id": "krishna",
@@ -394,9 +490,14 @@
       "Equanimity in success and failure",
       "Devotion, knowledge, and action are all paths to liberation"
     ],
-    "key_works": ["Bhagavad Gita", "Srimad Bhagavatam", "Vishnu Purana"],
+    "key_works": [
+      "Bhagavad Gita",
+      "Srimad Bhagavatam",
+      "Vishnu Purana"
+    ],
     "quote": "You have the right to work, but never to the fruit of work. You should never engage in action for the sake of reward.",
-    "relevance": "The Bhagavad Gita's teaching on detached action — doing your best without obsessing over outcomes — is perhaps the most practical ancient wisdom for managing modern anxiety and finding peace in daily work."
+    "relevance": "The Bhagavad Gita's teaching on detached action — doing your best without obsessing over outcomes — is perhaps the most practical ancient wisdom for managing modern anxiety and finding peace in daily work.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Krishna_Holds_Up_Mount_Govardhan_%28MET_70694%29_cropped.png/400px-Krishna_Holds_Up_Mount_Govardhan_%28MET_70694%29_cropped.png"
   },
   {
     "id": "socrates",
@@ -413,9 +514,13 @@
       "Virtue is knowledge — understanding leads to right action",
       "Question everything — Socratic dialogue as a path to truth"
     ],
-    "key_works": ["Plato's Dialogues (Apology, Symposium, Republic)", "Xenophon's Memorabilia"],
+    "key_works": [
+      "Plato's Dialogues (Apology, Symposium, Republic)",
+      "Xenophon's Memorabilia"
+    ],
     "quote": "The unexamined life is not worth living.",
-    "relevance": "The father of Western philosophy established self-examination as the foundation of the good life — his method of questioning assumptions remains the most powerful tool for clarity and personal growth."
+    "relevance": "The father of Western philosophy established self-examination as the foundation of the good life — his method of questioning assumptions remains the most powerful tool for clarity and personal growth.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Socrate_du_Louvre.jpg/400px-Socrate_du_Louvre.jpg"
   },
   {
     "id": "rumi",
@@ -432,9 +537,14 @@
       "Dance, music, and poetry as pathways to ecstasy",
       "Beyond right and wrong, there is a field — meet me there"
     ],
-    "key_works": ["Masnavi (Mathnawi)", "Divan-e-Shams-e-Tabrizi", "Fihi Ma Fihi"],
+    "key_works": [
+      "Masnavi (Mathnawi)",
+      "Divan-e-Shams-e-Tabrizi",
+      "Fihi Ma Fihi"
+    ],
     "quote": "Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.",
-    "relevance": "The best-selling poet in America 800 years after his death — Rumi's ecstatic poetry about love, longing, and inner transformation speaks to the universal human desire for connection and transcendence."
+    "relevance": "The best-selling poet in America 800 years after his death — Rumi's ecstatic poetry about love, longing, and inner transformation speaks to the universal human desire for connection and transcendence.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg/400px-%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_%28cropped%29.jpg"
   },
   {
     "id": "marcus_aurelius",
@@ -451,9 +561,12 @@
       "Memento mori — remember you will die, so live fully now",
       "Serve the common good — duty and virtue above personal comfort"
     ],
-    "key_works": ["Meditations"],
+    "key_works": [
+      "Meditations"
+    ],
     "quote": "You have power over your mind — not outside events. Realize this, and you will find strength.",
-    "relevance": "A Roman emperor who kept a private journal of Stoic reflections — his Meditations is the ultimate guide to mental resilience, emotional regulation, and finding inner peace amid chaos."
+    "relevance": "A Roman emperor who kept a private journal of Stoic reflections — his Meditations is the ultimate guide to mental resilience, emotional regulation, and finding inner peace amid chaos.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/400px-MSR-ra-61-b-1-DM.jpg"
   },
   {
     "id": "seneca",
@@ -470,9 +583,14 @@
       "Anger is temporary madness — mastering emotions is freedom",
       "True wealth is wanting less, not having more"
     ],
-    "key_works": ["Letters to Lucilius", "On the Shortness of Life", "On Anger"],
+    "key_works": [
+      "Letters to Lucilius",
+      "On the Shortness of Life",
+      "On Anger"
+    ],
     "quote": "We suffer more often in imagination than in reality.",
-    "relevance": "The most practical Stoic philosopher — his letters read like a life coach's advice for the modern age, covering anxiety, time management, grief, anger, and the art of living well."
+    "relevance": "The most practical Stoic philosopher — his letters read like a life coach's advice for the modern age, covering anxiety, time management, grief, anger, and the art of living well.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/400px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
   },
   {
     "id": "patanjali",
@@ -489,9 +607,12 @@
       "Non-attachment (vairagya) and practice (abhyasa) are the twin pillars",
       "Suffering ends when we stop identifying with our thoughts"
     ],
-    "key_works": ["Yoga Sutras of Patanjali"],
+    "key_works": [
+      "Yoga Sutras of Patanjali"
+    ],
     "quote": "Yoga is the cessation of the movements of the mind. Then there is abiding in the Seer's own form.",
-    "relevance": "Codified the science of yoga 2,000+ years ago — his Yoga Sutras remain the authoritative guide to meditation, mind mastery, and the systematic path from restlessness to inner peace."
+    "relevance": "Codified the science of yoga 2,000+ years ago — his Yoga Sutras remain the authoritative guide to meditation, mind mastery, and the systematic path from restlessness to inner peace.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pata%C3%B1jali11.JPG/400px-Pata%C3%B1jali11.JPG"
   },
   {
     "id": "hermes_trismegistus",
@@ -508,8 +629,13 @@
       "Polarity — opposites are identical in nature, different in degree",
       "Alchemy of the soul — transforming base consciousness into gold"
     ],
-    "key_works": ["The Emerald Tablet", "The Kybalion", "Corpus Hermeticum"],
+    "key_works": [
+      "The Emerald Tablet",
+      "The Kybalion",
+      "Corpus Hermeticum"
+    ],
     "quote": "As above, so below; as within, so without; as the universe, so the soul.",
-    "relevance": "The foundational teachings of Hermeticism influenced Western philosophy, science, and spirituality for millennia — the principle that inner transformation mirrors outer change remains a cornerstone of personal development."
+    "relevance": "The foundational teachings of Hermeticism influenced Western philosophy, science, and spirituality for millennia — the principle that inner transformation mirrors outer change remains a cornerstone of personal development.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Hermes_Trismegistus_Sienna_Cathedral_Mosaic.jpg/400px-Hermes_Trismegistus_Sienna_Cathedral_Mosaic.jpg"
   }
 ]

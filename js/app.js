@@ -207,7 +207,10 @@ function _practiceCardHtml(practice) {
   const timeRec = practice.time_commitment ? practice.time_commitment.recommended_minutes : 0;
   const timeStr = timeRec ? `${timeMin}-${timeRec} min` : `${timeMin} min`;
 
+  const practiceImg = practice.image ? `<img src="${practice.image}" alt="" class="wb-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
+
   return `<a href="practice-detail.html?id=${practice.id}" class="card practice-card" style="border-left-color:${catColor}">
+    ${practiceImg}
     <div class="practice-card-header">
       <span class="card-icon">${emoji}</span>
       <span class="card-title">${name}</span>
@@ -946,6 +949,7 @@ function renderPracticeDetail() {
     ${_backLink()}
 
     <!-- Header -->
+    ${practice.image ? `<div class="detail-hero-img"><img src="${practice.image}" alt="" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` : ''}
     <div class="practice-detail-header">
       <h1 class="page-title">${emoji} ${name}</h1>
       <div class="practice-tags-row">
@@ -2059,8 +2063,11 @@ function renderTeachers() {
   const ancient = teachers.filter(t => t.category === 'ancient');
 
   function renderTeacherCards(list) {
-    return list.map(t => `
+    return list.map(t => {
+      const teacherImg = t.image ? `<img src="${t.image}" alt="" class="teacher-img" loading="lazy" onerror="this.style.display='none'">` : '';
+      return `
       <div class="teacher-card">
+        ${teacherImg}
         <div class="teacher-header">
           <span class="teacher-emoji">${t.emoji}</span>
           <div class="teacher-name-block">
@@ -2083,7 +2090,8 @@ function renderTeachers() {
           <p>${t.relevance}</p>
         </div>
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   container.innerHTML = `
@@ -2265,7 +2273,7 @@ function _plantCardHtml(plant) {
   }).join('');
 
   var imageHtml = plant.image_url
-    ? '<div class="plant-card-img"><img src="' + plant.image_url + '" alt="' + name + '" loading="lazy"></div>'
+    ? '<div class="plant-card-img"><img src="' + plant.image_url + '" alt="' + name + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>'
     : '';
 
   return '<a href="plant-detail.html?id=' + plant.id + '" class="card plant-card" style="border-left-color:' + catColor + '">' +
