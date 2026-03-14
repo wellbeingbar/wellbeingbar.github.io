@@ -11,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+img { max-width: 100%; height: auto; }
 
 :root {
     --wb-primary: #4A148C;
@@ -97,6 +98,20 @@ body {
     opacity: 0.8;
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Nav Dropdown */
 .nav-dropdown {
     position: relative;
@@ -155,9 +170,10 @@ body {
     border: 1px solid rgba(255,255,255,0.4);
     padding: 0.3rem 0.5rem;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
     outline: none;
+    min-height: 44px;
 }
 
 .lang-select option {
@@ -317,8 +333,8 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 32px;
-    height: 32px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     border: none;
     background: var(--wb-primary);
@@ -803,6 +819,8 @@ a.card {
 /* ==========================================================================
    13. RANKING TABLE (records/leaderboards)
    ========================================================================== */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
 .ranking-table {
     width: 100%;
     border-collapse: collapse;
@@ -915,6 +933,9 @@ a.card {
     outline: none;
     font-family: inherit;
     white-space: nowrap;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .practice-selector-btn:hover {
@@ -945,11 +966,12 @@ a.card {
     padding: 0.6rem 0.75rem;
     border: none;
     border-bottom: 1px solid var(--border-gray);
-    font-size: 0.9rem;
+    font-size: 1rem;
     outline: none;
     font-family: inherit;
     width: 100%;
     box-sizing: border-box;
+    min-height: 44px;
 }
 
 .practice-selector-list {
@@ -965,6 +987,7 @@ a.card {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 0.75rem;
+    min-height: 44px;
     text-decoration: none;
     color: var(--text-dark);
     font-size: 0.88rem;
@@ -1762,8 +1785,8 @@ a.card {
 }
 
 .share-btn {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -4060,6 +4083,11 @@ a.card {
     flex-direction: row-reverse;
 }
 
+[dir="rtl"] .hamburger {
+    right: auto;
+    left: 1.5rem;
+}
+
 [dir="rtl"] .score-row {
     flex-direction: row-reverse;
 }
@@ -4241,6 +4269,15 @@ a.card {
     .header-content {
         flex-wrap: wrap;
         gap: 0.5rem;
+        position: relative;
+    }
+
+    .hamburger {
+        display: inline-flex;
+        position: absolute;
+        right: 1.5rem;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .logo {
@@ -4248,8 +4285,22 @@ a.card {
     }
 
     .nav {
-        gap: 1rem;
-        flex-wrap: wrap;
+        display: none;
+        width: 100%;
+    }
+
+    .nav.open {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .nav.open a,
+    .nav.open > div {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
     }
 
     .cards-grid {
@@ -4414,9 +4465,7 @@ a.card {
    MOBILE (max-width: 480px)
    -------------------------------------------------------------------------- */
 @media (max-width: 480px) {
-    .nav a:not(:first-child):not(:last-child) {
-        display: none;
-    }
+    /* hamburger handles nav on mobile */
 
     .footer-content {
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));

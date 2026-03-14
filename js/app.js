@@ -1212,7 +1212,7 @@ function renderCompare() {
       </div>
       <div class="compare-section">
         <h2>${_t('compare.additional') || 'Additional Info'}</h2>
-        <div class="compare-info-table">
+        <div class="compare-info-table table-wrap">
           <table style="width:100%;border-collapse:collapse;">
             <thead>
               <tr>
